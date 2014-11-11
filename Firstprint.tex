@@ -10,63 +10,14 @@
 %
 %
 %
-%%%% Not used in the Mini manual, this has now been replaced by the quick start guide. %%%%
+%%%% Not used in the Mini manual, this has now been replaced by the quick start guide. The following section can be enabled then updated for usage with the Mini. %%%%
 
-\index{bed leveling}
-\section{Bed Leveling}
-Make sure you take the time to go through the following procedure to help ensure that your prints are consistent and trouble free. Make sure to first read the instructions for using the Printrun software. Connect to the printer as described in the Printrun software section. Once \texttt{Pronterface} is connected to the printer use the homing buttons to home the X and Y axis. \textcolor{red}{Do not use the \texttt{Home Z button} until after the \texttt{Z axis End stop} has been adjusted. Make sure that the red shipping clamps on the Z axis smooth rods have been removed before continuing.}
-
-\subsection{Rough Adjustment of the Z Axis End Stop Trigger}
-\index{end stop}
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Z_end_stop_trigger.JPG}
-\caption{Z end stop trigger}
-\label{fig:Z_end_stop_trigger}
-\end{figure}
-Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop trigger}. The red end stop trigger is on the far left of the printer, mounted on the X-axis motor mount. Once connected to the TAZ 3D printer in Pronterface, Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{Home Z button} to home the Z axis. The hot end will approach the heated bed and should stop around a centimeter above the surface of the heated bed. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound, stop, turn the printer off and before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Manually rotate one of the Z axis linear threaded rods by hand if needed to visually level the Z axis.
-
-\index{z axis}
-\subsection{Raising the Z Axis}
-Use the \texttt{+Z 10 button} to move the Z axis up in \texttt{10mm} increments. \textcolor{red}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. Raise the Z axis until the hot end nozzle is approximately 40-50mm away from the print bed.
-
-\subsection{Verify Z Axis Leveling}
-With the Z axis above the bed, use the included \texttt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side (Fig. \ref{fig:X-Y_axes_leveling_check}, page \pageref{fig:X-Y_axes_leveling_check}).
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
-\caption{Verifying the X and Y axis are square}
-\label{fig:X-Y_axes_leveling_check}
-\end{figure} 
-Compare the distance measurement from the left side to the measurement on the right side. The distance measurement should be the same. If not, in Pronterface use the \texttt{Motors off} button to turn off the stepper motors on the TAZ 3D printer. Manually, by hand, turn the threaded rod on one side of the printer to raise or lower that side to match the measurement on the other side. If the Z axis has been adjusted measure again to confirm that the left and right side of the Z axis are level in relation to the Y axis aluminum plate.
-
-
-\subsection{Fine Adjustment of the Z Axis End Stop}
-\begin{comment}
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Z_end_stop_trigger.JPG}
-\caption{Z end stop trigger}
-\label{fig:Z_end_stop_trigger}
-\end{figure}
-\end{comment}
-Now that the Z axis is checked for level a finer adjustment of the Z axis end stop trigger can be set.
-Adjust the \texttt{Z axis end stop trigger} by rotating the screw counter-clockwise to raise the tip of the screw. Raise the screw by roughly the same amount of the distance between the nozzle tip and the print surface. Press the \texttt{Home Z} button to home the Z axis. The tip of the nozzle should now be very close to the surface of the bed.
-
-\subsection{Leveling the Print Bed}
-Slide a thin piece of paper underneath the nozzle in the front left corner of the bed. Adjust the Z axis end stop and home the Z axis until the tip of the nozzle applies a firm pressure on the paper. Test by attempting to slide the paper out from under the nozzle. A gentle resistance should be felt, in addition to a visible impression on the paper. If the paper tears, the nozzle is too close. Adjust the Z axis homing height by adjusting the Z axis endstop, turning clockwise in 180 degree increments to increase the Z axis homing and turning counter-clockwise to decrease the Z axis homing height. Once adjusted, press the +Z 10 button to raise the Z axis.
-
-Move the hot end nozzle tip over to the far side of the X axis by using the \texttt{+X 100 button}. As the X axis carriage approaches the end of the X axis use the \texttt{+X 10 button} and finally the \texttt{+X 1 button}. Once the tip of the nozzle is near the front right corner of the bed slide the same piece of paper under the nozzle and home the Z axis. Adjust the corner's bed leveling screws so that the tension felt when moving the paper under the nozzle matches the tension felt previously. To raise or lower the front right corner of the bed, adjust the screw with the spring only. Do not adjust the middle screw. Turn the screw clockwise to lower the bed, thereby decreasing the tension felt when moving the paper. Turn the screw counter-clockwise to increase the tension felt when moving the piece of paper from under the nozzle. Adjust the front right corner of the bed until the amount of tension felt when moving the piece of paper under the nozzle feels the same as the tension felt when doing the same thing on the front left corner. Once adjusted, press the +Z 10 button to raise the Z axis. 
-
-Repeat the same process using the \texttt{+Y button} to move the heated bed to place the nozzle on the rear right corner of the bed. Adjust the height of the bed using the same procedure as outlined above. Once adjusted, press the +Z 10 button to raise the Z axis. Finally, move the X axis carriage over to the rear left corner of the bed and perform the same leveling procedure to adjust the last corner.
-
-The bed should now be almost perfectly level. We will check this in a later section. Use the controls in Pronterface to raise the Z axis up 20mm, and move the X axis carriage over to the center of the X axis.
 
 \section{Set Temperature}
 \index{temperature}
 %Make sure to first read the instructions for using the Printrun software. Connect to the printer as described in the Printrun software section
 %%% XXX pageref going to \label not \section (page \pageref{Installing Printrun}).
-The TAZ 3D printer ships with a small length of ABS filament from our testing prior to shipping. The filament will need to be removed before proceeding. In order to do so set the hot end to 230C. Make sure that the \texttt{Monitor Printer} (Found in the upper middle portion of the Pronterface window) check box is selected. Once the hot end has reached 230C, gently squeeze both the idler screws and the plastic clip together and pull upwards to release the idler. Rotate the idler counter clockwise, exposing the filament and the filament drive (hobbed bolt). Remove the filament by hand by gently pulling it out. Allow more time for the filament to soften if the filament cannot be removed easily.
+The Mini 3D printer ships with a small length of ABS filament from our testing prior to shipping. The filament will need to be removed before proceeding. In order to do so set the hot end to 230C. Make sure that the \texttt{Monitor Printer} (Found in the upper middle portion of the Pronterface window) check box is selected. Once the hot end has reached 230C, gently squeeze both the idler screws and the plastic clip together and pull upwards to release the idler. Rotate the idler counter clockwise, exposing the filament and the filament drive (hobbed bolt). Remove the filament by hand by gently pulling it out. Allow more time for the filament to soften if the filament cannot be removed easily.
 
 Set the hot end and print surface for ABS or PLA plastic and turn both on. The temperature settings for ABS should be set at \texttt{230°C} for the hot end and \texttt{85°C} for print surface; for PLA they should be set at \texttt{185°C} for the hot end and \texttt{55°C} for print surface. These temperatures work well for filament sourced from LulzBot, however you may need to adjust the temperature a degree or two depending on the filament source, color and type. Click the \texttt{Motors Off} button.
 \glossary{Idler}{Refers to parts using a bearing (usually a 608ZZ) to add tension in belts or to add pressure against a rolling surface.}
