@@ -84,6 +84,7 @@
 \newif\ifwarnings\warningstrue %true
 \newif\ifsetup\setupfalse %false
 \newif\ifslicer\slicertrue %true
+\newif\ifcura\curatrue %true
 \newif\ifsoftware\softwaretrue %true
 \newif\iffilament\filamentfalse %false
 \newif\iffirstprint\firstprintfalse %false
@@ -280,6 +281,15 @@
 {\include{Software}}
 \fi
 %%% END SOFTWARE %%%
+
+%%% CURA %%%
+\ifcura
+\chapter{\emph{Cura}}
+\thispagestyle{empty}
+\markboth{Cura}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+{\include{Cura}}
+\fi
+%%% END CURA %%%
 
 \begin{comment}
 %%% Moving Slic3r to allow for more linear reading/setup. Slic3r will not be needed until after first test print %%%%
