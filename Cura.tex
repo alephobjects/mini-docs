@@ -28,50 +28,55 @@ After setting up Cura for the first time, you will be prompted with this screen:
 
 In the top left hand corner, you will be prompted to select your quality settings. For most filaments, there will be a High Quality, Normal Quality, or Fast Quality options. Some of the rarer or more exotic filaments may only have a normal setting. Later on, we will inform you how to adjust your settings for specific STL files.
 
-\subsubsection{High Quality}
+\subsection{High Quality}
 \index{High Quality}
 
 This setting is designed to give greater detail in finer objects. This will have a lower layer height, which will make curves seem more natural. This setting will also require more layers to be laid down, increasing overall print time.
 
-\subsubsection{Medium Quality}
+\subsection{Medium Quality}
 \index{Medium Quality}
 
 This setting is designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step like than the fine setting, but will reduce overall print time. 
 
-\subsubsection\textbf{Fast Quality}
+\subsection\textbf{Fast Quality}
 \index{Fast Quality}
 
 This setting is designed for the fast prints, where overall surface quality is not of concern. Most commonly used for testing if an STL file is capable of being printed on an FDM machine.
 
-\subsubsection{Material Selection}
+\subsection{Material Selection}
 \index{Material Selection}
 
 You will want to choose whichever filament you are currently printing with. If you are not using Lulzbot supplied filament, you will want to update your filament diameter to a true average. You can do this by taking about a dozen different measurements from different lengths of the reel, and averaging them out. This is the number you will want to enter for filament diameter. You will also want to adjust the temperature, as different manufacturers have different recommended temperatures.
 
-\subsubsection{Print Support Structure}
+\subsection{Print Support Structure}
 \index{Support}
 
 You will want to select this if your STL file requires support material. The TAZ and TAZ Mini will be able to print any item that has angles between 45 and 90 degrees compared to the build plate without this option enabled.
 
-\subsubsection{Load Model File}
+\subsection{Brim}
+\index{Brim}
+
+Brim is used to increase surface area of the part your printing. This will put down a single layer around the outside of the part, helping first layer adhesion.
+
+\subsection{Load Model File}
 \index{Load Model}
 
 You will now need to select which STL file you would like to print. To load this into Cura, you will need to go to File > Load Model File > (Select Desired STL File). Once this is loaded, you will see a 3d rendering of your object in the build platform. 
 
-\subsubsection{Orientation of STL}
+\subsection{Orientation of STL}
 \index{Orientation}
 
 After selecting the rendering, you will have many options. (Photo showing each option) 
 
 You can drag your object around, to change where it is printed in the build plate. Do this by clicking and dragging, your item to its desired location. The Black outlined corner will be the lower left hand corner of the build plate on your printer. (Photo Referencing)
 
-The Rotate button will give you the ability orient your STL in all three directions. Once you click the rotate button, three circles will cover your STL. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane. 
+The Rotate button will give you the ability orient your STL in all three directions. Once you click the rotate button, three circles will cover your STL. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane. (photo)
 
 The Lay Flat option will ensure that the flat portion of your print, is securely attached to the bed. It is highly recommended to use this option after rotating your STL file in the Z direction, as it will help prevent adhesion issues during the print.
 
 The reset option will return your STL file to its original orientation as defined by the CAD program. 
 
-The Scale button will give you complete dimensions, along with the ability to scale in the X Y or Z directions. As a default, it will be set to uniform scaling. This will cause the X Y and Z axis to be scaled by the same amount, when you make a change to any of them. To disable this, please click the lock in the lower section of the scaling window.
+The Scale button will give you complete dimensions, along with the ability to scale in the X Y or Z directions. As a default, it will be set to uniform scaling. This will cause the X Y and Z axis to be scaled by the same amount, when you make a change to any of them. To disable this, please click the lock in the lower section of the scaling window. (photo)
 
 \section{Starting Your First Print}
 \index{First Print}
@@ -80,7 +85,7 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 
 \subsection{TAZ Mini}
 
-Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. (photo) Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and begin your print.
+Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. (photo) Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic. (print control photo)
 
 \subsection{TAZ}
 
@@ -89,14 +94,14 @@ TAZ users will need to decide if they want to print directly from their computer
 \subsubsection{Printing from USB Cable}
 \index{Printing from USB}
 
-Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print.
+Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print. (print control photo)
 
 \subsubsection{Printing from SD Card}
 \index{Printing from SD}
 
 You will need to save your Gcode file to your SD card. To do this, please go to File > Save Gcode > (select SD card). After putting the Gcode file to the SD card, you will need to insert it into the printer. Please be sure the metal tabs are facing forward. 
 
-You will then need to pre heat your printer. You can do this for ABS and PLA by going to Prepare > Preheat ABS/PLA. If you are using other filaments, you can set your temperatures by going to Control > Temperature > Nozzle/Bed > (set specific temps). Then wait for printer to reach specified temps.
+You will then need to pre heat your printer. You can do this for ABS and PLA by going to Prepare > Preheat ABS/PLA. If you are using other filaments, you can set your temperatures by going to Control > Temperature > Nozzle/Bed > (set specific temps). Then wait for printer to reach specified temps. (Reference LCD section in manual?)
 
 Once heated, you can begin your print through your LCD by going to Print From SD > (file).
 
@@ -105,12 +110,17 @@ Once heated, you can begin your print through your LCD by going to Print From SD
 
 After your first print has finished, you will want to remove it from your bed. Your parts will be easier to remove if you allow your heated bed to cool down completely before removing the part. This will allow the plastic to contract, making it easier to remove.
 
-Once your heated plate has cooled, you will want to use the blue clam knife that was included with your printer. (Photo?) Carefully use the clam knife to get between your print and heated bed. Once underneath the part, you can rotate the blade to pop the part off your plate.
+Once your heated plate has cooled, you will want to use the blue clam knife that was included with your printer. Carefully use the clam knife to get between your print and heated bed. Once underneath the part, you can rotate the blade to pop the part off your plate.
 
 \section{Full Settings}
 \index{Full Settings}
 
-When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings.
+When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings. (expert photo)
+
+\subsection{Loading a Profile}
+\index{Loading Profile}
+
+When you first switch to Full Settings, Cura will revert to very generic settings. We recommend when first starting to use one of our premade profiles that can be downloaded from here: \texttt{https://www.lulzbot.com/support/downloads} You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by going to File > Open Profile > (Select). This will automatically update all of your settings for use with your printer.
 
 \section{Basic Tab Options}
 \index{Basic Options}
