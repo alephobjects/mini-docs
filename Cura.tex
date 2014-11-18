@@ -78,6 +78,35 @@ The reset option will return your STL file to its original orientation as define
 
 The Scale button will give you complete dimensions, along with the ability to scale in the X Y or Z directions. As a default, it will be set to uniform scaling. This will cause the X Y and Z axis to be scaled by the same amount, when you make a change to any of them. To disable this, please click the lock in the lower section of the scaling window. (photo)
 
+\section{View Mode}
+\index{View Mode}
+
+This will allow you to view your model in a variety of ways. This can be helpful for spotting issues before the print even starts. 
+
+\subsection{Normal}
+
+This is the standard setting for mesh files. It will show you the solid outer counter of your model file. (photo normal)
+
+\subsection{Overhang}
+\index{Overhang} 
+
+Overhang mode will show where your print will have issues due to printing angle in mid air. In the photo below, you can see the red highlighted areas. These showcase where the angle in relation to the bed is between 0 and 30 degrees. It may be best to use support if your model has these areas. (overhang photo)
+
+\subsection{Ghost}
+\index{Ghost}
+
+Ghost view mode, will allow you to see through your model to what is behind it. This can be helpful for ensuring your entire model has loaded properly. (Ghost photo)
+
+\subsection{Xray}
+\index{Xray}
+
+Xray is very similiar to ghost mode. It will alow you to see into objects, ensuring inner details are correct. (Xray2 photo)
+
+\subsection{Layers}
+\index{Layers}
+
+This will be the most helpful option for double checking prints. This will allow you to view the toolpath of your print head, to ensure to skipped layers or gaps. On the right hand side of your screen, you will see a slide bar. This will move up and down to view your desired layer. (Both layer photos)
+
 \section{Starting Your First Print}
 \index{First Print}
 
@@ -85,7 +114,7 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 
 \subsection{TAZ Mini}
 
-Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. (photo) Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic. (print control photo)
+Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic. (print control photo)
 
 \subsection{TAZ}
 
@@ -103,7 +132,7 @@ You will need to save your Gcode file to your SD card. To do this, please go to 
 
 You will then need to pre heat your printer. You can do this for ABS and PLA by going to Prepare > Preheat ABS/PLA. If you are using other filaments, you can set your temperatures by going to Control > Temperature > Nozzle/Bed > (set specific temps). Then wait for printer to reach specified temps. (Reference LCD section in manual?)
 
-Once heated, you can begin your print through your LCD by going to Print From SD > (file).
+Once heated, you can begin your print through your LCD by going to Print From SD > (Select Desired File).
 
 \section{Removing Your First Print}
 \index{Removing a Print}
@@ -128,7 +157,7 @@ When you first switch to Full Settings, Cura will revert to very generic setting
 \subsubsection{Layer Height}
 \index{Layer Height}
 
-This will determine how thick each layer is. The smaller the layer height, the smoother curves will appear. Larger layer heights are better for bridging and overhangs. Smaller layer heights will also increase print time, as it will take more layers to complete the object.
+This will determine how thick each layer is. The smaller the layer height, the smoother curves will appear. Larger layer heights are better for bridging and overhangs. Smaller layer heights will also increase print time, as it will take more layers to complete the object. (Layer height comparision photos)
 
 \subsubsection{Shell Thickness}
 \index{Shell Thickness}
@@ -138,7 +167,7 @@ This will define the number of vertical walls that follow the outside of your ST
 \subsubsection{Enable Retraction}
 \index{Retraction}
 
-This allows your printer to pull filament out of the hot end upon travel moves. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament. (Details given in advanced tab section.)
+This allows your printer to pull filament out of the hot end upon travel moves. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament. (Details given in advanced tab section. Reference?)
 
 \subsubsection{Bottom/Top Thickness (mm)}
 \index{Bottom Thickness}
@@ -154,17 +183,17 @@ This number will relate to a percentage. 0\% will give a completely hollow print
 \subsubsection{Print Speed (mm/s)}
 \index{Print Speed}
 
-This will be your overall printing speed. If no other speeds are determined 	in other sections, your printer will automatically default to this speed. 
+This will be your overall printing speed. If no other speeds are determined in other sections, your printer will automatically default to this speed. 
 
 \subsubsection{Printing Temperature}
 \index{Printing Temperature}
 
-We recommend leaving this temperature setting to “0”. If you set your 	temperature in this section, it can take 45 minutes or more for your printer to start. You will set your printing temperatures through your printing program, or through your LCD.
+We recommend leaving this temperature setting to “0”. If you set your temperature in this section, it can take 45 minutes or more for your printer to start. You will set your printing temperatures through your printing program, or through your LCD.
 
 \subsubsection{Bed Temperature}
 \index{Bed Temperature}
 
-We recommend leaving this temperature setting to “0”. If you set your 	temperature in this section, it can take 45 minutes or more for your printer to start. You will set your printing temperatures through your printing program, or through your LCD.
+We recommend leaving this temperature setting to “0”. If you set your temperature in this section, it can take 45 minutes or more for your printer to start. You will set your printing temperatures through print control, or through your LCD.
 
 \subsection{Support Type}
 \index{Support Type}
@@ -173,11 +202,11 @@ Some STL files will require support in order to print properly. This will usuall
 
 \subsubsection{Touching Buildplate}
 
-This will cause the support material to build up between the plate 	and the object only. (Photo of Circle inside a square, that is printed vertically.)
+This will cause the support material to build up between the plate and the object only. (Photo of Circle inside a square, that is printed vertically.)
 
 \subsubsection{Everywhere}
 
-This will cause support material to be created between the bed and object, 	and also between the object and itself. (Photo of Circle inside a square, that is printed vertically)
+This will cause support material to be created between the bed and object, and also between the object and itself. (Photo of Circle inside a square, that is printed vertically)
 
 \subsection{Platform Adhesion Type}
 \index{Adhesion Type}
@@ -197,7 +226,7 @@ Will generate a layer of material underneath your object. This will help ensure 
 \subsection{Filament Diameter}
 \index{Filament Diameter}
 
-The filament diameter setting will be your true filament diameter. Although your filament will say 3mm, it is more likely going to be near 2.9mm +/- 0.1mm. You will want this 	to be a true average, as it will allow your printer to accurately calculate how much filament it is extruding. If you are using non Lulzbot brand filament, please update this to your true average.
+The filament diameter setting will be your true filament diameter. Although your filament will say 3mm, it is more likely going to be near 2.9mm +/- 0.1mm. You will want this to be a true average, as it will allow your printer to accurately calculate how much filament it is extruding. If you are using non Lulzbot brand filament, please update this to your true average.
 
 \subsection{Filament Flow \%}
 \index{Flow Rate}
@@ -235,12 +264,12 @@ This will control how wide your first layer will be. As with initial layer heigh
 \subsection{Cut Off Object Bottom (mm)}
 \index{Cut Off Object}
 
-This setting is used to help print STL files that we not specifically designed for FDM printing. Specifically, it is for STL's that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. (*Note* You will not be able to print the part of the object that is sunk into the platform. *Note*)
+This setting is used to help print STL files that we not specifically designed for FDM printing. Specifically, it is for STL's that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. (*Note* You will not be able to print the part of the object that is sunk into the platform. *Note*) (photo cutoff)
 
 \subsection{Dual Extrusion Overlap}
 \index{Dual Extrusion Overlap}
 
-This will determine how far your Dual Extruders will overlap when 	laying down material. This will help adhesion between the two different colors or types of filament. (You can ignore this setting unless you have installed the dual extruder upgrade.)
+This will determine how far your Dual Extruders will overlap when laying down material. This will help adhesion between the two different colors or types of filament. (You can ignore this setting unless you have installed the dual extruder upgrade.)
 
 \subsection{Travel Speed}
 \index{Travel Speed}
@@ -250,7 +279,7 @@ This setting will determine how fast your print head moves while not extruding f
 \subsection{Bottom Layer Speed}
 \index{Bottom Layer Speed}
 
-This will control your initial layer speed. In general, a slower 	initial layer speed will help with first layer adhesion. 
+This will control your initial layer speed. In general, a slower initial layer speed will help with first layer adhesion. 
 
 \subsection{Infill Speed}
 \index{Infill Speed}
@@ -280,12 +309,12 @@ This will allow operation of your extruder's active cooling fan. You can control
 \section{Plugins}
 \index{Plugins}
 
-Plugins are custom settings which will alter your print at specific points. The two that come pre loaded with Cura are Tweak at Z, and Pause at Height. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these, you will need to highlight the desired plugin, and click the down arrow directly below the Plugins box.
+Plugins are custom settings which will alter your print at specific points. The two that come pre loaded with Cura are Tweak at Z, and Pause at Height. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these, you will need to highlight the desired plugin, and click the down arrow directly below the Plugins box. (photo Plugins)
 
 \subsection{Tweak at Z}
 \index{Tweak at Z}
 
-This will allow you to make basic changes at specified Z heights. You can 	determine the Z height or layer count at which you want to make a change. Then choose how you would like to change your settings. You can alter temperatures, fan speeds, and print speeds.
+This will allow you to make basic changes at specified Z heights. You can determine the Z height or layer count at which you want to make a change. Then choose how you would like to change your settings. You can alter temperatures, fan speeds, and print speeds.
 
 \subsection{Pause at Z Height}
 \index{Pause at Z Height}
@@ -298,22 +327,22 @@ This will pause your print at a specified height. You can also specify where 	to
 This is where you can make custom settings to your print profiles. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/support/downloads}
 
 \subsection{TAZ Mini}
-Please be cautious when changing any of these start and end gcode settings. This is where your Auto Bed Leveling commands are stored. If changed, your printer will no longer 	automatically bed level. If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@lulzbot.com} before hand.
+Please be cautious when changing any of these start and end gcode settings. This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer 	automatically bed level. If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@lulzbot.com} before hand.
 
 \section{Expert Settings}
 \index{Expert Settings}
 
-Expert settings will give you more specific options for your retraction, skirt, active cooling, infill, support, brim, raft, and special settings. To gain access to this section you can go to Expert > Open Full Settings or you can hit Control + E.
+Expert settings will give you more specific options for your retraction, skirt, active cooling, infill, support, brim, raft, and special settings. To gain access to this section you can go to Expert > Open Full Settings or you can hit Control + E. (Photo expert)
 
 \section{Retraction}
 \index{Retraction}
 
-Retraction pulls filament ou of your nozzle when it is not extruding, to prevent your print head from dripping on your object.This section is where you will control how and when your extruder retracts its filament.
+Retraction pulls filament out of your nozzle when it is not extruding to prevent your print head from dripping on your object.This section is where you will control how and when your extruder retracts its filament.
 
 \subsection{Minimum Travel}
 \index{Minimum Travel}
 
-This sets the minimum travel distance of your printhead in order to retract. If your print head is not moving this far during dravel moves, it will not 	retract.
+This sets the minimum travel distance of your printhead in order to retract. If your print head is not moving this far during dravel moves, it will not retract.
 
 \subsection{Combing}
 \index{Combing}
@@ -342,7 +371,7 @@ This will define the number of loops the Skirt creates around the outside of you
 \subsection{Start Distance}
 \index{Start Distance}
 
-This will define the distance away from your STL that the skirt will be created. If using as an envelope to prevent drafts, it is recommended to be closer 	to your object.
+This will define the distance away from your STL that the skirt will be created. If using as an envelope to prevent drafts, it is recommended to be closer to your object.
 
 \subsection{Minimal Length}
 \index{Minmal Length}
@@ -352,7 +381,7 @@ This will define the minimum amount of filament to be pushed into your hot end f
 \section{Cool}
 \index{Cooling}
 
-This section will define how your extruder cooling fan will operate during the print. 	(*Note* Your fan will not start until it has reached 25\% or higher for speed settings. *Note*) If your print speeds are slowed down due to minimal layer time, the fan will run between minimum and maximum speed based upon how much the layer is slowed down.
+This section will define how your extruder cooling fan will operate during the print. \texttt{(*Note* Your fan will not start until it has reached 25\% or higher for speed settings. *Note*)} If your print speeds are slowed down due to minimal layer time, the fan will run between minimum and maximum speed based upon how much the layer is slowed down.
 
 \subsection{Fan on at Full Height}
 \index{Fan Settings}
