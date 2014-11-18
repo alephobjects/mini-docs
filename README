@@ -19,7 +19,7 @@ texlive-latex-recommended-doc
 tipa
 xindy 
 
-Crate a text document with the required packages:
+Create a text document with the required packages:
 
 $: vi packages
 
