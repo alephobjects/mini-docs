@@ -295,7 +295,7 @@
 \begin{comment}
 %%% Moving Slic3r to allow for more linear reading/setup. Slic3r will not be needed until after first test print %%%%
 %%% SLIC3R %%%
-\ifsoftware
+\ifslic3r
 \chapter{\emph{Slic3r}}
 \thispagestyle{empty}
 \markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
@@ -311,12 +311,12 @@
 \label{firstprint}
 \thispagestyle{empty}
 \markboth{Your First 3D Print}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
-{\include{Firstprint}
+{\include{Firstprint}}
 \fi
 %%% END FIRSTPRINT %%%
 
 %%% SLIC3R %%%
-\ifsoftware
+\ifslic3r
 \chapter{\emph{Slic3r}}
 \thispagestyle{empty}
 \markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
@@ -330,7 +330,7 @@
 \label{glcd}
 \thispagestyle{empty}
 \markboth{Printing with the Graphic LCD}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
-{\include{glcd}
+{\include{glcd}}
 \fi
 %%% END GLCD %%%
 
