@@ -2,3 +2,5 @@
 *.glo
 *.idx
 *.log
+*~
+*.pdf
