@@ -82,6 +82,8 @@ After selecting the rendering, you will have many options.
 \end{figure}
 
 You can drag your object around, to change where it is printed in the build plate. Do this by clicking and dragging, your item to its desired location. The Black outlined corner will be the lower left hand corner of the build plate on your printer. 
+
+The Rotate button will give you the ability orient your STL in all three directions. Once you click the rotate button, three circles will cover your STL. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \pageref{fig:Rotating}).
 \begin{figure}[hbt]
 \centering
@@ -90,13 +92,18 @@ You can drag your object around, to change where it is printed in the build plat
 \label{fig:Rotating your Model}
 \end{figure}
 
-The Rotate button will give you the ability orient your STL in all three directions. Once you click the rotate button, three circles will cover your STL. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane. (photo)
-
 The Lay Flat option will ensure that the flat portion of your print, is securely attached to the bed. It is highly recommended to use this option after rotating your STL file in the Z direction, as it will help prevent adhesion issues during the print.
 
 The reset option will return your STL file to its original orientation as defined by the CAD program. 
 
 The Scale button will give you complete dimensions, along with the ability to scale in the X Y or Z directions. As a default, it will be set to uniform scaling. This will cause the X Y and Z axis to be scaled by the same amount, when you make a change to any of them. To disable this, please click the lock in the lower section of the scaling window. (photo)
+\pageref{fig:Scaling}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Scale.png}
+\caption{Scaling your Model}
+\label{fig:Scaling your Model}
+\end{figure}
 
 \section{View Mode}
 \index{View Mode}
@@ -106,26 +113,68 @@ This will allow you to view your model in a variety of ways. This can be helpful
 \subsection{Normal}
 
 This is the standard setting for mesh files. It will show you the solid outer counter of your model file. (photo normal)
+\pageref{fig:Rotating}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{View.png}
+\caption{View in Normal Mode}
+\label{fig:Normal View}
+\end{figure}
 
 \subsection{Overhang}
 \index{Overhang} 
 
 Overhang mode will show where your print will have issues due to printing angle in mid air. In the photo below, you can see the red highlighted areas. These showcase where the angle in relation to the bed is between 0 and 30 degrees. It may be best to use support if your model has these areas. (overhang photo)
+\pageref{fig:Rotating}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{overhang.png}
+\caption{View in Overhang}
+\label{fig:Overhang View}
+\end{figure}
 
 \subsection{Ghost}
 \index{Ghost}
 
 Ghost view mode, will allow you to see through your model to what is behind it. This can be helpful for ensuring your entire model has loaded properly. (Ghost photo)
+\pageref{fig:Rotating}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Ghost.png}
+\caption{View in Ghost}
+\label{fig:Ghost View}
+\end{figure}
 
 \subsection{Xray}
 \index{Xray}
 
 Xray is very similiar to ghost mode. It will alow you to see into objects, ensuring inner details are correct. (Xray2 photo)
+\pageref{fig:Xray}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Xray2.png}
+\caption{View in Xray}
+\label{fig:Xray View}
+\end{figure}
 
 \subsection{Layers}
 \index{Layers}
 
 This will be the most helpful option for double checking prints. This will allow you to view the toolpath of your print head, to ensure to skipped layers or gaps. On the right hand side of your screen, you will see a slide bar. This will move up and down to view your desired layer. (Both layer photos)
+\pageref{fig:Layers}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{layers.png}
+\caption{View in Layers}
+\label{fig:Layers View}
+\end{figure}
+\pageref{fig:Mid Layers}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{layers2.png}
+\caption{View in Layers}
+\label{fig:Mid Layers View}
+\end{figure}
 
 \section{Starting Your First Print}
 \index{First Print}
@@ -135,6 +184,13 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 \subsection{TAZ Mini}
 
 Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic. (print control photo)
+\pageref{fig:Print Control}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
+\caption{Print Control Screen}
+\label{fig:Print Control}
+\end{figure}
 
 \subsection{TAZ}
 
@@ -143,7 +199,7 @@ TAZ users will need to decide if they want to print directly from their computer
 \subsubsection{Printing from USB Cable}
 \index{Printing from USB}
 
-Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print. (print control photo)
+Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print. (print control photo or reference above?)
 
 \subsubsection{Printing from SD Card}
 \index{Printing from SD}
@@ -165,6 +221,13 @@ Once your heated plate has cooled, you will want to use the blue clam knife that
 \index{Full Settings}
 
 When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings. (expert photo)
+\pageref{fig:Expert Options}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
+\caption{View in Full Settings}
+\label{fig:Full Settings View}
+\end{figure}
 
 \subsection{Loading a Profile}
 \index{Loading Profile}
@@ -187,7 +250,7 @@ This will define the number of vertical walls that follow the outside of your ST
 \subsubsection{Enable Retraction}
 \index{Retraction}
 
-This allows your printer to pull filament out of the hot end upon travel moves. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament. (Details given in advanced tab section. Reference?)
+This allows your printer to pull filament out of the hot end upon travel moves. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament. (Details given in advanced tab section. ((Reference?))
 
 \subsubsection{Bottom/Top Thickness (mm)}
 \index{Bottom Thickness}
@@ -222,11 +285,11 @@ Some STL files will require support in order to print properly. This will usuall
 
 \subsubsection{Touching Buildplate}
 
-This will cause the support material to build up between the plate and the object only. (Photo of Circle inside a square, that is printed vertically.)
+This will cause the support material to build up between the plate and the object only. (Photo of Circle inside a square, that is printed vertically. Have samples on photo table)
 
 \subsubsection{Everywhere}
 
-This will cause support material to be created between the bed and object, and also between the object and itself. (Photo of Circle inside a square, that is printed vertically)
+This will cause support material to be created between the bed and object, and also between the object and itself. (Photo of Circle inside a square, that is printed vertically, sample on photo table)
 
 \subsection{Platform Adhesion Type}
 \index{Adhesion Type}
@@ -284,7 +347,14 @@ This will control how wide your first layer will be. As with initial layer heigh
 \subsection{Cut Off Object Bottom (mm)}
 \index{Cut Off Object}
 
-This setting is used to help print STL files that we not specifically designed for FDM printing. Specifically, it is for STL's that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. (*Note* You will not be able to print the part of the object that is sunk into the platform. *Note*) (photo cutoff)
+This setting is used to help print STL files that we not specifically designed for FDM printing. Specifically, it is for STL's that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. (*Note* You will not be able to print the part of the object that is sunk into the platform. *Note*)
+\pageref{fig:Cutoff Setting}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{cutoff.png}
+\caption{Cutoff Example}
+\label{fig:Cutoff Example}
+\end{figure}
 
 \subsection{Dual Extrusion Overlap}
 \index{Dual Extrusion Overlap}
@@ -330,6 +400,13 @@ This will allow operation of your extruder's active cooling fan. You can control
 \index{Plugins}
 
 Plugins are custom settings which will alter your print at specific points. The two that come pre loaded with Cura are Tweak at Z, and Pause at Height. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these, you will need to highlight the desired plugin, and click the down arrow directly below the Plugins box. (photo Plugins)
+\pageref{fig:Plugins}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Plugins.png}
+\caption{View of Plugins}
+\label{fig:Plugins}
+\end{figure}
 
 \subsection{Tweak at Z}
 \index{Tweak at Z}
@@ -353,6 +430,13 @@ Please be cautious when changing any of these start and end gcode settings. This
 \index{Expert Settings}
 
 Expert settings will give you more specific options for your retraction, skirt, active cooling, infill, support, brim, raft, and special settings. To gain access to this section you can go to Expert > Open Full Settings or you can hit Control + E. (Photo expert)
+\pageref{fig:Expert Settings}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
+\caption{View Expert Settings}
+\label{fig:Expert Settings}
+\end{figure}
 
 \section{Retraction}
 \index{Retraction}
