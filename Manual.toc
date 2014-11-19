@@ -35,139 +35,229 @@
 \contentsline {subsection}{Shapesmith}{22}
 \contentsline {section}{\numberline {1.6}Alternative Printer Host Software}{22}
 \contentsline {subsection}{OctoPrint}{22}
+\contentsline {subsection}{BotQueue}{22}
 \contentsline {subsection}{MatterControl}{22}
-\contentsline {chapter}{\chapternumberline {2}\emph {Slic3r}}{23}
-\contentsline {section}{\numberline {2.1}Introduction}{24}
-\contentsline {subsection}{Overview}{24}
-\contentsline {subsection}{Goals \& Philosophy}{24}
-\contentsline {subsection}{Donating}{24}
-\contentsline {section}{\numberline {2.2}Getting Slic3r}{25}
-\contentsline {subsection}{Downloading}{25}
-\contentsline {subsubsection}{From LulzBot}{25}
-\contentsline {subsubsection}{Slic3r}{25}
-\contentsline {subsubsection}{Manual}{25}
-\contentsline {subsubsection}{Source}{25}
-\contentsline {subsection}{Installing}{25}
-\contentsline {subsubsection}{Linux}{25}
-\contentsline {subsubsection}{Windows}{26}
-\contentsline {subsubsection}{Mac OS X}{26}
-\contentsline {subsection}{Building from source}{26}
-\contentsline {section}{\numberline {2.3}First Print}{26}
-\contentsline {subsection}{Calibration}{26}
-\contentsline {subsection}{Configuration Wizard}{28}
-\contentsline {subsubsection}{1. Firmware Type}{29}
-\contentsline {subsubsection}{2. Bed Size}{30}
-\contentsline {subsubsection}{3. Nozzle Diameter}{31}
-\contentsline {subsubsection}{4. Filament Diameter}{32}
-\contentsline {subsubsection}{5. Extrusion Temperature}{33}
-\contentsline {subsubsection}{6. Bed Temperature}{34}
-\contentsline {subsection}{The Important First Layer}{36}
-\contentsline {paragraph}{Level bed.}{36}
-\contentsline {paragraph}{Higher temperature.}{36}
-\contentsline {paragraph}{Lower speeds.}{36}
-\contentsline {paragraph}{Correctly calibrated extrusion rates.}{36}
-\contentsline {paragraph}{First layer height.}{36}
-\contentsline {paragraph}{Fatter extrusion width.}{37}
-\contentsline {paragraph}{Bed material.}{37}
-\contentsline {paragraph}{No cooling.}{37}
-\contentsline {subsection}{Working with Models}{38}
-\contentsline {subsubsection}{Model Formats}{38}
-\contentsline {subsubsection}{Finding Models}{38}
-\contentsline {subsubsection}{Working with Plater}{39}
-\contentsline {subsubsection}{Cleaning STLs}{42}
-\contentsline {subsection}{Printing}{43}
-\contentsline {section}{\numberline {2.4}Simple Mode}{43}
-\contentsline {subsection}{Simple Mode}{43}
-\contentsline {subsubsection}{Print Settings}{43}
-\contentsline {paragraph}{General.}{44}
-\contentsline {paragraph}{Infill.}{46}
-\contentsline {paragraph}{Support material.}{47}
-\contentsline {paragraph}{Speed.}{47}
-\contentsline {paragraph}{Brim.}{48}
-\contentsline {paragraph}{Sequential Printing.}{48}
-\contentsline {subsubsection}{Filament Settings}{48}
-\contentsline {paragraph}{Filament.}{49}
-\contentsline {paragraph}{Temperature.}{49}
-\contentsline {subsubsection}{Printer Settings}{49}
-\contentsline {paragraph}{Size and coordinates.}{50}
-\contentsline {paragraph}{Firmware.}{51}
-\contentsline {paragraph}{Extruder.}{51}
-\contentsline {paragraph}{Retraction.}{51}
-\contentsline {paragraph}{Start, End and Layer Chance G-codes.}{51}
-\contentsline {section}{\numberline {2.5}Expert Mode}{52}
-\contentsline {subsection}{Speed}{52}
-\contentsline {subsection}{Infill Patterns and Density}{56}
-\contentsline {subsection}{Infill Optimization}{60}
-\contentsline {subsection}{Fighting Ooze}{61}
-\contentsline {subsection}{Skirt}{63}
-\contentsline {subsection}{Cooling}{64}
-\contentsline {subsubsection}{Fans}{65}
-\contentsline {subsubsection}{Slowing Down}{65}
-\contentsline {subsubsection}{Configuring}{65}
-\contentsline {subsection}{Support Material}{67}
-\contentsline {subsection}{Multiple Extruders}{70}
-\contentsline {subsubsection}{Configuring Extruders}{70}
-\contentsline {subsubsection}{Assigning Filaments}{72}
-\contentsline {subsubsection}{Assigning Extruders for Single-material Objects}{72}
-\contentsline {subsubsection}{Configuring Tool Changes}{73}
-\contentsline {subsubsection}{Printing Multi-material Objects}{74}
-\contentsline {subsubsection}{Generating multi-material AMF files}{74}
-\contentsline {subsection}{Extrusion Width}{75}
-\contentsline {subsection}{Variable Layer Height}{76}
-\contentsline {section}{\numberline {2.6}Configuration Organization}{81}
-\contentsline {subsection}{Exporting and Importing Configuration}{81}
-\contentsline {subsection}{Profiles}{81}
-\contentsline {subsubsection}{Creating Profiles}{81}
-\contentsline {section}{\numberline {2.7}Repairing Models}{83}
-\contentsline {paragraph}{FreeCAD}{83}
-\contentsline {section}{\numberline {2.8}Advanced Topics}{84}
-\contentsline {subsection}{Sequential Printing}{84}
-\contentsline {subsection}{Command Line Usage}{86}
-\contentsline {subsubsection}{Command Line Options}{86}
-\contentsline {subsection}{Post-Processing Scripts}{91}
-\contentsline {section}{\numberline {2.9}Troubleshooting}{93}
-\contentsline {subsection}{Z Wobble}{93}
-\contentsline {section}{\numberline {2.10}Slic3r Support}{94}
-\contentsline {subsection}{Slic3r Support}{94}
-\contentsline {subsubsection}{Wiki and FAQ}{94}
-\contentsline {subsubsection}{Blog}{94}
-\contentsline {subsubsection}{IRC}{94}
-\contentsline {subsubsection}{RepRap.org Forum}{94}
-\contentsline {subsubsection}{Issue Tracker}{95}
-\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{97}
-\contentsline {section}{\numberline {3.1}GLCD Controller or Printrun Host?}{98}
-\contentsline {section}{\numberline {3.2}Multiple Connections}{98}
-\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{99}
-\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{99}
-\contentsline {subsection}{The Graphic LCD Status Screen}{99}
-\contentsline {subsection}{Using the Selection Knob}{100}
-\contentsline {subsection}{Preparing for a Print}{101}
-\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{102}
-\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{102}
-\contentsline {subsection}{Configuration Settings}{103}
-\contentsline {subsection}{GLCD Controller Menu Diagram}{104}
-\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{105}
-\contentsline {section}{\numberline {4.1}Overview}{106}
-\contentsline {section}{\numberline {4.2}Smooth Rods}{106}
-\contentsline {section}{\numberline {4.3}Threaded Rods}{106}
-\contentsline {section}{\numberline {4.4}PET Sheets}{106}
-\contentsline {section}{\numberline {4.5}Hobbed Bolt}{107}
-\contentsline {section}{\numberline {4.6}Software}{107}
-\contentsline {section}{\numberline {4.7}Belts}{107}
-\contentsline {section}{\numberline {4.8}Hot End}{108}
-\contentsline {section}{\numberline {4.9}Electronics}{108}
-\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{109}
-\contentsline {section}{\numberline {5.1}Intro}{110}
-\contentsline {section}{\numberline {5.2}Changing nozzles}{110}
-\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{111}
-\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{111}
-\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{115}
-\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{117}
-\contentsline {section}{\numberline {7.1}LulzBot}{118}
-\contentsline {section}{\numberline {7.2}Community}{118}
-\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{119}
-\contentsline {section}{\numberline {8.1}Support}{120}
-\contentsline {section}{\numberline {8.2}Sales}{120}
-\contentsline {section}{\numberline {8.3}Websites}{120}
-\contentsline {chapter}{Index}{121}
-\contentsline {chapter}{Glossary}{125}
+\contentsline {chapter}{\chapternumberline {2}\emph {Cura}}{23}
+\contentsline {section}{\numberline {2.1}Cura}{24}
+\contentsline {section}{\numberline {2.2}Quick Print Settings}{24}
+\contentsline {subsection}{Selecting a Quick Print Profile}{24}
+\contentsline {subsection}{High Quality}{24}
+\contentsline {subsection}{Medium Quality}{25}
+\contentsline {subsection}{Fast Quality}{25}
+\contentsline {subsection}{Material Selection}{25}
+\contentsline {subsection}{Print Support Structure}{26}
+\contentsline {subsection}{Brim}{26}
+\contentsline {subsection}{Load Model File}{26}
+\contentsline {subsection}{Orientation of STL}{26}
+\contentsline {section}{\numberline {2.3}View Mode}{27}
+\contentsline {subsection}{Normal}{27}
+\contentsline {subsection}{Overhang}{28}
+\contentsline {subsection}{Ghost}{28}
+\contentsline {subsection}{Xray}{28}
+\contentsline {subsection}{Layers}{29}
+\contentsline {section}{\numberline {2.4}Starting Your First Print}{29}
+\contentsline {subsection}{TAZ Mini}{29}
+\contentsline {subsection}{TAZ}{29}
+\contentsline {subsubsection}{Printing from USB Cable}{29}
+\contentsline {subsubsection}{Printing from SD Card}{30}
+\contentsline {section}{\numberline {2.5}Removing Your First Print}{30}
+\contentsline {section}{\numberline {2.6}Full Settings}{30}
+\contentsline {subsection}{Loading a Profile}{31}
+\contentsline {section}{\numberline {2.7}Basic Tab Options}{31}
+\contentsline {subsubsection}{Layer Height}{31}
+\contentsline {subsubsection}{Shell Thickness}{31}
+\contentsline {subsubsection}{Enable Retraction}{31}
+\contentsline {subsubsection}{Bottom/Top Thickness (mm)}{31}
+\contentsline {subsubsection}{Fill Density}{32}
+\contentsline {subsubsection}{Print Speed (mm/s)}{32}
+\contentsline {subsubsection}{Printing Temperature}{32}
+\contentsline {subsubsection}{Bed Temperature}{32}
+\contentsline {subsection}{Support Type}{32}
+\contentsline {subsubsection}{Touching Buildplate}{32}
+\contentsline {subsubsection}{Everywhere}{33}
+\contentsline {subsection}{Platform Adhesion Type}{33}
+\contentsline {subsubsection}{Brim}{33}
+\contentsline {subsubsection}{Raft}{33}
+\contentsline {subsection}{Filament Diameter}{33}
+\contentsline {subsection}{Filament Flow \%}{33}
+\contentsline {section}{\numberline {2.8}Advanced Tab Options}{34}
+\contentsline {subsection}{Nozzle Size (mm)}{34}
+\contentsline {subsection}{Retraction Speed (mm/s)}{34}
+\contentsline {subsection}{Retraction Distance}{34}
+\contentsline {subsection}{Initial Layer Thickness}{34}
+\contentsline {subsection}{Initial Layer Line Width}{34}
+\contentsline {subsection}{Cut Off Object Bottom (mm)}{35}
+\contentsline {subsection}{Dual Extrusion Overlap}{35}
+\contentsline {subsection}{Travel Speed}{35}
+\contentsline {subsection}{Bottom Layer Speed}{35}
+\contentsline {subsection}{Infill Speed}{35}
+\contentsline {subsection}{Outer Shell Speed}{35}
+\contentsline {subsection}{Inner Shell Speed}{36}
+\contentsline {subsection}{Minimal Layer Time}{36}
+\contentsline {subsection}{Enable Cooling Fan}{36}
+\contentsline {section}{\numberline {2.9}Plugins}{36}
+\contentsline {subsection}{Tweak at Z}{36}
+\contentsline {subsection}{Pause at Z Height}{37}
+\contentsline {section}{\numberline {2.10}Start and End Gcode Settings}{37}
+\contentsline {subsection}{TAZ Mini}{37}
+\contentsline {section}{\numberline {2.11}Expert Settings}{37}
+\contentsline {section}{\numberline {2.12}Retraction}{38}
+\contentsline {subsection}{Minimum Travel}{38}
+\contentsline {subsection}{Combing}{38}
+\contentsline {subsection}{Minimal Extrusion Before Retracting}{38}
+\contentsline {subsection}{Z Hop When Retracting}{38}
+\contentsline {section}{\numberline {2.13}Skirt}{38}
+\contentsline {subsection}{Line Count}{39}
+\contentsline {subsection}{Start Distance}{39}
+\contentsline {subsection}{Minimal Length}{39}
+\contentsline {section}{\numberline {2.14}Cool}{39}
+\contentsline {subsection}{Fan on at Full Height}{39}
+\contentsline {subsection}{Fan Speed Min}{39}
+\contentsline {subsection}{Fan Speed Max}{40}
+\contentsline {section}{\numberline {2.15}Support}{40}
+\contentsline {subsection}{Structure Type}{40}
+\contentsline {subsection}{Overhang Angle for Support}{40}
+\contentsline {subsection}{Fill Amount}{40}
+\contentsline {subsection}{Distance X/Y}{40}
+\contentsline {subsection}{Distance Z}{41}
+\contentsline {section}{\numberline {2.16}Black Magic}{41}
+\contentsline {subsection}{Spiralize the Outer Contour}{41}
+\contentsline {subsection}{Only Follow Mesh Surface}{41}
+\contentsline {section}{\numberline {2.17}Brim}{41}
+\contentsline {subsection}{Brim Line Amount}{41}
+\contentsline {section}{\numberline {2.18}Raft}{42}
+\contentsline {subsection}{Extra Margin}{42}
+\contentsline {subsection}{Line Spacing}{42}
+\contentsline {subsection}{Base Thickness}{42}
+\contentsline {subsection}{Base Line Width}{42}
+\contentsline {subsection}{Interface Thickness}{42}
+\contentsline {subsection}{Interface Line Width}{42}
+\contentsline {subsection}{Airgap}{43}
+\contentsline {subsection}{Surface Layers}{43}
+\contentsline {section}{\numberline {2.19}Fix Horrible}{43}
+\contentsline {subsection}{Combine Everything (Type-A)}{43}
+\contentsline {subsection}{Combine Everything (Type-B)}{43}
+\contentsline {subsection}{Keep Open Faces}{43}
+\contentsline {subsection}{Extensive Stiching}{44}
+\contentsline {chapter}{\chapternumberline {3}\emph {Slic3r}}{45}
+\contentsline {section}{\numberline {3.1}Introduction}{46}
+\contentsline {subsection}{Overview}{46}
+\contentsline {subsection}{Goals \& Philosophy}{46}
+\contentsline {subsection}{Donating}{46}
+\contentsline {section}{\numberline {3.2}Getting Slic3r}{47}
+\contentsline {subsection}{Downloading}{47}
+\contentsline {subsubsection}{From LulzBot}{47}
+\contentsline {subsubsection}{Slic3r}{47}
+\contentsline {subsubsection}{Manual}{47}
+\contentsline {subsubsection}{Source}{47}
+\contentsline {subsection}{Installing}{47}
+\contentsline {subsubsection}{Linux}{47}
+\contentsline {subsubsection}{Windows}{48}
+\contentsline {subsubsection}{Mac OS X}{48}
+\contentsline {subsection}{Building from source}{48}
+\contentsline {section}{\numberline {3.3}First Print}{48}
+\contentsline {subsection}{Calibration}{48}
+\contentsline {subsection}{Configuration Wizard}{50}
+\contentsline {subsubsection}{1. Firmware Type}{51}
+\contentsline {subsubsection}{2. Bed Size}{52}
+\contentsline {subsubsection}{3. Nozzle Diameter}{53}
+\contentsline {subsubsection}{4. Filament Diameter}{54}
+\contentsline {subsubsection}{5. Extrusion Temperature}{55}
+\contentsline {subsubsection}{6. Bed Temperature}{56}
+\contentsline {subsection}{The Important First Layer}{58}
+\contentsline {paragraph}{Level bed.}{58}
+\contentsline {paragraph}{Higher temperature.}{58}
+\contentsline {paragraph}{Lower speeds.}{58}
+\contentsline {paragraph}{Correctly calibrated extrusion rates.}{58}
+\contentsline {paragraph}{First layer height.}{58}
+\contentsline {paragraph}{Fatter extrusion width.}{59}
+\contentsline {paragraph}{Bed material.}{59}
+\contentsline {paragraph}{No cooling.}{59}
+\contentsline {subsection}{Working with Models}{60}
+\contentsline {subsubsection}{Model Formats}{60}
+\contentsline {subsubsection}{Finding Models}{60}
+\contentsline {subsubsection}{Working with Plater}{61}
+\contentsline {subsubsection}{Cleaning STLs}{64}
+\contentsline {subsection}{Printing}{65}
+\contentsline {section}{\numberline {3.4}Simple Mode}{65}
+\contentsline {subsection}{Simple Mode}{65}
+\contentsline {subsubsection}{Print Settings}{65}
+\contentsline {paragraph}{General.}{66}
+\contentsline {paragraph}{Infill.}{68}
+\contentsline {paragraph}{Support material.}{69}
+\contentsline {paragraph}{Speed.}{69}
+\contentsline {paragraph}{Brim.}{70}
+\contentsline {paragraph}{Sequential Printing.}{70}
+\contentsline {subsubsection}{Filament Settings}{70}
+\contentsline {paragraph}{Filament.}{71}
+\contentsline {paragraph}{Temperature.}{71}
+\contentsline {subsubsection}{Printer Settings}{71}
+\contentsline {paragraph}{Size and coordinates.}{72}
+\contentsline {paragraph}{Firmware.}{73}
+\contentsline {paragraph}{Extruder.}{73}
+\contentsline {paragraph}{Retraction.}{73}
+\contentsline {paragraph}{Start, End and Layer Chance G-codes.}{73}
+\contentsline {section}{\numberline {3.5}Expert Mode}{74}
+\contentsline {subsection}{Speed}{74}
+\contentsline {subsection}{Infill Patterns and Density}{78}
+\contentsline {subsection}{Infill Optimization}{82}
+\contentsline {subsection}{Fighting Ooze}{83}
+\contentsline {subsection}{Skirt}{85}
+\contentsline {subsection}{Cooling}{86}
+\contentsline {subsubsection}{Fans}{87}
+\contentsline {subsubsection}{Slowing Down}{87}
+\contentsline {subsubsection}{Configuring}{87}
+\contentsline {subsection}{Support Material}{89}
+\contentsline {subsection}{Multiple Extruders}{92}
+\contentsline {subsubsection}{Configuring Extruders}{92}
+\contentsline {subsubsection}{Assigning Filaments}{94}
+\contentsline {subsubsection}{Assigning Extruders for Single-material Objects}{94}
+\contentsline {subsubsection}{Configuring Tool Changes}{95}
+\contentsline {subsubsection}{Printing Multi-material Objects}{96}
+\contentsline {subsubsection}{Generating multi-material AMF files}{96}
+\contentsline {subsection}{Extrusion Width}{97}
+\contentsline {subsection}{Variable Layer Height}{98}
+\contentsline {section}{\numberline {3.6}Configuration Organization}{103}
+\contentsline {subsection}{Exporting and Importing Configuration}{103}
+\contentsline {subsection}{Profiles}{103}
+\contentsline {subsubsection}{Creating Profiles}{103}
+\contentsline {section}{\numberline {3.7}Repairing Models}{105}
+\contentsline {paragraph}{FreeCAD}{105}
+\contentsline {section}{\numberline {3.8}Advanced Topics}{106}
+\contentsline {subsection}{Sequential Printing}{106}
+\contentsline {subsection}{Command Line Usage}{108}
+\contentsline {subsubsection}{Command Line Options}{108}
+\contentsline {subsection}{Post-Processing Scripts}{113}
+\contentsline {section}{\numberline {3.9}Troubleshooting}{115}
+\contentsline {subsection}{Z Wobble}{115}
+\contentsline {section}{\numberline {3.10}Slic3r Support}{116}
+\contentsline {subsection}{Slic3r Support}{116}
+\contentsline {subsubsection}{Wiki and FAQ}{116}
+\contentsline {subsubsection}{Blog}{116}
+\contentsline {subsubsection}{IRC}{116}
+\contentsline {subsubsection}{RepRap.org Forum}{116}
+\contentsline {subsubsection}{Issue Tracker}{117}
+\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{119}
+\contentsline {section}{\numberline {4.1}Overview}{120}
+\contentsline {section}{\numberline {4.2}Smooth Rods}{120}
+\contentsline {section}{\numberline {4.3}Lead Screws}{120}
+\contentsline {section}{\numberline {4.4}PEI Surface}{120}
+\contentsline {section}{\numberline {4.5}Hobbed Bolt}{121}
+\contentsline {section}{\numberline {4.6}Software}{121}
+\contentsline {section}{\numberline {4.7}Belts}{121}
+\contentsline {section}{\numberline {4.8}Hot End}{121}
+\contentsline {section}{\numberline {4.9}Electronics}{122}
+\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{123}
+\contentsline {section}{\numberline {5.1}Intro}{124}
+\contentsline {section}{\numberline {5.2}Changing nozzles}{124}
+\contentsline {section}{\numberline {5.3}Using 1.75mm filament}{125}
+\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{127}
+\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{129}
+\contentsline {section}{\numberline {7.1}LulzBot}{130}
+\contentsline {section}{\numberline {7.2}Community}{130}
+\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{131}
+\contentsline {section}{\numberline {8.1}Support}{132}
+\contentsline {section}{\numberline {8.2}Sales}{132}
+\contentsline {section}{\numberline {8.3}Websites}{132}
+\contentsline {chapter}{Index}{133}
+\contentsline {chapter}{Glossary}{139}
