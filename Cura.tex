@@ -15,17 +15,19 @@
 \subsection{Setup Cura}
 \index{Installation}
 
-Cura is available for download on our website at \texttt{https://www.lulzbot.com/support/downloads}. Download the appropriate installer for your computer operating system.
+Cura is available for download on our website at \texttt{https://www.lulzbot.com/support/downloads}. When first opening Cura, you will be prompted to go through the \texttt{First time run wizard}. This will consist of selecting your desired language, and your printer.
 
-Install Cura by clicking on the installer.
+\textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.}
 
-When first opening Cura, you will be prompted to go through the \texttt{First time run wizard}. This will consist of selecting your desired language, and your printer. Once your language has been selected, select \texttt{Next}.
+\begin{itemize}
+\item Download the appropriate installer for your computer operating system.
+\item Install Cura by clicking on the installer.
+\item Once your language has been selected, select \texttt{Next}.
+\item Select \texttt{Lulzbot Mini}. 
+\item Once the proper printer is selected, select \texttt{Next}. 
+\end{itemize}
 
-%%%% Saved for standalone Cura Manual
-%Choose either the Lulzbot TAZ, or the Lulzbot Mini. \textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.}
-%Once the proper printer is selected, select \texttt{next}. Once the installation wizzard finishes you can move forward with your first print!
-Select \texttt{Lulzbot Mini}. \textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.} 
-Once the proper printer is selected, select \texttt{next}. Once the installation wizzard finishes you can move forward with your first print!
+Once the installation wizard finishes you can move forward with your first print!
 
 
 \section{Quick Print Settings}
@@ -36,7 +38,8 @@ Once the proper printer is selected, select \texttt{next}. Once the installation
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Quick_Settings.png}
 \caption{Quick Print Settings}
 \label{fig:Cura}
-\end{figure} (photo highlighting profile, material, diameter, and other)
+\end{figure} 
+% (photo highlighting profile, material, diameter, and other)
 After setting up Cura for the first time, you will be prompted with this screen (Fig. \ref{fig:Cura}, page \pageref{fig:Cura}: 
 
 \subsection{Selecting a Quick Print Profile}
@@ -146,7 +149,8 @@ This is the standard setting for mesh files. It will show you the solid outer su
 \subsection{Overhang}
 \index{Overhang} 
 
-Overhang mode will show where your print will have issues due to printing angle in mid air. In the photo below, you can see the red highlighted areas. These showcase where the angle in relation to the bed is between 0 and 30 degrees. It may be best to use support if your model has these areas. (overhang photo)
+Overhang mode will show where your print will have issues due to printing angle in mid air. In the photo below, you can see the red highlighted areas. These showcase where the angle in relation to the bed is between 0 and 30 degrees. It may be best to use support if your model has these areas.
+% (overhang photo)
 
 %\pageref{fig:Rotating}).
 \begin{figure}[hbt]
@@ -159,7 +163,8 @@ Overhang mode will show where your print will have issues due to printing angle 
 \subsection{Ghost}
 \index{Ghost}
 
-Ghost view mode, will allow you to see through your model to what is behind it. This can be helpful for ensuring your entire model has loaded properly. (Ghost photo)
+Ghost view mode, will allow you to see through your model to what is behind it. This can be helpful for ensuring your entire model has loaded properly.
+% (Ghost photo)
 %\pageref{fig:Rotating}).
 \begin{figure}[hbt]
 \centering
@@ -171,7 +176,8 @@ Ghost view mode, will allow you to see through your model to what is behind it. 
 \subsection{Xray}
 \index{Xray}
 
-Xray is very similiar to ghost mode. It will alow you to see into objects, ensuring inner details are correct. (Xray2 photo)
+Xray is very similiar to ghost mode. It will alow you to see into objects, ensuring inner details are correct.
+% (Xray2 photo)
 %\pageref{fig:Xray}).
 \begin{figure}[hbt]
 \centering
@@ -183,7 +189,8 @@ Xray is very similiar to ghost mode. It will alow you to see into objects, ensur
 \subsection{Layers}
 \index{Layers}
 
-This will be the most helpful option for double checking prints. This will allow you to view the toolpath of your print head, to ensure to skipped layers or gaps. On the right hand side of your screen, you will see a slide bar. This will move up and down to view your desired layer. (Both layer photos)
+This will be the most helpful option for double checking prints. This will allow you to view the toolpath of your print head, to ensure to skipped layers or gaps. On the right hand side of your screen, you will see a slide bar. This will move up and down to view your desired layer.
+% (Both layer photos)
 %\pageref{fig:Layers}).
 \begin{figure}[hbt]
 \centering
@@ -206,7 +213,8 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 
 \subsection{TAZ Mini}
 
-Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic. (print control photo)
+Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic.
+% (print control photo)
 %\pageref{fig:Print Control}).
 \begin{figure}[hbt]
 \centering
@@ -222,16 +230,18 @@ TAZ users will need to decide if they want to print directly from their computer
 \subsubsection{Printing from USB Cable}
 \index{Printing from USB}
 
-Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print. (print control photo or reference above?)
+Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print.
+% (print control photo or reference above?)
 
 \subsubsection{Printing from SD Card}
 \index{Printing from SD}
 
 You will need to save your Gcode file to your SD card. To do this, please go to File > Save Gcode > (select SD card). After putting the Gcode file to the SD card, you will need to insert it into the printer. Please be sure the metal tabs are facing forward. 
 
-You will then need to pre heat your printer. You can do this for ABS and PLA by going to Prepare > Preheat ABS/PLA. If you are using other filaments, you can set your temperatures by going to Control > Temperature > Nozzle/Bed > (set specific temps). Then wait for printer to reach specified temps. (Reference LCD section in manual?)
+You will then need to pre heat your printer. You can do this for ABS and PLA by going to Prepare > Preheat ABS/PLA. If you are using other filaments, you can set your temperatures by going to Control > Temperature > Nozzle/Bed > (set specific temps). Then wait for printer to reach specified temps.
+% (Reference LCD section in manual?)
 
-Once heated, you can begin your print through your LCD by going to Print From SD > (Select Desired File).
+Once heated, you can begin your print through your LCD by going to Print From SD >  (Select Desired File).
 
 \section{Removing Your First Print}
 \index{Removing a Print}
@@ -243,7 +253,7 @@ Once your heated plate has cooled, you will want to use the blue clam knife that
 \section{Full Settings}
 \index{Full Settings}
 
-When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings. (expert photo)
+When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings. % (expert photo)
 %\pageref{fig:Expert Options}).
 \begin{figure}[hbt]
 \centering
@@ -263,7 +273,7 @@ When you first switch to Full Settings, Cura will revert to very generic setting
 \subsubsection{Layer Height}
 \index{Layer Height}
 
-This will determine how thick each layer is. The smaller the layer height, the smoother curves will appear. Larger layer heights are better for bridging and overhangs. Smaller layer heights will also increase print time, as it will take more layers to complete the object. (Layer height comparision photos)
+This will determine how thick each layer is. The smaller the layer height, the smoother curves will appear. Larger layer heights are better for bridging and overhangs. Smaller layer heights will also increase print time, as it will take more layers to complete the object. % (Layer height comparision photos)
 
 \subsubsection{Shell Thickness}
 \index{Shell Thickness}
