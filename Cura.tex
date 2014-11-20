@@ -12,68 +12,82 @@
 \section{Cura}
 \index{Cura}
 
-Once your printer is unpacked, it will be time to set up your software to run your printer. First please download Cura from our website at  \texttt{https://www.lulzbot.com/support/downloads} Please download and install this to a memorable location. 
+\subsection{Setup Cura}
+\index{Installation}
 
-When first opening Cura, you will be prompted to go through the “First time run wizard.” This will consist of selecting your desired language, and your printer. Once your language has been selected, click “next.”
+Cura is available for download on our website at \texttt{https://www.lulzbot.com/support/downloads}. Download the appropriate installer for your computer operating system.
 
-On this screen you will want to be sure to select either the Lulzbot TAZ, or the Lulzbot Mini. \texttt{(*NOTE* It is important to select the correct printer, as this program will use custom profiles and machines settings based upon which printer you are running. *NOTE*)} Once the proper printer is selected, please click “next.” You will now be prompted on successful installation, and can now move forward with your first print!
+Install Cura by clicking on the installer.
+
+When first opening Cura, you will be prompted to go through the \texttt{First time run wizard}. This will consist of selecting your desired language, and your printer. Once your language has been selected, select \texttt{Next}.
+
+%%%% Saved for standalone Cura Manual
+%Choose either the Lulzbot TAZ, or the Lulzbot Mini. \textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.}
+%Once the proper printer is selected, select \texttt{next}. Once the installation wizzard finishes you can move forward with your first print!
+Select \texttt{Lulzbot Mini}. \textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.} 
+Once the proper printer is selected, select \texttt{next}. Once the installation wizzard finishes you can move forward with your first print!
+
 
 \section{Quick Print Settings}
 \index{Quick Print Settings}
-\pageref{fig:Cura}).
+%\pageref{fig:Cura}.
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Quick_Settings.png}
-\caption{After just opening Cura}
+\caption{Quick Print Settings}
 \label{fig:Cura}
 \end{figure} (photo highlighting profile, material, diameter, and other)
-After setting up Cura for the first time, you will be prompted with this screen: (Figure \ref{fig:Cura}, page 
+After setting up Cura for the first time, you will be prompted with this screen (Fig. \ref{fig:Cura}, page \pageref{fig:Cura}: 
 
 \subsection{Selecting a Quick Print Profile}
 \index{Quick Print Profile}
-
-In the top left hand corner, you will be prompted to select your quality settings. For most filaments, there will be a High Quality, Normal Quality, or Fast Quality options. Some of the rarer or more exotic filaments may only have a normal setting. Later on, we will inform you how to adjust your settings for specific STL files.
+\index{Resolution}
+In the top left hand corner are the print quality settings. For most filaments, there will be a High Quality, Normal Quality, or Fast Quality options. Some of the more exotic filaments may only have a normal setting.
 
 \subsection{High Quality}
 \index{High Quality}
 
-This setting is designed to give greater detail in finer objects. This will have a lower layer height, which will make curves seem more natural. This setting will also require more layers to be laid down, increasing overall print time.
+This setting is designed to give greater detail and finer objects. This will have a smaller layer height, which will make each layer thinner, so that curves seem more natural and walls seem less noticable. This setting will also require more layers to be laid down, increasing overall print time.
 
 \subsection{Medium Quality}
 \index{Medium Quality}
 
-This setting is designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step like than the fine setting, but will reduce overall print time. 
+This setting is designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but will reduce overall print time. 
 
 \subsection{Fast Quality}
 \index{Fast Quality}
 
-This setting is designed for the fast prints, where overall surface quality is not of concern. Most commonly used for testing if an STL file is capable of being printed on an FDM machine.
+This setting is designed for the fast prints, where overall model finish is not of concern. Most commonly used for quick iteration of designs for rapid prototyping.
 
 \subsection{Material Selection}
 \index{Material Selection}
+\index{filament}
 
-You will want to choose whichever filament you are currently printing with. If you are not using Lulzbot supplied filament, you will want to update your filament diameter to a true average. You can do this by taking about a dozen different measurements from different lengths of the reel, and averaging them out. This is the number you will want to enter for filament diameter. You will also want to adjust the temperature, as different manufacturers have different recommended temperatures.
+Choose your desired filament. If you are not using Lulzbot supplied filament, you will want to update your filament diameter to your specific average filament diameter. You can do this by taking a dozen filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. You may also want to adjust the temperature, as different manufacturers have different recommended temperatures.
 
 \subsection{Print Support Structure}
 \index{Support}
+\index{Support Material}
 
-You will want to select this if your STL file requires support material. The TAZ and TAZ Mini will be able to print any item that has angles between 45 and 90 degrees compared to the build plate without this option enabled.
+%%%% Saved for standalone Cura Manual %%%%
+%The TAZ and TAZ Mini is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model requires support material.
+The Mini is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model requires support material.
 
 \subsection{Brim}
 \index{Brim}
 
-Brim is used to increase surface area of the part your printing. This will put down a single layer around the outside of the part, helping first layer adhesion.
+Brim is used to increase surface area of the part your printing, thereby ensuring proper part adhesion. This will put down a single layer around the outside of the part, helping first layer adhesion and minimizing warping.
 
 \subsection{Load Model File}
 \index{Load Model}
+\index{STL}
 
-You will now need to select which STL file you would like to print. To load this into Cura, you will need to go to File > Load Model File > (Select Desired STL File). Once this is loaded, you will see a 3d rendering of your object in the build platform. 
+Select the model you would like to print. Either use the \texttt{Load Model} button or select \texttt{File} > \texttt{Load Model}. Once the file has been loaded, you will see a 3D rendering of your object on the build platform. Select the model to see the various options. 
 
 \subsection{Orientation of STL}
 \index{Orientation}
 
-After selecting the rendering, you will have many options. 
-\pageref{fig:Options}).
+%\pageref{fig:Options}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Options.png}
@@ -81,10 +95,10 @@ After selecting the rendering, you will have many options.
 \label{fig:Orientation}
 \end{figure}
 
-You can drag your object around, to change where it is printed in the build plate. Do this by clicking and dragging, your item to its desired location. The Black outlined corner will be the lower left hand corner of the build plate on your printer. 
+Move your model to change where it is printed on the build plate. Do this by clicking and dragging your model to the desired location. The \texttt{black} outlined corner represents the lower left hand corner of the build plate on your printer. 
 
-The Rotate button will give you the ability orient your STL in all three directions. Once you click the rotate button, three circles will cover your STL. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
-\pageref{fig:Rotating}).
+
+%\pageref{fig:Rotating}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -92,12 +106,18 @@ The Rotate button will give you the ability orient your STL in all three directi
 \label{fig:Rotating your Model}
 \end{figure}
 
-The Lay Flat option will ensure that the flat portion of your print, is securely attached to the bed. It is highly recommended to use this option after rotating your STL file in the Z direction, as it will help prevent adhesion issues during the print.
+%%%% Alternate explanation %%%%
+%The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 
-The reset option will return your STL file to its original orientation as defined by the CAD program. 
+The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red} circle will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow}{Yellow} circle will rotate around the \textcolor{yellow}{Y axis}. The \textcolor{green}{Green} circle will rotate around the \textcolor{green}{X axis}.
 
-The Scale button will give you complete dimensions, along with the ability to scale in the X Y or Z directions. As a default, it will be set to uniform scaling. This will cause the X Y and Z axis to be scaled by the same amount, when you make a change to any of them. To disable this, please click the lock in the lower section of the scaling window. (photo)
-\pageref{fig:Scaling}).
+The \texttt{Lay Flat} button will ensure that the flat portion of your print is securely attached to the bed. It is highly recommended to use this option after rotating your model in the Z direction, as it will help prevent adhesion issues during the print.
+
+The \texttt{Reset} button will return your model to the original orientation as defined by the CAD program used to create the model. 
+
+The Scale button will give you complete dimensions, along with the ability to scale in the X Y or Z directions. As a default, it will be set to uniform scaling. This will cause the X Y and Z axis to be scaled by the same amount, when you make a change to any of them. To disable this, please click the lock in the lower section of the scaling window. 
+
+%\pageref{fig:Scaling}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Scale.png}
@@ -111,9 +131,11 @@ The Scale button will give you complete dimensions, along with the ability to sc
 This will allow you to view your model in a variety of ways. This can be helpful for spotting issues before the print even starts. 
 
 \subsection{Normal}
+This is the standard setting for mesh files. It will show you the solid outer surfaces of your model file. 
 
-This is the standard setting for mesh files. It will show you the solid outer counter of your model file. (photo normal)
-\pageref{fig:Rotating}).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\pageref{fig:Rotating}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{View.png}
@@ -125,7 +147,8 @@ This is the standard setting for mesh files. It will show you the solid outer co
 \index{Overhang} 
 
 Overhang mode will show where your print will have issues due to printing angle in mid air. In the photo below, you can see the red highlighted areas. These showcase where the angle in relation to the bed is between 0 and 30 degrees. It may be best to use support if your model has these areas. (overhang photo)
-\pageref{fig:Rotating}).
+
+%\pageref{fig:Rotating}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{overhang.png}
@@ -137,7 +160,7 @@ Overhang mode will show where your print will have issues due to printing angle 
 \index{Ghost}
 
 Ghost view mode, will allow you to see through your model to what is behind it. This can be helpful for ensuring your entire model has loaded properly. (Ghost photo)
-\pageref{fig:Rotating}).
+%\pageref{fig:Rotating}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Ghost.png}
@@ -149,7 +172,7 @@ Ghost view mode, will allow you to see through your model to what is behind it. 
 \index{Xray}
 
 Xray is very similiar to ghost mode. It will alow you to see into objects, ensuring inner details are correct. (Xray2 photo)
-\pageref{fig:Xray}).
+%\pageref{fig:Xray}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Xray2.png}
@@ -161,7 +184,7 @@ Xray is very similiar to ghost mode. It will alow you to see into objects, ensur
 \index{Layers}
 
 This will be the most helpful option for double checking prints. This will allow you to view the toolpath of your print head, to ensure to skipped layers or gaps. On the right hand side of your screen, you will see a slide bar. This will move up and down to view your desired layer. (Both layer photos)
-\pageref{fig:Layers}).
+%\pageref{fig:Layers}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{layers.png}
@@ -184,7 +207,7 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 \subsection{TAZ Mini}
 
 Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic. (print control photo)
-\pageref{fig:Print Control}).
+%\pageref{fig:Print Control}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
@@ -221,7 +244,7 @@ Once your heated plate has cooled, you will want to use the blue clam knife that
 \index{Full Settings}
 
 When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings. (expert photo)
-\pageref{fig:Expert Options}).
+%\pageref{fig:Expert Options}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -245,7 +268,7 @@ This will determine how thick each layer is. The smaller the layer height, the s
 \subsubsection{Shell Thickness}
 \index{Shell Thickness}
 
-This will define the number of vertical walls that follow the outside of your STL file. We recommend keeping this in multiples of your Nozzle width. The TAZ ships with a .35mm nozzle standard, while the TAZ Mini has a .5mm nozzle standard.
+This will define the number of vertical walls that follow the outside of your model. We recommend keeping this in multiples of your Nozzle width. The TAZ ships with a .35mm nozzle standard, while the TAZ Mini has a .5mm nozzle standard.
 
 \subsubsection{Enable Retraction}
 \index{Retraction}
@@ -281,7 +304,7 @@ We recommend leaving this temperature setting to “0”. If you set your temper
 \subsection{Support Type}
 \index{Support Type}
 
-Some STL files will require support in order to print properly. This will usually occur when an object has an angle, in relation to the build plate, between 0 and 45 degrees. It is highly recommended to orient your object as such that it minimizes, or eliminates the need for support.
+Some models will require support in order to print properly. This will usually occur when an object has an angle, in relation to the build plate, between 0 and 45 degrees. It is highly recommended to orient your object as such that it minimizes, or eliminates the need for support.
 
 \subsubsection{Touching Buildplate}
 
@@ -294,12 +317,12 @@ This will cause support material to be created between the bed and object, and a
 \subsection{Platform Adhesion Type}
 \index{Adhesion Type}
 
-Some STL files have a small surface area contacting the plate. This can create adhesion issues, allowing your part to pop off at some point during the print. To fix this, you can add either Brim or a Raft to your STL.
+Some models have a small surface area contacting the plate. This can create adhesion issues, allowing your part to pop off at some point during the print. To fix this, you can add either Brim or a Raft to your STL.
 
 \subsubsection{Brim}
 \index{Brim}
 
-Brim will create a single layer of filament, contacting and surrounding your STL file. This will increase the surface area of the STL contacting the build platform, preventing it from popping off. Brim will also help in situations where you are seeing corner lift. Brim is defined in expert settings. (See Expert Settings/Page REFERENCE)
+Brim will create a single layer of filament, contacting and surrounding your model. This will increase the surface area of the STL contacting the build platform, preventing it from popping off. Brim will also help in situations where you are seeing corner lift. Brim is defined in expert settings. (See Expert Settings/Page REFERENCE)
 
 \subsubsection{Raft}
 \index{Raft}
@@ -347,8 +370,8 @@ This will control how wide your first layer will be. As with initial layer heigh
 \subsection{Cut Off Object Bottom (mm)}
 \index{Cut Off Object}
 
-This setting is used to help print STL files that we not specifically designed for FDM printing. Specifically, it is for STL's that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. (*Note* You will not be able to print the part of the object that is sunk into the platform. *Note*)
-\pageref{fig:Cutoff Setting}).
+This setting is used to help print models that were not specifically designed for FDM printing. Specifically, it is for STL's that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. (*Note* You will not be able to print the part of the object that is sunk into the platform. *Note*)
+%\pageref{fig:Cutoff Setting}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{cutoff.png}
@@ -374,7 +397,7 @@ This will control your initial layer speed. In general, a slower initial layer s
 \subsection{Infill Speed}
 \index{Infill Speed}
 
-This will control how quickly your print head moves while laying down the filler of your STL file. Faster speeds are usually tolerable here, as none of infill will be visible on the outside of your object. If you go too fast compared to your inner and outer shells, you can have adhesion issues.
+This will control how quickly your print head moves while laying down the filler of your model. Faster speeds are usually tolerable here, as none of infill will be visible on the outside of your object. If you go too fast compared to your inner and outer shells, you can have adhesion issues.
 
 \subsection{Outer Shell Speed}
 \index{Outer Shell Speed}
@@ -384,7 +407,7 @@ This will be the outermost vertical shell from the Basic settings. This is the m
 \subsection{Inner Shell Speed}
 \index{Inner Shell Speed}
 
-This will be the vertical walls, that are in between the outer shell, 	and infill. This will not be visible, but will help support the outer shell and the infill. We recommend keeping this speed setting between your infill and your outer shell speed to help adhesion.
+This will be the vertical walls, that are in between the outer shell,         and infill. This will not be visible, but will help support the outer shell and the infill. We recommend keeping this speed setting between your infill and your outer shell speed to help adhesion.
 
 \subsection{Minimal Layer Time}
 \index{Minimal Layer Time}
@@ -400,7 +423,7 @@ This will allow operation of your extruder's active cooling fan. You can control
 \index{Plugins}
 
 Plugins are custom settings which will alter your print at specific points. The two that come pre loaded with Cura are Tweak at Z, and Pause at Height. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these, you will need to highlight the desired plugin, and click the down arrow directly below the Plugins box. (photo Plugins)
-\pageref{fig:Plugins}).
+%\pageref{fig:Plugins}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Plugins.png}
@@ -416,7 +439,7 @@ This will allow you to make basic changes at specified Z heights. You can determ
 \subsection{Pause at Z Height}
 \index{Pause at Z Height}
 
-This will pause your print at a specified height. You can also specify where 	to move the print head, and how much filament to retract. This will prevent “blobs” from accumulating on your print while paused. This setting is most commonly used when switching colors of filaments in the middle of a print.
+This will pause your print at a specified height. You can also specify where         to move the print head, and how much filament to retract. This will prevent “blobs” from accumulating on your print while paused. This setting is most commonly used when switching colors of filaments in the middle of a print.
 
 \section{Start and End Gcode Settings}
 \index{Custom Gcode}
@@ -424,13 +447,13 @@ This will pause your print at a specified height. You can also specify where 	to
 This is where you can make custom settings to your print profiles. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/support/downloads}
 
 \subsection{TAZ Mini}
-Please be cautious when changing any of these start and end gcode settings. This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer 	automatically bed level. If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@lulzbot.com} before hand.
+Please be cautious when changing any of these start and end gcode settings. This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer         automatically bed level. If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@lulzbot.com} before hand.
 
 \section{Expert Settings}
 \index{Expert Settings}
 
 Expert settings will give you more specific options for your retraction, skirt, active cooling, infill, support, brim, raft, and special settings. To gain access to this section you can go to Expert > Open Full Settings or you can hit Control + E. (Photo expert)
-\pageref{fig:Expert Settings}).
+%\pageref{fig:Expert Settings}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -470,7 +493,7 @@ Skirt creates a line around the outside of your object. Most commonly used to pr
 \subsection{Line Count}
 \index{Line Count}
 
-This will define the number of loops the Skirt creates around the outside of your object. Smaller STL files will require more loops to properly prime the extruder.
+This will define the number of loops the Skirt creates around the outside of your object. Smaller models will require more loops to properly prime the extruder.
 
 \subsection{Start Distance}
 \index{Start Distance}
@@ -535,7 +558,7 @@ This will determine how far away your support material is from your object in th
 \section{Black Magic}
 \index{Black Magic}
 
-This section allows you to transform your STL into a hollow shell, a single layer thick. (*Note* May not be possible for all STL files. *Note*)
+This section allows you to transform your STL into a hollow shell, a single layer thick. (*Note* May not be possible for all models. *Note*)
 
 \subsection{Spiralize the Outer Contour}
 \index{Spiralize}
@@ -603,7 +626,7 @@ This will determine the number of layers that create the “platform” of your 
 \section{Fix Horrible}
 \index{Fix Horrible}
 
-These are some of the more advanced and experimental options. They are designed to help repair poor STL files, to make them suitable for 3D printing. As a note, they do not always work. Please be cautious when using these options, as they can have unintended effects on your print quality.
+These are some of the more advanced and experimental options. They are designed to help repair poor models, to make them suitable for 3D printing. As a note, they do not always work. Please be cautious when using these options, as they can have unintended effects on your print quality.
 
 \subsection{Combine Everything (Type-A)}
 \index{Combine Type-A}
@@ -613,7 +636,7 @@ This will attempt to fix all external mesh errors, while keeping internal holes 
 \subsection{Combine Everything (Type-B)}
 \index{Combine Type-B}
 
-This will ignore all internal holes of the STL file, and only focus on the external holes. This is helpful when one only cares of the outside finish of the STL.
+This will ignore all internal holes of the model, and only focus on the external holes. This is helpful when one only cares of the outside finish of the STL.
 
 \subsection{Keep Open Faces}
 \index{Open Faces}
