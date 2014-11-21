@@ -48,13 +48,16 @@ After setting up Cura for the first time, you will be prompted with this screen 
 In the top left hand corner are the print quality settings. For most filaments, there will be a High Quality, Normal Quality, or Fast Quality options. Some of the more exotic filaments may only have a normal setting.
 
 \begin{description}
-\item[High Quality] This setting is designed to give greater detail and finer objects. This will have a smaller layer height, which will make each layer thinner, so that curves seem more natural and walls seem less noticable. This setting will also require more layers to be laid down, increasing overall print time
+\item[High Quality] \hfill \\
+Designed to give greater detail and finer objects. This will have a smaller layer height, which will make each layer thinner, so that curves seem more natural and walls seem less noticable. This setting will also require more layers to be laid down, increasing overall print time
 \index{High Quality}
 
-\item[Medium Quality] This setting is designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but will reduce overall print time.
+\item[Medium Quality] \hfill \\
+Designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but will reduce overall print time.
 \index{Medium Quality}
 
-\item[Fast Quality] This setting is designed for the fast prints, where overall model finish is not of concern. Most commonly used for quick iteration of designs for rapid prototyping.
+\item[Fast Quality] \hfill \\
+Designed for the fast prints, where overall model finish is not of concern. Most commonly used for quick iteration of designs for rapid prototyping.
 \index{Fast Quality}
 \end{description}
 
@@ -62,14 +65,13 @@ In the top left hand corner are the print quality settings. For most filaments, 
 \index{Material Selection}
 \index{filament}
 
-Choose your desired filament. If you are not using Lulzbot supplied filament, you will want to update your filament diameter to your specific average filament diameter. You can do this by taking a dozen filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. You may also want to adjust the temperature, as different manufacturers have different recommended temperatures.
+Choose your desired filament. If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. You can do this by taking a 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. You may also want to adjust the temperature, as different manufacturers have different recommended temperatures.
 
 \subsection{Print Support Structure}
-\index{Support}
 \index{Support Material}
 
 %%%% Saved for standalone Cura Manual %%%%
-%The TAZ and TAZ Mini is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model requires support material.
+%The TAZ and TAZ Mini are able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model requires support material.
 The Mini is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model requires support material.
 
 \subsection{Brim}
@@ -131,8 +133,6 @@ This will allow you to view your model in a variety of ways. This can be helpful
 
 \subsection{Normal}
 This is the standard setting for mesh files. It will show you the solid outer surfaces of your model file. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\pageref{fig:Rotating}).
 \begin{figure}[hbt]
@@ -207,10 +207,12 @@ This will be the most helpful option for double checking prints. This will allow
 
 Once you have your model, profile, and filament loaded, it is time for your first print! 
 
-\subsection{TAZ Mini}
 
-Select the Print/Control option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state “operational” before sending any commands to the printer. As soon as it is operational, all you need to do is hit print! This will allow your printer to set it's temperatures, go through the auto leveling procedure, and start laying down plastic.
-% (print control photo)
+\begin{comment} %%%% Turn the following on for standalone Cura manual %%%%
+\subsection{Mini}
+
+Select the \texttt{Print/Control} option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state \texttt{operational} before sending any commands to the printer..
+
 %\pageref{fig:Print Control}).
 \begin{figure}[hbt]
 \centering
@@ -221,35 +223,64 @@ Select the Print/Control option in the top left hand corner of your build volume
 
 \subsection{TAZ}
 
-TAZ users will need to decide if they want to print directly from their computer using the USB cable, or if they would like to print from their SD card. 
+TAZ users will need to decide if they want to print directly from their computer using the USB cable, or if they would like to print from their SD card.
+
+%%%% SD Printing %%%%
+\subsubsection{Printing from SD Card}
+\index{Printing from SD}
+
+Save your Gcode file to your SD card. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location. Insert the SD Card into the Graphical LCD Controller.
+
+\subsection{Set Temperature}
+
+Turn on the heated bed and hot end by using the Graphical LCD controller and navigating to: \texttt{Prepare} > \texttt{Preheat ABS or PLA}. If you are using other materials you can set your desired temperatures by going to \texttt{Control} > \texttt{Temperature} > \texttt{Nozzle/Bed}. Wait for your 3D printer to reach specified temperatures.
+
+\subsection{Start Print}
+\index{printing}
+Once at the desired printing temperature begin your print through your Graphical LCD controller by navigating to: \texttt{Print From SD} > and select the desired file.
+
+%%%% Tethered printing %%%%
 
 \subsubsection{Printing from USB Cable}
 \index{Printing from USB}
 
-Once your printer is connected through the USB cable, please select the Print/Control button. This will bring up the Pronterface UI (photo). You will not be able to send any commands until the new box is titled “operational.” Once it is, you will need to set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print.
-% (print control photo or reference above?)
+Connect your 3D printer using a USB cable and select the \texttt{Print/Control} button. This will bring up the Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. 
 
-\subsubsection{Printing from SD Card}
-\index{Printing from SD}
+\subsubsection{Set Temperature}
 
-You will need to save your Gcode file to your SD card. To do this, please go to File > Save Gcode > (select SD card). After putting the Gcode file to the SD card, you will need to insert it into the printer. Please be sure the metal tabs are facing forward. 
+Set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print.
 
-You will then need to pre heat your printer. You can do this for ABS and PLA by going to Prepare > Preheat ABS/PLA. If you are using other filaments, you can set your temperatures by going to Control > Temperature > Nozzle/Bed > (set specific temps). Then wait for printer to reach specified temps.
-% (Reference LCD section in manual?)
+\end{comment} 
 
-Once heated, you can begin your print through your LCD by going to Print From SD >  (Select Desired File).
+\subsection{Print control}
+
+Connect your 3D printer using a USB cable and select the \texttt{Print/Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
+%\pageref{fig:Print Control}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
+\caption{Print Control Screen}
+\label{fig:Print Control}
+\end{figure}
+
 
 \section{Removing Your First Print}
 \index{Removing a Print}
 
-After your first print has finished, you will want to remove it from your bed. Your parts will be easier to remove if you allow your heated bed to cool down completely before removing the part. This will allow the plastic to contract, making it easier to remove.
+After your first print has finished, remove it from your bed. Your parts will be easier to remove if you allow your heated bed to cool down completely before removing the part. This will allow the plastic to contract, making it easier to remove.
 
-Once your heated plate has cooled, you will want to use the blue clam knife that was included with your printer. Carefully use the clam knife to get between your print and heated bed. Once underneath the part, you can rotate the blade to pop the part off your plate.
+Once your heated bed has cooled, use the blue clam knife that was included with your printer to remove the item. Carefully use the clam knife to get between your print and heated bed. Once underneath the part, you can rotate the blade, lifting with the sharp edge, to gently pop the part off your plate.
+%\begin{figure}[hbt]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{remove_part.png} %%%% Photo needed %%%%
+%\caption{Remove Part}
+%\label{fig:Remove part}
+%\end{figure}
 
 \section{Full Settings}
 \index{Full Settings}
 
-When first starting Cura, you will be in QuickPrint settings. In order to have more control of your Gcode generation, you will need to switch to full settings. To do so you will need to go to Expert > Switch to full settings. This will give you access to the Basic, Advanced, Plugins, and Start/End-Gcode Tabs as well as access to the Expert Settings. % (expert photo)
+The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. Select \texttt{Expert} > \texttt{Switch to full settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-Gcode. You will also have access to the Expert Settings. 
 %\pageref{fig:Expert Options}).
 \begin{figure}[hbt]
 \centering
