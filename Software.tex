@@ -19,6 +19,39 @@ To operate your desktop 3D printer you will need to install a few software packa
 \glossary{GCODE}{The common name for the most widely used CNC programming language.}
 \glossary{CAD}{Computer Aided Design}
 
+\section{Software Types}
+\index{Printer Host}
+\index{Slicing}
+\index{Slicers}
+\index{gcode}
+\index{g-code}
+
+\begin{description}
+\item{Printer Hosts} \hfill \\
+Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura. as it includes the slicing engine as well.
+
+Common Printer Hosts:
+\begin{itemize}
+\item Cura
+\item Printrun (Pronterface)
+\item MatterControl
+\item OctoPrint
+\item Botqueue
+\end{itemize}
+
+\item{Slicers} \hfill \\
+These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the hot end toolpath based on the options selected. The slicing engine uses the nozzle diameter, printing and movement speeds, layer height and other variables to determine the coordinates where it needs to move and the rates at which it will do so. This information is exported out of the program as a gcode file. The gcode file is a plain-text file with a series of text-based codes and a list of the complete X,Y and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura. as it includes the printer host as well.
+
+Recommended Slicers:
+\begin{itemize}
+\item Cura
+\item Slic3r
+%\item Skeinforge
+%\item Sfact
+\end{itemize}
+
+\end{description}
+
 \index{GNU/Linux}
 \index{Apple OS X}
 \index{Windows}
@@ -30,7 +63,7 @@ The required software can be found in the Support/Downloads section at \texttt{L
 
 \index{driver}
 \section{Installing Drivers}
-Linux and Mac OSX users will not need to install a driver to communicate with the Mini 3D printer. Windows users will need to install the following drivers. The drivers can be downloaded from \texttt{LulzBot.com/support/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
+Linux and Mac OSX users will not need to install a driver to communicate with the Mini 3D printer. Windows users will need to install the drivers. Using Cura as your printer host and slicing software is recommended, as the drivers will automatically be installed. The drivers can also be downloaded from \texttt{LulzBot.com/support/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
 
 \index{pronterface}
 \index{printrun}
@@ -46,8 +79,7 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \label{Printrun}
 Website: \texttt{http://www.github.com/kliment/Printrun}
 
-The host software, Printrun, can be used to start up and control your 3D printer 
-(Figure \ref{fig:printrun}, page \pageref{fig:printrun}).
+The host software, Printrun, can be used to start up and control your 3D printer (Figure \ref{fig:printrun}, page \pageref{fig:printrun}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
