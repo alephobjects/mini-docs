@@ -28,7 +28,7 @@ To operate your desktop 3D printer you will need to install a few software packa
 
 \begin{description}
 \item{Printer Hosts} \hfill \\
-Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura. as it includes the slicing engine as well.
+Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura as it includes a slicing engine as well.
 
 Common Printer Hosts:
 \begin{itemize}
@@ -40,7 +40,7 @@ Common Printer Hosts:
 \end{itemize}
 
 \item{Slicers} \hfill \\
-These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the hot end toolpath based on the options selected. The slicing engine uses the nozzle diameter, printing and movement speeds, layer height and other variables to determine the coordinates where it needs to move and the rates at which it will do so. This information is exported out of the program as a gcode file. The gcode file is a plain-text file with a series of text-based codes and a list of the complete X,Y and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura. as it includes the printer host as well.
+These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, printing and movement speeds, layer height and other variables to determine the coordinates where it needs to move and the rates at which it will do so. This information is exported out of the program as a gcode file. The gcode file is a plain-text file with a series of text-based codes and a list of the complete X,Y and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura as it includes the printer host as well.
 
 Recommended Slicers:
 \begin{itemize}
@@ -89,7 +89,7 @@ The host software, Printrun, can be used to start up and control your 3D printer
 The host controls include: setting the extruder and print surface temperatures, manual control of each axis, and manual extrusion. The host is also where you can push print files (\texttt{.gcode}) to the 3D printer or load print files from the SD card for printing out model designs.
 
 \subsection{Installing Printrun}
-Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. We recommend using Pronterface, the graphical user interface for printrun, when setting up or troubleshooting the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.7-zip.org}.
+Printrun contains several different applications that can be used to control the Mini 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Pronterface is the graphical user interface for Printrun. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.7-zip.org}.
 
 \begin{itemize}
 \subsection{Windows Instructions}
@@ -98,7 +98,7 @@ Printrun contains several different applications that can be used to control the
 
 
 \subsection{Mac OSX Instructions}
-\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac-Mar2012.app} file to install.
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac-_____.app} file to install.
 
 \subsection{Linux Instructions}
 %\begin{itemize}
