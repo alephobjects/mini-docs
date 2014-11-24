@@ -151,12 +151,12 @@
 Linux and Mac OSX users will not need to install a driver to communicate with the Mini 3D printer. Windows users will. The drivers can be downloaded from \texttt{LulzBot.com/support/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
 
 \index{pronterface}
-\index{printrun}
+\index{Printrun}
 \index{pronsole}
 \index{plater}
 \index{stl}
 \section{Installing Printrun}
-Printrun contains several different applications that can be used to control the Mini 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for printrun, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
+Printrun contains several different applications that can be used to control the Mini 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for Printrun, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
 
 \begin{itemize}
 \subsection{Windows Instructions}
@@ -179,20 +179,20 @@ Run Printrun by issuing the following command:
 \texttt{python pronterface.py}
 \end{itemize}
 
-\index{printrun}
+\index{Printrun}
 \section{Using Printrun}
 
 %\begin{figure}[hbt]
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Printrun.png}
 \caption{Printrun}
-\label{fig:printrun}
+\label{fig:Printrun}
 \end{figure}
 
 Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start \& stop prints.
 
-The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Fig. \ref{fig:printrun_labels}, page \pageref{fig:printrun_labels}).
+The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Fig. \ref{fig:Printrun_labels}, page \pageref{fig:Printrun_labels}).
 
 \subsection{Connecting to the Mini 3D Printer}
 To connect to the printer, select the correct port by using the drop down arrow and selecting the active port. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. 
@@ -200,18 +200,18 @@ To connect to the printer, select the correct port by using the drop down arrow 
 %\begin{figure}[hbt]
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun-labels.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Printrun-labels.png}
 \caption{Printrun Functions}
-\label{fig:printrun-labels}
+\label{fig:Printrun-labels}
 \end{figure}
 
 \subsection{Movement} 
 %\begin{figure}[hbt]
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Printrun_controls.png}
 \caption{Movement Controls}
-\label{fig:printrun_controls}
+\label{fig:Printrun_controls}
 \end{figure}
 
 \subsubsection{Motors off}

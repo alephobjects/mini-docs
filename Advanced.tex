@@ -20,13 +20,13 @@ After you become familiar with printing using the default settings, a few advanc
 \index{nozzle}
 \glossary{Nozzle}{The metal tip at the bottom of the hot end. It has a small hole where the plastic filament comes out of the printer.}
 \index{high resolution}
-The Mini 3D printer ships with a standard 0.4mm nozzle which allows small-layer resolution and layers up to 0.4mm thick. Although the 0.4mm nozzle will be perfect for most printing applications, LulzBot plans on offering smaller and larger nozzle sizes in the future.
+The Mini 3D printer ships with a standard 0.5mm nozzle which allows small-layer resolution and layers up to 0.4mm thick. Although the 0.5mm nozzle will be perfect for most printing applications, LulzBot may offer smaller and larger nozzle sizes in the future.
 \glossary{Layer height}{The thickness of each individual deposited layer of the three-dimensional model when cut with a slicing program.}
 % Change the address to point to the 2.0 section when released.
 
 \index{hot end}
 \glossary{Hot end}{The hot end is the whole part where the plastic melts, including the nozzle, heater block, thermistor, and heat sink. The Budaschnozzle is LulzBot's\textsuperscript{\miniscule{\texttrademark}} hot end.}
-\index{threaded extension} The Hexagon hot end is the new all metal hot end used on LulzBot's\textsuperscript{\miniscule{\texttrademark}}.
+\index{threaded extension}{The Hexagon hot end is the new all metal hot end used on LulzBot's\textsuperscript{\miniscule{\texttrademark}}}.
 \glossary{Threaded extension}{Used to separate the heater block and nozzle from the PEEK insulator. The plastic filament passes through the threaded extension into the melting chamber.}
 \glossary{PEEK}{Polyether ether ketone: an organic polymer used to insulate the hot end due to its mechanical properties at elevated temperatures.}
 In most cases the nozzle is best changed when the hot end is slightly warm. NEVER try to remove the nozzle when the hot end is at extrusion temperature. At higher temperatures the threaded extension expands in the nozzle causing the nozzle to bind if turned. Heat the hot end to \texttt{160°C}. This will soften the plastic inside the hot end and allow the nozzle to be loosened off the threaded extension. Power off the printer and before it cools unscrew the nozzle. Take care when removing the nozzle while the hot end is hot. Wear leather gloves or use a towel to turn the nozzle off the hot end.
@@ -49,8 +49,8 @@ Once you have removed the nozzle you can then thread on the other nozzle size yo
 %\section{ABS/Acetone Glue}
 %\label{sec:ABS/Acetone Glue}
 %\index{acetone}
-\glossary{Acetone}{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS.}
-Acetone is not included or required with the Mini 3D printer.
+\glossary{Acetone}{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS.
+Acetone is not included or required with the Mini 3D printer.}
 
 %\index{ABS}
 %\textcolor{red}{Acetone can cause skin irritation when prolonged skin contact occurs. We recommend using acetone safe gloves when applying the ABS/acetone glue. Use the ABS/acetone glue in a well-ventilated space. Leave the mixture bottle closed except when applying a small amount to the wiping towel. Acetone liquid and vapors are highly flammable. Keep acetone away from open flames and high temperature sources, including the 3D printer. Read the warnings label on your purchased acetone packaging for additional warnings.}
@@ -74,14 +74,14 @@ The Mini 3D printer has a print surface of PEI. This printing surface can be use
 \glossary{PTFE}{Polytetrafluoroethylene is a synthetic fluoropolymer used in the Budaschnozzle for it's low coefficient of friction.}
 %\textcolor{red}{This procedure is highly advanced and involves disassembling parts of the printer, including the hot end. We recommend using 3mm plastic filament as we have yet to see major advantages to using 1.75mm filament. If you would still like to use 1.75mm filament make sure to follow the instructions carefully. You will run the risk of damaging the printer if the instructions are not followed correctly.}
 
-The Mini 3D printer is set up to use 3mm plastic filament by default. Although we recommend using 3mm filament, the Mini is also capable of printing 1.75mm filament. To print with 1.75mm filament you will need to purchase a 1.75mm compatible Hexagon hot end.
+The Mini 3D printer is set up to use 3mm plastic filament by default. Although we recommend using 3mm filament, the Mini is also capable of printing 1.75mm filament. To print with 1.75mm filament you will need to purchase a 1.75mm compatible Hexagon hot end or any other compatible hot end.
 
 
-To change out the PTFE tube:
+To change out the hot end:
 \begin{enumerate}
-\item Remove the plastic filament from the extruder if there is any currently loaded by bringing the hot end up to extrusion temp and backing out the filament in Printrun.
+\item Remove the plastic filament from the extruder if there is any currently loaded by bringing the hot end up to extrusion temp and pulling out the filament.
 
-\item Using the Printrun manual controls, raise the Z axis to 150mm.
+\item Using the printer host software's manual controls, raise the Z axis to 150mm.
 \item Turn off all power to the printer and allow the hot end to cool. Disconnect the hot end and extruder connectors on the extruder assembly.
 \item Using a 3mm hex driver loosen and remove the two 4mm screws from the bottom of the extruder X axis carriage. This will allow you to lift the extruder body and hot end off of the extruder mount. Set the extruder body aside.
 
@@ -91,4 +91,4 @@ To change out the PTFE tube:
 \item Finally, push 1.75mm filament through the extruder and into the hot end. This will align the filament travel path. Tighten the two 4mm screws from the bottom of the X axis carriage.
 \end{enumerate}
 
-Before printing with 1.75mm filament, make sure to make the needed changes in your slicing software (in Slic3r it can be found at \texttt{Filament Settings > Filament > Diameter} ) for 1.75mm filament. You will need to re-slice any previously sliced files with the new settings for 1.75mm filament.
+Before printing with 1.75mm filament, make sure to make the needed changes in your slicing software (in Slic3r it can be found at \texttt{Filament Settings > Filament > Diameter}; in Cura the setting can be found under the \texttt{Quick Settings} screen or under the \texttt{Basic} tab) for 1.75mm filament. You will need to re-slice any previously sliced files with the new settings for 1.75mm filament.
