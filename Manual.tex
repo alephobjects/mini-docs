@@ -84,7 +84,7 @@
 \newif\ifwarnings\warningstrue %true
 \newif\ifsetup\setupfalse %false
 \newif\ifsoftware\softwaretrue %true
-\newif\ifcura\curatrue %true
+\newif\ifcura\curafalse %false, to test inserting Cura prior to the other software packages. 
 \newif\ifslicer\slicertrue %true
 \newif\iffilament\filamentfalse %false
 \newif\iffirstprint\firstprintfalse %false
@@ -99,7 +99,7 @@
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue \slicertrue \softwaretrue \glcdfalse \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue \curatrue \slicertrue \softwaretrue \glcdfalse \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
