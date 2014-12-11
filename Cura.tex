@@ -337,7 +337,7 @@ This prints support material between the bed and object and also between the obj
 % (Support Comparison Photo)
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Support.JPG}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Support.jpg}
 \caption{Support Types}
 \label{fig:Different Types of Support}
 \end{figure}
@@ -462,7 +462,7 @@ Please be cautious when changing any of these start and end gcode settings. This
 Expert settings will give you more specific options for your retraction, skirt, active cooling, infill, support, brim, raft, and special settings. To gain access to this section you go to \texttt{Expert} > \texttt{Open Full Settings} or on your keyboard press \texttt{Control + E}.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert_Settings.png}
 \caption{View Expert Settings}
 \label{fig:Expert Settings}
 \end{figure}
@@ -473,7 +473,7 @@ Retraction pulls filament out of your nozzle when it is not extruding to prevent
 
 \subsection{Minimum Travel}
 \index{Minimum Travel}
-This sets the minimum travel distance of your printhead in order to retract. If your print head is not moving this far during dravel moves, it will not retract.
+This sets the minimum travel distance of your printhead in order to retract. If your print head is not moving this far during travel moves, it will not retract.
 
 \subsection{Combing}
 \index{Combing}
@@ -509,16 +509,16 @@ This section will define how your extruder cooling fan will operate during the p
 
 \subsection{Fan on at Full Height}
 \index{Fan Settings}
-This is your Z height where your fan will be turned to its maximum percentage. Especially helpful with high temperature retaining filaments such as PLA. This will be scaled between 0\%, and your maximum fan speed based upon layer height with it being disabled for the first layer.
+This is your Z height where your fan will be turned on to its minimum percentage setting. Especially helpful with high temperature retaining filaments such as PLA. This will be scaled between 0\%, and your minimum fan speed based upon layer height; with it being disabled for the first layer.
 
 \subsection{Fan Speed Min}
 \index{Fan Settings}
 
-This will be the minimum fan speed when enabled. If fan on at full height is enabled, this will be the minimum speed and it will scale to the maximum speed at that height.
+This will be the speed your fan runs when enabled at full height. Once the Z height is reached for Fan on at Full Height, this will be the speed your fan runs at.
 
 \subsection{Fan Speed Max}
 \index{Fan Settings}
-This is the fastest speed at which your will ever run. When Fan on at Full Height is enabled, this is the speed at which it will be set.
+This is the fastest speed at which your fan will ever run. When your print speed is slowed down due to minimal layer time, your fan will run between minimum and maximum speed. The maximum fan speed is reached when your printer must be slowed by 50\% or greater.
 
 \section{Support}
 \index{Support Material}
