@@ -15,7 +15,8 @@
 
 \subsection{Setup Cura}
 \index{Installation}
-Cura is available for download on our website at \texttt{https://www.lulzbot.com/support/downloads}. When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your desired language, and your printer.
+Cura is available for download on our website at \texttt{https://www.lulzbot.com/support/downloads}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
+When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer.
 
 \textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.}
 
@@ -39,7 +40,7 @@ Once the installation wizard finishes you can move forward with your first print
 \label{fig:Cura}
 \end{figure} 
 % (photo highlighting profile, material, diameter, and other)
-After setting up Cura for the first time, you will be prompted with this screen (Fig. \ref{fig:Cura}, page \pageref{fig:Cura}): 
+After setting up Cura for the first time, you will be shown the main interface screen. (Fig. \ref{fig:Cura}, page \pageref{fig:Cura}): 
 
 \subsection{Selecting a Quick Print Profile}
 \index{Quick Print Profile}
@@ -63,7 +64,8 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \subsection{Material Selection}
 \index{Material Selection}
 \index{filament}
-Choose your desired filament. If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. %You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This would be better served in the Full Settings explination.
+Choose your desired filament. The Lulzbot Mini ships with a 1 meter sample of HIPS, and should be used in your first print.
+%If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. %You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This would be better served in the Full Settings explination.
 
 \subsection{Printing Support Material}
 \index{Support Material}
@@ -82,7 +84,7 @@ Select the model you would like to print. Either use the \texttt{Load Model} but
 
 \subsection{Model Orientation}
 \index{Orientation}
-Move your model to change where it is printed on the build plate. Do this by clicking and dragging your model to the desired location. The \texttt{black} outlined corner represents the lower left hand corner of the build plate on your printer. 
+Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner represents the lower left hand corner of the build plate on your printer. You can also Right Click and hold in the build screen, to view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Options.png}
@@ -93,7 +95,8 @@ Move your model to change where it is printed on the build plate. Do this by cli
 \subsubsection{Rotate}
 %%%% Alternate explanation %%%%
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
-The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow}{Yellow circle} will rotate around the \textcolor{yellow}{Y axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X axis}.
+\definecolor{yellow1}{cmyk}{0,0,1,0.30}
+The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X axis}.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -120,7 +123,7 @@ The \texttt{Reset} button will return your model to the original orientation as 
 %\end{figure}
 
 \subsubsection{Scale}
-The \texttt{Scale} button displays the model dimensions, along with the ability to scale along the X Y or Z axes. As a default, it will be set to uniform scaling. This will cause the X Y and Z axes to be scaled by the same amount when you make a change to any of them. To disable this, select the lock in the lower section of the scaling window. 
+The \texttt{Scale} button displays the model dimensions, along with the ability to scale along the X Y or Z axes. Anything \texttt{below} the number \texttt{1.0} will reduce the objects size, while anything \texttt{above} the number \texttt{1.0} will increase the objects size. As a default, it will be set to uniform scaling. This will cause the X Y and Z axes to be scaled by the same amount when you make a change to any of them. To disable this, select the lock in the lower section of the scaling window. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Scale.png}
@@ -136,7 +139,7 @@ This mode allows you to view your model in a variety of different ways. This can
 This is the standard view and shows the solid outer surfaces of the model. 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{View.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{View.png}
 \caption{View in Normal Mode}
 \label{fig:Normal View}
 \end{figure}
@@ -146,7 +149,7 @@ This is the standard view and shows the solid outer surfaces of the model.
 Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{overhang.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{overhang.png}
 \caption{View in Overhang}
 \label{fig:Overhang_View}
 \end{figure}
@@ -156,7 +159,7 @@ Overhang mode shows where your model may need support material. In Fig. \ref{fig
 Ghost view mode makes the model translucent to allow you to see what is behind it.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Ghost.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{Ghost.png}
 \caption{View in Ghost}
 \label{fig:Ghost View}
 \end{figure}
@@ -166,7 +169,7 @@ Ghost view mode makes the model translucent to allow you to see what is behind i
 Xray is very similiar to Ghost mode. It will alow you to see into objects, ensuring that inner details are correct.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Xray2.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{Xray2.png}
 \caption{View in Xray}
 \label{fig:Xray View}
 \end{figure}
@@ -176,15 +179,15 @@ Xray is very similiar to Ghost mode. It will alow you to see into objects, ensur
 To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{layers.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers.png}
 \caption{View in Layers}
 \label{fig:Layers View}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{layers2.png}
-\caption{View in Layers}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers2.png}
+\caption{Viewing Specific Layers}
 \label{fig:Mid Layers View}
 \end{figure}
 
@@ -236,21 +239,21 @@ Set your temperatures for the hot end and the bed. You will see two boxes, one l
 
 \end{comment} 
 
-\subsection{Print control}
-
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Print/Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
+\subsection{Control}
+\index{Control}
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
 %\pageref{fig:Print Control}).
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
-\caption{Print Control Screen}
-\label{fig:Print Control}
+\caption{Control Screen}
+\label{fig:Control}
 \end{figure}
 
 
 \section{Removing Your First Print}
 \index{Removing a Print}
-After your first print has finished, remove it from your bed. Your parts will be easier to remove if you allow your heated bed to cool down completely. This will allow the plastic to contract, making it easier to remove.
+After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down completely. This will allow the plastic to contract, making it easier to remove. \texttt{Your print bed will move forward once it is ready to be removed.}
 
 Once your heated bed has cooled, use the blue clam knife that was included with your printer to remove the item. Carefully use the clam knife to get between your print and heated bed. Once underneath the part rotate the blade- lifting with the sharp edge to gently pop the part off your plate.
 %\begin{figure}[hbt]
@@ -262,6 +265,7 @@ Once your heated bed has cooled, use the blue clam knife that was included with 
 
 \section{Full Settings}
 \index{Full Settings}
+\textcolor{red}{Full settings should not be used until a decent amount of 3D printing experience has been acquired. The simple settings will provide good results for most models.}
 The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. Select \texttt{Expert} > \texttt{Switch to full settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-Gcode. You will also have access to the Expert Settings. 
 \begin{figure}[H]
 \centering
@@ -289,7 +293,7 @@ The thickness of each printed layer is known as the \texttt{Layer Height}. The s
 % (Layer height comparision photos)
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Layerheight.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Layer_Height.jpg}
 \caption{Differences in Layer Height}
 \label{fig:Differences in Layer Height}
 \end{figure}
@@ -307,7 +311,7 @@ Retraction allows your printer to pull filament out of the hot end upon travel m
 \subsubsection{Bottom/Top Thickness (mm)}
 \index{Bottom Thickness}
 \index{Top Thickness}
-Also known as \texttt{Surface Layers}- this will determine the number of of solid top and bottom layers. A larger number here will create a thicker top and bottom which can be helpful for strength and quality purposes. We recommend keeping this number as an even multiple of your layer height.
+Also known as \texttt{Surface Layers}- this will determine how thick the top and bottom layers are. A larger number here will create a thicker top and bottom which can be helpful for strength, bridging, and quality purposes. We recommend keeping this number as a multiple of your layer height.
 
 \subsubsection{Fill Density}
 \index{Fill Density}
