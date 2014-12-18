@@ -64,7 +64,7 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \subsection{Material Selection}
 \index{Material Selection}
 \index{filament}
-Choose your desired filament. The Lulzbot Mini ships with a 1 meter sample of HIPS, and should be used in your first print.
+Choose your desired filament. The Lulzbot Mini ships with a 1 meter sample of HIPS, that should be used in your first print.
 %If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. %You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This would be better served in the Full Settings explination.
 
 \subsection{Printing Support Material}
@@ -253,9 +253,9 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 
 \section{Removing Your First Print}
 \index{Removing a Print}
-After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down completely. This will allow the plastic to contract, making it easier to remove. \texttt{Your print bed will move forward once it is ready to be removed.}
+After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. \texttt{Your print bed will move forward once it is ready to be removed.}
 
-Once your heated bed has cooled, use the blue clam knife that was included with your printer to remove the item. Carefully use the clam knife to get between your print and heated bed. Once underneath the part rotate the blade- lifting with the sharp edge to gently pop the part off your plate.
+Once your heated bed has cooled, use the blue handled knife that was included with your printer to remove the item. Carefully use the knife to get between your print and heated bed. Once underneath the part rotate the blade- lifting with the sharp edge into the part, to gently pop the piece off your plate.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{remove_part.png} %%%% Photo needed %%%%
@@ -305,7 +305,7 @@ This defines the number of vertical walls that comprise the outside of your mode
 
 \subsubsection{Enable Retraction}
 \index{Retraction}
-Retraction allows your printer to pull filament out of the hot end upon travel moves to move between printing points cleanly. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
+Retraction tells your printer to pull filament out of the hot end upon travel moves. Travel moves are when your print head moves from one area of the print, to another without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
 %(Details given in advanced tab section. ((Reference?))
 
 \subsubsection{Bottom/Top Thickness (mm)}
@@ -319,7 +319,7 @@ This number is expressed as a percentage. 0\% will give a completely hollow prin
 
 \subsubsection{Print Speed (mm/s)}
 \index{Print Speed}
-Your overall printing speed can be adjusted here. If no other speeds are determined in the later sections your printer will automatically default to this speed. 
+Your overall printing speed can be adjusted here. If no other speeds are determined in the later sections your printer will automatically default to this speed. This speed will be different, depending on what type of filament you are using.
 
 \subsubsection{Printing Temperature}
 \index{Printing Temperature}
@@ -332,7 +332,7 @@ When using different filament materials you'll need to update the desired hot en
 Some models will require support material in order to print properly. This will usually occur when an object has an angle in relation to the build plate between 0 to 45 degrees. It is highly recommended to orient your object so that it minimizes or eliminates the need for support.
 
 \subsubsection{Touching Buildplate}
-This causes the support material to build up between the contact points of heated bed and the object. The orange example is Touching Buildplate.
+This causes the support material to build up between the contact points of heated bed and the object. The red example is Touching Buildplate.
 % (Photo of Circle inside a square, that is printed vertically. Have samples on photo table. Reference photo below?)
 
 \subsubsection{Everywhere}
@@ -341,7 +341,7 @@ This prints support material between the bed and object and also between the obj
 % (Support Comparison Photo)
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Support.jpg}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Support_Revised.jpg}
 \caption{Support Types}
 \label{fig:Different Types of Support}
 \end{figure}
@@ -388,8 +388,7 @@ Retraction Distance determines how much filament is pulled out of your hot end o
 
 \subsection{Initial Layer Thickness}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help with part removal. A smaller initial layer height will help with part adhesion.
-
+This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate.
 \subsection{Initial Layer Line Width}
 \index{Initial Layer Width}
 This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended.
@@ -418,7 +417,7 @@ This will control your initial layer speed. In general, a slower initial layer s
 
 \subsection{Infill Speed}
 \index{Infill Speed}
-Print head speed while laying down the interior portion of your model. Faster speeds are usually tolerable here, as none of the infill will be visible from the outside of your object. If you go too fast compared to your inner and outer shells, you can have adhesion issues or retraction artifacts.
+This is how fast your print head speed will be while laying down the interior portion of your model. Faster speeds are usually tolerable here, as none of the infill will be visible from the outside of your object. If you go too fast compared to your inner and outer shells, you can have adhesion issues or globs of filament left behind from the printhead.
 
 \subsection{Outer Shell Speed}
 \index{Outer Shell Speed}
@@ -493,7 +492,7 @@ This will raise your print head Xmm while retracting. This setting helps prevent
 
 \section{Skirt}
 \index{Skirt}
-Skirt creates a line around the outside of your object. Most commonly used to prime the extruder, in order prevent missed filament at the beginning of a print. Leave this setting on.
+Skirt creates a line around the outside of your object. Most commonly used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on.
 
 \subsection{Line Count}
 \index{Line Count}
