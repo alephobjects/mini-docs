@@ -332,11 +332,11 @@ When using different filament materials you'll need to update the desired hot en
 Some models will require support material in order to print properly. This will usually occur when an object has an angle in relation to the build plate between 0 to 45 degrees. It is highly recommended to orient your object so that it minimizes or eliminates the need for support.
 
 \subsubsection{Touching Buildplate}
-This causes the support material to build up between the contact points of heated bed and the object. The red example is Touching Buildplate.
+This causes the support material to build up between the heated bed and the object. The red example is Touching Buildplate.
 % (Photo of Circle inside a square, that is printed vertically. Have samples on photo table. Reference photo below?)
 
 \subsubsection{Everywhere}
-This prints support material between the bed and object and also between the object and itself. The green example is Support Everywhere.
+This prints support material between the heated bed and object as well as between the object and itself. The green example is Support Everywhere.
 % (Photo of Circle inside a square, that is printed vertically, sample on photo table. Reference Photo Below?)
 % (Support Comparison Photo)
 \begin{figure}[H]
@@ -383,15 +383,15 @@ Retraction Speed determines the speed at which your filament is reversed out of 
 
 \subsection{Retraction Distance}
 \index{Retraction Distance}
-Retraction Distance determines how much filament is pulled out of your hot end on travel moves and when changing direction. You will want to adjust this depending on temperature settings and filament type. Higher thermal retaining filaments behave better with a longer retraction distance. We have found anywhere from 1mm to 3mm is a good starting range.
+Retraction Distance determines how much filament is pulled out of your hot end on travel moves and when changing direction. You will want to adjust this depending on temperature settings and filament type. Higher thermal retaining filaments such as PLA behave better with a longer retraction distances. We have found anywhere from 1mm to 3mm is a good starting range.
 % changed from "1 to 6mm" to remain conservative.
 
 \subsection{Initial Layer Thickness}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate.
+This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. \textcolor{red}{Your TAZ Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 \subsection{Initial Layer Line Width}
 \index{Initial Layer Width}
-This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended.
+This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your TAZ Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 
 \subsection{Cut Off Object Bottom (mm)}
 \index{Cut Off Object}
@@ -429,7 +429,7 @@ This affects vertical walls that are in between the outer shell and infill. This
 
 \subsection{Minimal Layer Time}
 \index{Minimal Layer Time}
-This will determine a minimum amount of time your printer will spend laying down each layer. If your layer print time falls below this your printer will automatically slow down to reach this time before moving onto the next layer.
+This will determine a minimum amount of time your printer will spend laying down each layer. If your layer print time falls below this your printer will automatically slow down to reach this time before moving onto the next layer. Tweaking this can help get cleaner, crisper prints.
 
 \subsection{Enable Cooling Fan}
 \index{Enabling Cooling Fan}
@@ -447,7 +447,7 @@ Plugins are custom settings which will alter your print at specific points. The 
 
 \subsection{Tweak at Z}
 \index{Tweak at Z}
-Make basic changes at specified Z heights. You can determine the Z height or layer count at which you want to make a change. Then choose how you would like to change your settings. You can alter temperatures, fan speeds, and print speeds.
+Make basic changes at specified Z heights. You can determine the Z height or layer count at which you want to make a change. Then choose how you would like to change your settings. You can alter temperatures, fan speeds, and print speeds. Fine tuning these for specific STL files, can produce cleaner prints.
 
 \subsection{Pause at Z Height}
 \index{Pause at Z Height}
@@ -472,7 +472,7 @@ Expert settings will give you more specific options for your retraction, skirt, 
 
 \section{Retraction}
 \index{Retraction}
-Retraction pulls filament out of your nozzle when it is not extruding to prevent your print head from dripping on your object.This section is where you will control how your extruder retracts its filament.
+Retraction pulls filament out of your nozzle when it is not extruding to prevent your print head from dripping on your object. This section is where you will control how your extruder retracts its filament.
 
 \subsection{Minimum Travel}
 \index{Minimum Travel}
