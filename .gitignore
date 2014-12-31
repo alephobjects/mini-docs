@@ -4,3 +4,8 @@
 *.log
 *~
 *.pdf
+*.gls
+*.ilg
+*.ind
+*.lof
+*.toc
