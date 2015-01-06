@@ -23,7 +23,7 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 \begin{itemize}
 \item Download the appropriate installer for your computer operating system.
 \item Install Cura by double clicking on the installer.
-\item Once your language has been selected, select \texttt{Next}.
+%\item Once your language has been selected, select \texttt{Next}.
 \item Select \texttt{Lulzbot Mini}. 
 \item Once the proper printer is selected, select \texttt{Next}. 
 \end{itemize}
@@ -136,7 +136,8 @@ The \texttt{Scale} button displays the model dimensions, along with the ability 
 This mode allows you to view your model in a variety of different ways. This can be helpful for spotting issues before the print even starts. 
 
 \subsection{Normal}
-This is the standard view and shows the solid outer surfaces of the model. 
+This is the standard view and shows the solid outer surfaces of the model. (Fig. \ref{fig:Normal View}, page \pageref{fig:Normal View}): 
+
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{View.png}
@@ -245,7 +246,7 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 %\pageref{fig:Print Control}).
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Pronterface117.png}
 \caption{Control Screen}
 \label{fig:Control}
 \end{figure}
@@ -379,11 +380,11 @@ This defines your nozzle size. The slicing engine uses this value combined with 
 
 \subsection{Retraction Speed (mm/s)}
 \index{Retraction Speed}
-Retraction Speed determines the speed at which your filament is reversed out of the hot end for travel moves and when changing direction when printing. We recommend keeping this set to 25mm/s.
+Retraction Speed determines the speed at which your filament is reversed out of the hot end for travel moves and when changing direction during printing. We recommend keeping this set to 25mm/s.
 
 \subsection{Retraction Distance}
 \index{Retraction Distance}
-Retraction Distance determines how much filament is pulled out of your hot end on travel moves and when changing direction. You will want to adjust this depending on temperature settings and filament type. Higher thermal retaining filaments such as PLA behave better with a longer retraction distances. We have found anywhere from 1mm to 3mm is a good starting range.
+Retraction Distance determines how much filament is pulled out of your hot end on travel moves and when changing direction. You will want to adjust this depending on temperature settings and filament type. Higher thermal retaining filaments such as PLA behave better with a longer retraction distance. We have found anywhere from 1mm to 3mm is a good starting range.
 % changed from "1 to 6mm" to remain conservative.
 
 \subsection{Initial Layer Thickness}
@@ -458,7 +459,7 @@ Pause your print at a specified height. You can also specify where to move the p
 Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/support/downloads}
 
 \subsection{Mini Specific Considerations}
-Please be cautious when changing any of these start and end gcode settings. This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer. If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@LulzBot.com} before hand.
+Please be cautious when changing any of these start and end gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@LulzBot.com} before hand.
 
 \section{Expert Settings}
 \index{Expert Settings}
@@ -596,7 +597,7 @@ This will determine how wide the top layers of the platform will be. In general,
 
 \subsection{Airgap}
 \index{Airgap}
-This will define the distance between your raft and your print. A larger gap will make your part easier to remove, but will make the bottom of your print looks worse.
+This will define the distance between your raft and your print. A larger gap will make your part easier to remove, but will make the bottom of your print look worse.
 
 \subsection{Surface Layers}
 \index{Surface Layers}
