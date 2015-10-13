@@ -1,92 +1,91 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Printrun application for 3D printer control}}{16}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Printrun}}{18}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Printrun Functions}}{19}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Movement Controls}}{20}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Quick Print Settings}}{16}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Options after selecting model}}{18}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Rotating your Model}}{19}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Scaling your Model}}{20}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces View in Normal Mode}}{21}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces View in Overhang}}{21}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces View in Ghost}}{22}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces View in Xray}}{22}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces View in Layers}}{23}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Viewing Specific Layers}}{23}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Control Screen}}{24}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces View in Full Settings}}{25}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Differences in Layer Height}}{26}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Support Types}}{28}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Cutoff Example}}{31}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces View of Plugins}}{33}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces View Expert Settings}}{35}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Printrun application for 3D printer control}}{42}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Printrun}}{44}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Printrun Functions}}{46}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Movement Controls}}{46}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Quick Print Settings}}{27}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Options after selecting model}}{29}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Rotating your Model}}{30}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Scaling your Model}}{31}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces View in Normal Mode}}{32}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces View in Overhang}}{33}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces View in Ghost}}{34}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces View in Xray}}{35}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces View in Layers}}{36}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces View in Layers}}{36}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Print Control Screen}}{37}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces View in Full Settings}}{38}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Differences in Layer Height}}{39}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Support Types}}{41}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Cutoff Example}}{44}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces View of Plugins}}{46}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces View Expert Settings}}{48}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Configuration Wizard: Welcome Screen}}{60}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Configuration Wizard: Firmware Type}}{61}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Configuration Wizard: Bed Size}}{62}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Configuration Wizard: Nozzle Diameter}}{63}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Configuration Wizard: Filament Diamter}}{64}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Configuration Wizard: Extrusion Temperature}}{65}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Configuration Wizard: Bed Temperature}}{66}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Configuration Wizard: End}}{67}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Shapesmith online CAD tool.}}{71}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Plater}}{72}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Minimug model.}}{73}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces STL file loaded.}}{73}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Preferences.}}{75}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Simple Mode: Print Settings.}}{76}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces An example of insufficient top layers.}}{77}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Creating a vase from a solid model.}}{78}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces An example of an object printed with support material.}}{79}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces An example of brim.}}{80}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Simple Mode: Filament Settings.}}{81}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Simple Mode: Printer Settings.}}{82}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Expert mode speed options.}}{85}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Infill pattern settings.}}{88}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Infill pattern: Line (344.51mm / 5m:20s)}}{88}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Infill pattern: Rectilinear (350.57mm / 5m:23s)}}{88}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Infill pattern: Concentric (351.80mm / 5m:30s)}}{89}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Infill pattern: Honeycomb (362.73mm / 5m:39s)}}{89}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Infill pattern: Hilbert Curve (332.82mm / 5m:28s)}}{89}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Infill pattern: Archimedean Chords (333.66mm / 5m:27s)}}{89}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Infill pattern: Octagram Spiral (318.63mm / 5m:15s)}}{90}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Infill pattern comparison in a complex object. Left to Right: honeycomb, line}}{90}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Infill patterns at varying densities. Left to Right: 20\%,40\%,60\%,80\%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral}}{91}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Infill advanced settings.}}{92}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Retraction settings.}}{93}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Skirt settings.}}{95}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Cooling strategy.}}{96}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Cooling advanced settings.}}{98}
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Support structure options.}}{99}
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Minimug model, tilted 45°.}}{100}
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Support infill pattern: Rectilinear}}{101}
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Support infill pattern: Rectilinear Grid}}{101}
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Support infill pattern: Honeycomb}}{101}
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Example of pattern angle rotated 45°.}}{102}
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Multiple extruder options - Printer Settings Tab (General). Note the two extruders defined in the left-hand pane.}}{103}
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Multiple extruder options - Printer Settings Tab (Extruder).}}{103}
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Plater with multiple filament options.}}{104}
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Multiple extruder options - Print Settings Tab.}}{105}
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{105}
-\contentsline {figure}{\numberline {3.48}{\ignorespaces Extrusion widths options.}}{107}
-\contentsline {figure}{\numberline {3.49}{\ignorespaces Example model highlighting use case for variable layer heights.}}{108}
-\contentsline {figure}{\numberline {3.50}{\ignorespaces Example with normal layer height.}}{109}
-\contentsline {figure}{\numberline {3.51}{\ignorespaces Variable layer height options - Info.}}{110}
-\contentsline {figure}{\numberline {3.52}{\ignorespaces Variable layer height options - Layers.}}{111}
-\contentsline {figure}{\numberline {3.53}{\ignorespaces Example with variable layer height.}}{111}
-\contentsline {figure}{\numberline {3.54}{\ignorespaces Example print with variable layer height.}}{112}
-\contentsline {figure}{\numberline {3.55}{\ignorespaces Example with skipped layers.}}{112}
-\contentsline {figure}{\numberline {3.56}{\ignorespaces Saving a profile.}}{114}
-\contentsline {figure}{\numberline {3.57}{\ignorespaces Deleting a profile.}}{114}
-\contentsline {figure}{\numberline {3.58}{\ignorespaces FreeCAD part repair.}}{115}
-\contentsline {figure}{\numberline {3.59}{\ignorespaces Sequential printing options.}}{116}
-\contentsline {figure}{\numberline {3.60}{\ignorespaces The clearance cylinder around an extruder.}}{117}
-\contentsline {figure}{\numberline {3.61}{\ignorespaces Post-processing script option.}}{123}
-\contentsline {figure}{\numberline {3.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{123}
-\contentsline {figure}{\numberline {3.63}{\ignorespaces Example post-processing script to print each line to output.}}{124}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Configuration Wizard: Welcome Screen}}{56}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Configuration Wizard: Firmware Type}}{57}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Configuration Wizard: Bed Size}}{58}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Configuration Wizard: Nozzle Diameter}}{59}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Configuration Wizard: Filament Diamter}}{60}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Configuration Wizard: Extrusion Temperature}}{61}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Configuration Wizard: Bed Temperature}}{62}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Configuration Wizard: End}}{63}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Shapesmith online CAD tool.}}{67}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Plater}}{68}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Minimug model.}}{69}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces STL file loaded.}}{69}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Preferences.}}{71}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Simple Mode: Print Settings.}}{72}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces An example of insufficient top layers.}}{73}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Creating a vase from a solid model.}}{74}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces An example of an object printed with support material.}}{75}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces An example of brim.}}{76}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Simple Mode: Filament Settings.}}{77}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Simple Mode: Printer Settings.}}{78}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Expert mode speed options.}}{81}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Infill pattern settings.}}{84}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Infill pattern: Line (344.51mm / 5m:20s)}}{84}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Infill pattern: Rectilinear (350.57mm / 5m:23s)}}{84}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Infill pattern: Concentric (351.80mm / 5m:30s)}}{85}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Infill pattern: Honeycomb (362.73mm / 5m:39s)}}{85}
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Infill pattern: Hilbert Curve (332.82mm / 5m:28s)}}{85}
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Infill pattern: Archimedean Chords (333.66mm / 5m:27s)}}{85}
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Infill pattern: Octagram Spiral (318.63mm / 5m:15s)}}{86}
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Infill pattern comparison in a complex object. Left to Right: honeycomb, line}}{86}
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Infill patterns at varying densities. Left to Right: 20\%,40\%,60\%,80\%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral}}{87}
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Infill advanced settings.}}{88}
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Retraction settings.}}{89}
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Skirt settings.}}{91}
+\contentsline {figure}{\numberline {2.35}{\ignorespaces Cooling strategy.}}{93}
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Cooling advanced settings.}}{94}
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Support structure options.}}{96}
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Minimug model, tilted 45°.}}{97}
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Support infill pattern: Rectilinear}}{97}
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Support infill pattern: Rectilinear Grid}}{97}
+\contentsline {figure}{\numberline {2.41}{\ignorespaces Support infill pattern: Honeycomb}}{98}
+\contentsline {figure}{\numberline {2.42}{\ignorespaces Example of pattern angle rotated 45°.}}{98}
+\contentsline {figure}{\numberline {2.43}{\ignorespaces Multiple extruder options - Printer Settings Tab (General). Note the two extruders defined in the left-hand pane.}}{99}
+\contentsline {figure}{\numberline {2.44}{\ignorespaces Multiple extruder options - Printer Settings Tab (Extruder).}}{99}
+\contentsline {figure}{\numberline {2.45}{\ignorespaces Plater with multiple filament options.}}{100}
+\contentsline {figure}{\numberline {2.46}{\ignorespaces Multiple extruder options - Print Settings Tab.}}{101}
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{101}
+\contentsline {figure}{\numberline {2.48}{\ignorespaces Extrusion widths options.}}{103}
+\contentsline {figure}{\numberline {2.49}{\ignorespaces Example model highlighting use case for variable layer heights.}}{104}
+\contentsline {figure}{\numberline {2.50}{\ignorespaces Example with normal layer height.}}{105}
+\contentsline {figure}{\numberline {2.51}{\ignorespaces Variable layer height options - Info.}}{106}
+\contentsline {figure}{\numberline {2.52}{\ignorespaces Variable layer height options - Layers.}}{107}
+\contentsline {figure}{\numberline {2.53}{\ignorespaces Example with variable layer height.}}{107}
+\contentsline {figure}{\numberline {2.54}{\ignorespaces Example print with variable layer height.}}{108}
+\contentsline {figure}{\numberline {2.55}{\ignorespaces Example with skipped layers.}}{108}
+\contentsline {figure}{\numberline {2.56}{\ignorespaces Saving a profile.}}{110}
+\contentsline {figure}{\numberline {2.57}{\ignorespaces Deleting a profile.}}{110}
+\contentsline {figure}{\numberline {2.58}{\ignorespaces FreeCAD part repair.}}{111}
+\contentsline {figure}{\numberline {2.59}{\ignorespaces Sequential printing options.}}{112}
+\contentsline {figure}{\numberline {2.60}{\ignorespaces The clearance cylinder around an extruder.}}{113}
+\contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{119}
+\contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{119}
+\contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{120}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
