@@ -2,17 +2,17 @@
 \glossitem {\memgloterm{.gcode}}{\memglodesc{The file extension for G-Code files}} {\memgloref{}}{\memglonum{
 		\memjustarg{14}}}
 \glossitem {\memgloterm{3D Printer}}{\memglodesc{Also referred to as additive manufacturing, is the process of fabricating objects from 3D model data, through the deposition of a material in accumulative layers.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 
   \indexspace
 
 \glossitem {\memgloterm{Acetone}}{\memglodesc{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS. Acetone is not included or required with the Mini 3D printer.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 
   \indexspace
 
 \glossitem {\memgloterm{Baud Rate}}{\memglodesc{Refers to the speed at which the host controller communicates with the 3d Printer electronics.}} {\memgloref{}}{\memglonum{
-		\memjustarg{45}}}
+		\memjustarg{46}}}
 
   \indexspace
 
@@ -32,40 +32,40 @@
   \indexspace
 
 \glossitem {\memgloterm{Heater block}}{\memglodesc{Machined from aluminum, the heater block generates heat with a heater resistor and uses a thermistor to measure the temperature.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 \glossitem {\memgloterm{Heater resistor}}{\memglodesc{A special type of resistor that is used to apply heat in a small area.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 \glossitem {\memgloterm{Hot end}}{\memglodesc{The hot end is the whole part where the plastic melts, including the nozzle, heater block, thermistor, and heat sink. The Budaschnozzle is LulzBot's\textsuperscript {\relax \fontsize  {7}{8}\selectfont  {\texttrademark }} hot end.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 
   \indexspace
 
 \glossitem {\memgloterm{Layer height}}{\memglodesc{The thickness of each individual deposited layer of the three-dimensional model when cut with a slicing program.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 
   \indexspace
 
 \glossitem {\memgloterm{Nozzle}}{\memglodesc{The metal tip at the bottom of the hot end. It has a small hole where the plastic filament comes out of the printer.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 
   \indexspace
 
 \glossitem {\memgloterm{PEEK}}{\memglodesc{Polyether ether ketone: an organic polymer used to insulate the hot end due to its mechanical properties at elevated temperatures.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 \glossitem {\memgloterm{PEI}}{\memglodesc{Polyetherimide.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 \glossitem {\memgloterm{PTFE}}{\memglodesc{Polytetrafluoroethylene is a synthetic fluoropolymer used in the Budaschnozzle for it's low coefficient of friction.}} {\memgloref{}}{\memglonum{
-		\memjustarg{131}}}
+		\memjustarg{133}}}
 
   \indexspace
 
 \glossitem {\memgloterm{RAMBo}}{\memglodesc{[R]epRap [A)]duino-[M]ega compatible [M]other [Bo]ard. Designed by Joynnyr of Ultimachine.}} {\memgloref{}}{\memglonum{
-		\memjustarg{128}}}
+		\memjustarg{130}}}
 
   \indexspace
 
 \glossitem {\memgloterm{Thermistor}}{\memglodesc{A special type of resistor that changes resistance based on temperature. It is used to measure temperature on the nozzle and the heated bed.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 \glossitem {\memgloterm{Threaded extension}}{\memglodesc{Used to separate the heater block and nozzle from the PEEK insulator. The plastic filament passes through the threaded extension into the melting chamber.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
+		\memjustarg{132}}}
 \end{theglossary}

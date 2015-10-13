@@ -1,292 +1,291 @@
 \begin{theindex}
 {\normalsize \bfseries\hfil\ A \ \hfil}\nopagebreak
 
-  \item acetone, 127
+  \item acetone, 129
   \item Adhesion Type, 29
   \item Advanced Options, 30
-  \item advanced techniques, 130
-  \item Airgap, 40
-  \item aluminum panels, 134
-  \item AMF, 66
-  \item Apple OS X, 15, 48, 49
+  \item advanced techniques, 132
+  \item Airgap, 41
+  \item aluminum panels, 136
+  \item AMF, 68
+  \item Apple OS X, 15, 49, 50
 
   \indexspace
 {\normalsize \bfseries\hfil\ B \ \hfil}\nopagebreak
 
-  \item Base Line Width, 40
-  \item Base Thickness, 40
-  \item Basic Options, 26
-  \item baud rate, 45
-  \item bed plate, 134
-  \item belts, 127
-  \item bill of materials, 134
-  \item binaries, 53
-  \item Black Magic, 38, 39
-  \item Blender, 49
-  \item blog, 122
-  \item BotQueue, 49
+  \item Base Line Width, 41
+  \item Base Thickness, 41
+  \item Basic Options, 27
+  \item baud rate, 46
+  \item bed plate, 136
+  \item belts, 129
+  \item bill of materials, 136
+  \item binaries, 55
+  \item Black Magic, 39, 40
+  \item Blender, 50
+  \item blog, 124
+  \item BotQueue, 50
   \item Bottom Layer Speed, 32
-  \item Bottom Thickness, 27
-  \item Brim, 17, 29, 39
+  \item Bottom Thickness, 28
+  \item Brim, 17, 30, 40
   \item burns, x
-  \item bushings, 126
+  \item bushings, 128
 
   \indexspace
 {\normalsize \bfseries\hfil\ C \ \hfil}\nopagebreak
 
-  \item CAD, 48
-  \item calibration, 54, 134
-  \item Combine Type-A, 41
-  \item Combine Type-B, 41
-  \item Combing, 35
-  \item command line, 114
-  \item community support, 122, 136
+  \item CAD, 49
+  \item calibration, 56, 136
+  \item Combine Type-A, 42
+  \item Combine Type-B, 42
+  \item Combing, 36
+  \item command line, 116
+  \item community support, 124, 138
   \item configuration
-    \subitem export, 109
-    \subitem import, 109
-  \item Configuration Wizard, 56
-  \item connecting, 45
+    \subitem export, 111
+    \subitem import, 111
+  \item Configuration Wizard, 58
+  \item connecting, 46
   \item Control, 24
-  \item Cooling, 37
-  \item cooling, 92
-    \subitem fans, 93
-    \subitem slowing down, 94
-  \item Cura, 15, 134
-  \item Custom Gcode, 34
+  \item Cooling, 38
+  \item cooling, 94
+    \subitem fans, 95
+    \subitem slowing down, 96
+  \item Cura, 15, 136
+  \item Custom Gcode, 35
   \item Cut Off Object, 31
 
   \indexspace
 {\normalsize \bfseries\hfil\ D \ \hfil}\nopagebreak
 
-  \item download, 15, 53, 127, 134
+  \item download, 15, 55, 129, 136
   \item driver, 15
-  \item Dual Extrusion Overlap, 31
+  \item Dual Extrusion Overlap, 32
 
   \indexspace
 {\normalsize \bfseries\hfil\ E \ \hfil}\nopagebreak
 
-  \item electronics, x, 128, 134
+  \item electronics, x, 130, 136
   \item Enabling Cooling Fan, 33
-  \item end stops, 47
-  \item Expert Settings, 34
-  \item Extensive Stiching, 41
-  \item Extra Margin, 39
-  \item extruder, x, 41
-  \item extruder jam, 127
+  \item end stops, 48
+  \item Expert Settings, 35
+  \item Extensive Stiching, 42
+  \item Extra Margin, 40
+  \item extruder, x, 42
+  \item extruder jam, 129
   \item extruders
-    \subitem multiple, 98
-  \item extrusion, 41
-  \item extrusion width, 103
+    \subitem multiple, 100
+  \item extrusion, 42
+  \item extrusion width, 105
 
   \indexspace
 {\normalsize \bfseries\hfil\ F \ \hfil}\nopagebreak
 
-  \item fan, 128
-  \item Fan Settings, 37
-  \item Fast Quality, 17
+  \item fan, 130
+  \item Fan Settings, 38
   \item FCC, xi
   \item filament, 17
-  \item Filament Diameter, 29
-  \item Filament Settings, 76
+  \item Filament Diameter, 30
+  \item Filament Settings, 78
     \subitem Cooling
-      \subsubitem Bridges fan speed, 95
-      \subsubitem Disable fan for first n layers, 95
-      \subsubitem Enable fan if print time is below t seconds, 95
-      \subsubitem Fan speed, 94
-      \subsubitem Keep fan always on, 95
-      \subsubitem Min print speed, 95
-      \subsubitem Slow down if layer print time is below t seconds, 95
-    \subitem Filament, 77
-      \subsubitem Diameter, 60, 77
-      \subsubitem Extrusion multiplier, 77
+      \subsubitem Bridges fan speed, 97
+      \subsubitem Disable fan for first n layers, 97
+      \subsubitem Enable fan if print time is below t seconds, 97
+      \subsubitem Fan speed, 96
+      \subsubitem Keep fan always on, 97
+      \subsubitem Min print speed, 97
+      \subsubitem Slow down if layer print time is below t seconds, 97
+    \subitem Filament, 79
+      \subsubitem Diameter, 62, 79
+      \subsubitem Extrusion multiplier, 79
     \subitem Temperature
-      \subsubitem Bed, 62, 77
-      \subsubitem Extruder, 61, 77
-  \item Fill Amount, 38
-  \item Fill Density, 27
-  \item First Layer, 64
+      \subsubitem Bed, 64, 79
+      \subsubitem Extruder, 63, 79
+  \item Fill Amount, 39
+  \item Fill Density, 28
+  \item First Layer, 66
   \item First Print, 24
-  \item Fix Horrible, 40
-  \item Flow Rate, 29
-  \item forums, 122, 136
-  \item FreeCAD, 48, 111
-  \item Freenode, 122, 136
+  \item Fix Horrible, 41
+  \item Flow Rate, 30
+  \item forums, 124, 138
+  \item FreeCAD, 49, 113
+  \item Freenode, 124, 138
   \item Full Settings, 25
 
   \indexspace
 {\normalsize \bfseries\hfil\ G \ \hfil}\nopagebreak
 
   \item g-code, 14
-  \item gcode, 14, 41, 134
+  \item gcode, 14, 42, 136
   \item Ghost, 22
-  \item GitHub, 53
-  \item glass, 126, 128
-  \item GNU/Linux, 15, 48, 49
-  \item grease, 126
+  \item GitHub, 55
+  \item glass, 128, 130
+  \item GNU/Linux, 15, 49, 50
+  \item grease, 128
 
   \indexspace
 {\normalsize \bfseries\hfil\ H \ \hfil}\nopagebreak
 
-  \item hardware, 134
+  \item hardware, 136
   \item hazards, x
-  \item heater block, x, 130
-  \item Hexagon, 134
-  \item High Quality, 17
-  \item high resolution, 130
-  \item hobbed bolt, 127
-  \item Host, 49
-  \item hot end, 127, 130
+  \item heater block, x, 132
+  \item Hexagon, 136
+  \item High detail, 17
+  \item high resolution, 132
+  \item High speed, 17
+  \item hobbed bolt, 129
+  \item Host, 50
+  \item hot end, 129, 132
 
   \indexspace
 {\normalsize \bfseries\hfil\ I \ \hfil}\nopagebreak
 
-  \item infill, 84, 88
-  \item Infill Speed, 32
-  \item Initial Layer, 30
-  \item Initial Layer Width, 30
-  \item Inner Shell Speed, 32
+  \item infill, 86, 90
+  \item Infill Speed, 33
+  \item Initial Layer, 31
+  \item Initial Layer Width, 31
+  \item Inner Shell Speed, 33
   \item Installation, 15
-  \item Interface Line Width, 40
-  \item Interface Thickness, 40
-  \item IRC, 122, 136
-  \item Isopropyl Alcohol, 126
+  \item Interface Line Width, 41
+  \item Interface Thickness, 41
+  \item IRC, 124, 138
+  \item Isopropyl Alcohol, 128
 
   \indexspace
 {\normalsize \bfseries\hfil\ L \ \hfil}\nopagebreak
 
-  \item latex, 134
-  \item Layer Height, 26
-  \item layer height, 104
+  \item latex, 136
+  \item Layer Height, 27
+  \item layer height, 106
   \item Layers, 23
-  \item Lead Screws, 126
-  \item license, 53
-  \item Line Count, 36
-  \item Line Spacing, 39
+  \item Lead Screws, 128
+  \item license, 55
+  \item Line Count, 37
+  \item Line Spacing, 40
   \item Load Model, 18
   \item Loading Profile, 26
-  \item lubricant, 126
+  \item lubricant, 128
 
   \indexspace
 {\normalsize \bfseries\hfil\ M \ \hfil}\nopagebreak
 
-  \item maintenance, 126
-  \item Marlin, 134
+  \item maintenance, 128
+  \item Marlin, 136
   \item Material Selection, 17
-  \item MatterControl, 49
-  \item Medium Quality, 17
+  \item MatterControl, 50
   \item Menu
-    \subitem Combine multi-material STL files..., 102
-  \item Minimal Layer Time, 32
-  \item Minimum Travel, 35
-  \item Minmal Length, 36
-  \item models, 66
-    \subitem finding, 66
+    \subitem Combine multi-material STL files..., 104
+  \item Minimal Layer Time, 33
+  \item Minimum Travel, 36
+  \item Minmal Length, 37
+  \item models, 68
+    \subitem finding, 68
 
   \indexspace
 {\normalsize \bfseries\hfil\ N \ \hfil}\nopagebreak
 
-  \item novelties, 134
-  \item nozzle, 128, 130
+  \item novelties, 136
+  \item nozzle, 130, 132
   \item Nozzle Size, 30
-  \item nozzle wipe, 128
+  \item nozzle wipe, 130
 
   \indexspace
 {\normalsize \bfseries\hfil\ O \ \hfil}\nopagebreak
 
-  \item OBJ, 66
-  \item OctoPrint, 49
-  \item ooze, 89
-  \item Open Faces, 41
-  \item OpenSCAD, 48
+  \item OBJ, 68
+  \item OctoPrint, 50
+  \item ooze, 91
+  \item Open Faces, 42
+  \item OpenSCAD, 49
   \item operating system, 15
   \item Orientation, 18
-  \item Outer Shell Speed, 32
+  \item Outer Shell Speed, 33
   \item Overhang, 21
-  \item Overhang Angle, 38
+  \item Overhang Angle, 39
 
   \indexspace
 {\normalsize \bfseries\hfil\ P \ \hfil}\nopagebreak
 
   \item Pause at Z Height, 34
-  \item PEI, 130
-  \item PEI surface, 126
-  \item Plater, 67, 100
-  \item plater, 41
+  \item PEI, 132
+  \item PEI surface, 128
+  \item Plater, 69, 102
+  \item plater, 42
   \item Plugins, 33
-  \item port, 45
-  \item post processing, 119
+  \item port, 46
+  \item post processing, 121
   \item power supply, x
-  \item Print Settings, 71
-    \subitem Brim, 76
-      \subsubitem Brim width, 76
-    \subitem Infill, 74
-      \subsubitem Fill angle, 88
-      \subsubitem Fill density, 74, 84
-      \subsubitem Fill pattern, 74, 84
-      \subsubitem Fill Top/bottom fill pattern, 84
-      \subsubitem Infill before perimeters, 88
-      \subsubitem Infill every n layers, 88
-      \subsubitem Only infill where needed, 88
-      \subsubitem Only retract when crossing perimeters, 88, 90
-      \subsubitem Solid infill every n layers, 88
-      \subsubitem Solid infill threshold area, 88
-    \subitem Layer height, 72
-    \subitem Multiple Extruders, 100
+  \item Print Settings, 73
+    \subitem Brim, 78
+      \subsubitem Brim width, 78
+    \subitem Infill, 76
+      \subsubitem Fill angle, 90
+      \subsubitem Fill density, 76, 86
+      \subsubitem Fill pattern, 76, 86
+      \subsubitem Fill Top/bottom fill pattern, 86
+      \subsubitem Infill before perimeters, 90
+      \subsubitem Infill every n layers, 90
+      \subsubitem Only infill where needed, 90
+      \subsubitem Only retract when crossing perimeters, 90, 92
+      \subsubitem Solid infill every n layers, 90
+      \subsubitem Solid infill threshold area, 90
+    \subitem Layer height, 74
+    \subitem Multiple Extruders, 102
     \subitem Output options
-      \subsubitem Post-processing scripts, 119
-    \subitem Perimeters, 73
+      \subsubitem Post-processing scripts, 121
+    \subitem Perimeters, 75
     \subitem Sequential printing
-      \subsubitem Extruder clearance, 112
+      \subsubitem Extruder clearance, 114
     \subitem Skirt and brim
-      \subsubitem Skirt, 91
-    \subitem Solid layers, 73
-    \subitem Speed, 75, 81
-      \subsubitem Acceleration control, 82
-      \subsubitem Bridges, 81
-      \subsubitem External perimeters, 81
-      \subsubitem First layer speed, 81
-      \subsubitem Gap fill, 81
-      \subsubitem Infill, 75, 81
-      \subsubitem Perimeters, 75, 81
-      \subsubitem Small perimeters, 81
-      \subsubitem Solid infill, 81
-      \subsubitem Support material, 81
-      \subsubitem Top solid , 81
-      \subsubitem Travel, 75, 81
-    \subitem Support material, 75
-      \subsubitem Enforce support, 96
-      \subsubitem Generate support material, 75, 96
-      \subsubitem Overhang threshold, 96
-      \subsubitem Pattern, 96
-      \subsubitem Pattern Angle, 98
-      \subsubitem Pattern Spacing, 98
-      \subsubitem Pattern spacing, 75
-      \subsubitem Raft layers, 75
-  \item Print Speed, 27
-  \item printed parts, 134
+      \subsubitem Skirt, 93
+    \subitem Solid layers, 75
+    \subitem Speed, 77, 83
+      \subsubitem Acceleration control, 84
+      \subsubitem Bridges, 83
+      \subsubitem External perimeters, 83
+      \subsubitem First layer speed, 83
+      \subsubitem Gap fill, 83
+      \subsubitem Infill, 77, 83
+      \subsubitem Perimeters, 77, 83
+      \subsubitem Small perimeters, 83
+      \subsubitem Solid infill, 83
+      \subsubitem Support material, 83
+      \subsubitem Top solid , 83
+      \subsubitem Travel, 77, 83
+    \subitem Support material, 77
+      \subsubitem Enforce support, 98
+      \subsubitem Generate support material, 77, 98
+      \subsubitem Overhang threshold, 98
+      \subsubitem Pattern, 98
+      \subsubitem Pattern Angle, 100
+      \subsubitem Pattern Spacing, 100
+      \subsubitem Pattern spacing, 77
+      \subsubitem Raft layers, 77
+  \item Print Speed, 28
+  \item printed parts, 136
   \item Printer Host, 14
-  \item Printer Settings, 77
+  \item Printer Settings, 79
     \subitem Custom G-code
-      \subsubitem End G-code, 79
-      \subsubitem Start G-code, 79
-      \subsubitem Tool change G-code, 101
+      \subsubitem End G-code, 81
+      \subsubitem Start G-code, 81
+      \subsubitem Tool change G-code, 103
     \subitem Extruder
-      \subsubitem Extruder offset, 100
-      \subsubitem Nozzle diameter, 59, 79
+      \subsubitem Extruder offset, 102
+      \subsubitem Nozzle diameter, 61, 81
     \subitem Firmware
-      \subsubitem G-code flavour, 57, 79
-    \subitem Size and coordinates, 78
-      \subsubitem Bed size, 58, 78
-      \subsubitem Print center, 78
-      \subsubitem Z offset, 78
-  \item Printing, 71
-  \item Printing Temperature, 27
-  \item Printrun, 41, 44, 45, 134
-  \item profiles, 109
-    \subitem create, 109
-    \subitem delete, 110
-  \item pronsole, 41
-  \item pronterface, 41
+      \subsubitem G-code flavour, 59, 81
+    \subitem Size and coordinates, 80
+      \subsubitem Bed size, 60, 80
+      \subsubitem Print center, 80
+      \subsubitem Z offset, 80
+  \item Printing, 73
+  \item Printing Temperature, 28
+  \item Printrun, 42, 45, 46, 136
+  \item profiles, 111
+    \subitem create, 111
+    \subitem delete, 112
+  \item pronsole, 42
+  \item pronterface, 42
 
   \indexspace
 {\normalsize \bfseries\hfil\ Q \ \hfil}\nopagebreak
@@ -297,63 +296,64 @@
   \indexspace
 {\normalsize \bfseries\hfil\ R \ \hfil}\nopagebreak
 
-  \item Raft, 29, 39
-  \item RAMBo, 128, 134
-  \item Removing a Print, 24
-  \item RepRap, 122, 136
+  \item Raft, 30, 40
+  \item RAMBo, 130, 136
+  \item Removing a Print, 25
+  \item RepRap, 124, 138
   \item Resolution, 17
-  \item Retraction, 27, 35
-  \item retraction, 89
-  \item Retraction Distance, 30
-  \item Retraction Speed, 30
+  \item Retraction, 27, 36
+  \item retraction, 91
+  \item Retraction Distance, 31
+  \item Retraction Speed, 31
 
   \indexspace
 {\normalsize \bfseries\hfil\ S \ \hfil}\nopagebreak
 
-  \item scripting, 114
-  \item scripts, 119
-  \item SD card, 41
-  \item Sequential Printing, 112
-  \item Shapesmith, 49
+  \item scripting, 116
+  \item scripts, 121
+  \item SD card, 42
+  \item Sequential Printing, 114
+  \item Shapesmith, 50
   \item Shell Thickness, 27
-  \item simple mode, 71
-  \item Skirt, 36
-  \item skirt, 91
-  \item Slic3r, 134
+  \item simple mode, 73
+  \item Skirt, 37
+  \item skirt, 93
+  \item Slic3r, 136
   \item Slicers, 14
   \item Slicing, 14
-  \item smooth rods, 126
-  \item software, 14, 48, 49, 127, 134
-  \item Source Code, 53
-  \item source code, 134
-  \item speed, 80
-  \item Spiralize, 38
-  \item Start Distance, 36
+  \item smooth rods, 128
+  \item software, 14, 49, 50, 129, 136
+  \item Source Code, 55
+  \item source code, 136
+  \item speed, 82
+  \item Spiralize, 39
+  \item Standard, 17
+  \item Start Distance, 37
   \item static, xi
-  \item STL, 18, 48, 49, 66, 134
-    \subitem cleaning, 70
-  \item stl, 41
-  \item Support, 38
-  \item Support Material, 17, 37
-  \item support material, 95
-  \item Support Settings, 37
+  \item STL, 18, 49, 50, 68, 136
+    \subitem cleaning, 72
+  \item stl, 42
+  \item Support, 39
+  \item Support Material, 17, 38
+  \item support material, 97
+  \item Support Settings, 38
   \item Support Type, 28
-  \item Surface Layers, 40
+  \item Surface Layers, 41
 
   \indexspace
 {\normalsize \bfseries\hfil\ T \ \hfil}\nopagebreak
 
-  \item technical support, 136
-  \item temperature, x, 41, 92
-  \item threaded extension, 130
-  \item Top Thickness, 27
+  \item technical support, 138
+  \item temperature, x, 42, 94
+  \item threaded extension, 132
+  \item Top Thickness, 28
   \item Travel Speed, 32
-  \item Tweak at Z, 33
+  \item Tweak at Z, 34
 
   \indexspace
 {\normalsize \bfseries\hfil\ U \ \hfil}\nopagebreak
 
-  \item USB cable, 45
+  \item USB cable, 46
 
   \indexspace
 {\normalsize \bfseries\hfil\ V \ \hfil}\nopagebreak
@@ -364,12 +364,12 @@
 {\normalsize \bfseries\hfil\ W \ \hfil}\nopagebreak
 
   \item warnings, x
-  \item website, 122
-  \item Windows, 15, 48, 49
-  \item windows, 43
-  \item wiping pad, 128
+  \item website, 124
+  \item Windows, 15, 49, 50
+  \item windows, 44
+  \item wiping pad, 130
   \item wires, x
-  \item wrench, 130
+  \item wrench, 132
 
   \indexspace
 {\normalsize \bfseries\hfil\ X \ \hfil}\nopagebreak
@@ -379,7 +379,7 @@
   \indexspace
 {\normalsize \bfseries\hfil\ Z \ \hfil}\nopagebreak
 
-  \item Z hop, 36
-  \item Z Wobble, 121
+  \item Z hop, 37
+  \item Z Wobble, 123
 
 \end{theindex}
