@@ -25,7 +25,9 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 \item Install Cura by double clicking on the installer.
 %\item Once your language has been selected, select \texttt{Next}.
 \item Select \texttt{Lulzbot Mini}. 
-\item Once the proper printer is selected, select \texttt{Next}. 
+\item Once the proper printer is selected, select \texttt{Next}.
+\item Select which toolhead you have installed and select \texttt{Next}.
+\item Select \texttt{Finish}. 
 \end{itemize}
 
 Once the installation wizard finishes you can move forward with your first print!
@@ -42,6 +44,11 @@ Once the installation wizard finishes you can move forward with your first print
 % (photo highlighting profile, material, diameter, and other)
 After setting up Cura for the first time, you will be shown the main interface screen. (Fig. \ref{fig:Cura}, page \pageref{fig:Cura}): 
 
+\subsection{Material Selection}
+\index{Material Selection}
+\index{Filament}
+\index{Filament Selection}
+We have the Mini set up for 19 different types of filament straight out of the box. It is important to select the proper filament, as different filaments require different settings. We have these categorized into ease of use depending on skill level. Select \texttt{All} in order to view all 19 types of filament.
 \subsection{Selecting a Quick Print Profile}
 \index{Quick Print Profile}
 \index{Resolution}
@@ -61,10 +68,7 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \index{High speed}
 \end{description}
 
-\subsection{Material Selection}
-\index{Material Selection}
-\index{filament}
-Choose your desired filament. The Lulzbot Mini ships with a 1 meter sample of HIPS, that should be used in your first print.
+
 %If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. %You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This would be better served in the Full Settings explination.
 
 \subsection{Printing Support Material}
@@ -177,7 +181,7 @@ Xray is very similiar to Ghost mode. It will alow you to see into objects, ensur
 
 \subsection{Layers}
 \index{Layers}
-To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers.
+To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers. The button just below the slide bar will toggle cumulative layers and individual layers.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers1.17.1.jpg}
@@ -249,7 +253,7 @@ Set your temperatures for the hot end and the bed. You will see two boxes, one l
 
 \subsection{Control}
 \index{Control}
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model). \textcolor{red}{Watch your automatic bed leveling sequence every print.} If your nozzle bends down your corner washers, turn off the printers power and restart the print.
 %\pageref{fig:Print Control}).
 \begin{figure}[H]
 \centering
@@ -273,18 +277,25 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 
 \section{Full Settings}
 \index{Full Settings}
-\textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation. The simple settings will provide good results for most models.}
-The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. Select \texttt{Expert} > \texttt{Switch to full settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-Gcode. You will also have access to the Expert Settings. 
+\textcolor{red}{When switching to full settings, it is important to transfer over a filament specific profile.} Your Mini Operates on filament specific profiles, and if you do not transfer over the settings your Mini will not function as intended. 
+The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. First, select your intended filament and desired resolution. Then, Select \texttt{Expert} > \texttt{Switch to full settings}. Be sure to select \texttt{Yes} when prompted.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{fullsettings17.1.jpg}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{copyprofile.jpg}
+\caption{Transferring a Profile}
+\label{fig:Transferring a Profile}
+\end{figure}
+Once the switch has been made to full settings, you will now have access to a wide variety of options. You will notice 4 new tabs: \texttt{Basic, Advanced, Plugins, Start/End-Gcode} In the following sections we will describe each option, and how they will affect your prints.
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{advanced.jpg}
 \caption{View in Full Settings}
-\label{fig:Full Settings View}
+\label{fig:View in Full Settings}
 \end{figure}
 
 \subsection{Loading a Profile}
 \index{Loading Profile}
-When you first switch to Full Settings, Cura will revert to very generic settings. We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/support/downloads}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your settings for use with your printer.
+Profiles determine how Cura turns your STL file into Gcode that controls your printer. Different filaments require different settings for optimal performance. As new filaments are being developed every day, there may be a time you need to manually load a profile. You can download our recommend profiles at: \texttt{https://www.lulzbot.com/support/mini-cura-profiles}. Once downloaded, load the filament specific .ini file by going to \texttt{File > Open Profile}.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
