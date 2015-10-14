@@ -72,125 +72,125 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 
 %%%% End Cura Section %%%%
 
-\index{pronterface}
-\index{Printrun}
-\index{pronsole}
-\index{plater}
-\index{stl}
-\index{extruder}
-\index{extrusion}
-\index{temperature}
-\index{gcode}
-\index{SD card}
-\newpage
-\section{Printrun}
-\label{Printrun}
-Website: \texttt{http://www.github.com/kliment/Printrun}
-The host software, Printrun, can be used to start up and control your 3D printer (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
-\begin{figure}[hbt]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
-\caption{Printrun application for 3D printer control}
-\label{fig:Printrun}
-\end{figure}
-The host controls include: setting the extruder and print surface temperatures, manual control of each axis, and manual extrusion. The host is also where you can push print files (\texttt{.gcode}) to the 3D printer or load print files from the SD card for printing out model designs.
+%\index{pronterface}
+%\index{Printrun}
+%\index{pronsole}
+%\index{plater}
+%\index{stl}
+%\index{extruder}
+%\index{extrusion}
+%\index{temperature}
+%\index{gcode}
+%\index{SD card}
+%\newpage
+%\section{Printrun}
+%\label{Printrun}
+%Website: \texttt{http://www.github.com/kliment/Printrun}
+%The host software, Printrun, can be used to start up and control your 3D printer (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
+%\begin{figure}[hbt]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
+%\caption{Printrun application for 3D printer control}
+%\label{fig:Printrun}
+%\end{figure}
+%The host controls include: setting the extruder and print surface temperatures, manual control of each axis, and manual extrusion. The host is also where you can push print files (\texttt{.gcode}) to the 3D printer or load print files from the SD card for printing out model designs.
 
-\subsection{Installing Printrun}
-Printrun contains several different applications that can be used to control the Mini 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Pronterface is the graphical user interface for Printrun. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.7-zip.org}.
+%\subsection{Installing Printrun}
+%Printrun contains several different applications that can be used to control the Mini 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Pronterface is the graphical user interface for Printrun. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.7-zip.org}.
 
-\begin{itemize}
-\subsection{Windows Instructions}
-\index{windows}
-\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You can rename the \texttt{dist} folder if you like. Double click \texttt{pronterface.exe} to run Pronterface.
-
-
-\subsection{Mac OSX Instructions}
-\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac.app} file to install.
-
-\subsection{Linux Instructions}
 %\begin{itemize}
-\subsubsection{Debian|Ubuntu}
-\subsubsection{Recommended Installation}
-\item We recommend using the stand-alone Printrun option found at \texttt{https://www.LulzBot.com/?=support/downloads}. Once downloaded and extracted, navigate to the extracted directory. Install the dependencies by issuing the following command in a terminal: \texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet}. Once the dependencies have been installed, run Pronterface by using the following command in a terminal: \texttt{python pronterface.py}.
+%\subsection{Windows Instructions}
+%\index{windows}
+%\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You can rename the \texttt{dist} folder if you like. Double click \texttt{pronterface.exe} to run Pronterface.
 
-\subsubsection{Installing from source}
-\item Using Git, in a terminal issue the following command: \texttt{git clone https://github.com/kliment/printrun.git}
-\item Once downloaded, change to the Printrun directory. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
-\texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
-followed by:
-\texttt{pip install -r requirements.txt}
-To install in a terminal issue the following command:
-\texttt{sudo python setup.py install}.
-Run Printrun by issuing the following command:
-\texttt{python pronterface.py}
 
-\subsubsection{Fedora}
-\item Use this command to install Printrun from the official sources: \texttt{sudo yum install printrun}
+%\subsection{Mac OSX Instructions}
+%\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac.app} file to install.
 
-\subsubsection{Archlinux}
-\item Use this command to install Printun from AUR: \texttt{yaourt rintrun}
+%\subsection{Linux Instructions}
+%\begin{itemize}
+%\subsubsection{Debian|Ubuntu}
+%\subsubsection{Recommended Installation}
+%\item We recommend using the stand-alone Printrun option found at \texttt{https://www.LulzBot.com/?=support/downloads}. Once downloaded and extracted, navigate to the extracted directory. Install the dependencies by issuing the following command in a terminal: \texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet}. Once the dependencies have been installed, run Pronterface by using the following command in a terminal: \texttt{python pronterface.py}.
 
-\end{itemize}
+%\subsubsection{Installing from source}
+%\item Using Git, in a terminal issue the following command: \texttt{git clone https://github.com/kliment/printrun.git}
+%\item Once downloaded, change to the Printrun directory. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
+%\texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
+%followed by:
+%\texttt{pip install -r requirements.txt}
+%To install in a terminal issue the following command:
+%\texttt{sudo python setup.py install}.
+%Run Printrun by issuing the following command:
+%\texttt{python pronterface.py}
 
-\index{Printrun}
-\section{Using Printrun}
+%\subsubsection{Fedora}
+%\item Use this command to install Printrun from the official sources: \texttt{sudo yum install printrun}
 
-%\begin{figure}[hbt]
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
-\caption{Printrun}
-\label{fig:Printrun}
-\end{figure}
+%\subsubsection{Archlinux}
+%\item Use this command to install Printun from AUR: \texttt{yaourt rintrun}
 
-Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start \& stop prints.
+%\end{itemize}
 
-The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
-
-\subsection{Connecting to the Mini 3D Printer}
-\index{connecting}
-\index{Printrun}
-\index{USB cable}
-\index{port}
-\index{baud rate}
-\glossary{Baud Rate}{Refers to the speed at which the host controller communicates with the 3d Printer electronics.}
-To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. To connect to the printer, select the correct port by using the drop down arrow and selecting the active port, generally \texttt{/dev/ttyACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. 
-
-In the text output window you will see multiple return lines. If you see \texttt{Printer is now online} you have successfully connected to the printer. The printer control buttons on the left will also darken and become click-able after connecting. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. When you need to disconnect the printer simply press the \texttt{Disconnect} button.
+%\index{Printrun}
+%\section{Using Printrun}
 
 %\begin{figure}[hbt]
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun-labels.png}
-\caption{Printrun Functions}
-\label{fig:Printrun-labels}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
+%\caption{Printrun}
+%\label{fig:Printrun}
+%\end{figure}
 
-\subsection{Movement} 
+%Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start \& stop prints.
+
+%The movement controls are on the left hand side, with the G-code preview window in the center and the Log %window and Terminal command entry box on the right hand side (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
+
+%\subsection{Connecting to the Mini 3D Printer}
+%\index{connecting}
+%\index{Printrun}
+%\index{USB cable}
+%\index{port}
+%\index{baud rate}
+%\glossary{Baud Rate}{Refers to the speed at which the host controller communicates with the 3d Printer electronics.}
+%To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. To connect to the printer, select the correct port by using the drop down arrow and selecting the active port, generally \texttt{/dev/ttyACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. 
+
+%In the text output window you will see multiple return lines. If you see \texttt{Printer is now online} you have successfully connected to the printer. The printer control buttons on the left will also darken and become click-able after connecting. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. When you need to disconnect the printer simply press the \texttt{Disconnect} button.
+
 %\begin{figure}[hbt]
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
-\caption{Movement Controls}
-\label{fig:Printrun_controls}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun-labels.png}
+%\caption{Printrun Functions}
+%\label{fig:Printrun-labels}
+%\end{figure}
 
-\subsubsection{Motors off}
-The Mini 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position. 
+%\subsection{Movement} 
+%\begin{figure}[hbt]
+%\begin{figure}[H]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
+%\caption{Movement Controls}
+%\label{fig:Printrun_controls}
+%\end{figure}
 
-\subsubsection{mm/min XY:/ Z:}
-These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to miss steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
+%\subsubsection{Motors off}
+%The Mini 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position. 
 
-\subsubsection{Homing}
-\index{end stops}
-Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. 
+%\subsubsection{mm/min XY:/ Z:}
+%These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to miss steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
 
-Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger cannot be adjusted manually on the printer and uses the automatic bed-compensating routine at the beginning of each print.
+%\subsubsection{Homing}
+%\index{end stops}
+%Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. 
 
-\subsubsection{X/Y/Z Axes Movement Controls}
-Prior to moving the X, Y, or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} are highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} are highlighted then select that ring section. The X axis can be moved in a similar fashion.
+%Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger cannot be adjusted manually on the printer and uses the automatic bed-compensating routine at the beginning of each print.
 
-The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the selected units. 
+%\subsubsection{X/Y/Z Axes Movement Controls}
+%Prior to moving the X, Y, or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} are highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} are highlighted then select that ring section. The X axis can be moved in a similar fashion.
+
+%The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the selected units. 
 
 
 
@@ -326,7 +326,7 @@ Click the .gcode viewer window to see a more detailed version of the sliced mode
 
 For more information on using Printrun, see the Printrun page in the Support/Downloads section at \texttt{https://www.lulzbot.com/?q=support}. Instructions for running a print can be found in the Starting the First Print section in this manual.
 \end{comment}
-
+\newpage
 \section{CAD and 3D Modeling Software}
 \index{CAD}
 \index{software}
