@@ -15,16 +15,16 @@
 
 \subsection{Setup Cura}
 \index{Installation}
-Cura is available for download on our website at \texttt{https://www.lulzbot.com/support/downloads}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
+Cura is available for download on our website at \texttt{https://www.LulzBot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
 When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer.
 
 \textcolor{red}{It is important to select the correct printer, as Cura uses custom profiles and machines settings based upon which printer you are running.}
 
 \begin{itemize}
-\item Download the appropriate installer for your computer operating system. Instructions on installation for each operating system is available at \texttt{http://Lulzbot.com/cura}
+\item Download the appropriate installer for your computer operating system. Instructions on installation for each operating system is available at \texttt{http://LulzBot.com/cura}
 \item Install Cura by double clicking on the installer.
 %\item Once your language has been selected, select \texttt{Next}.
-\item Select \texttt{Lulzbot Mini}. 
+\item Select \texttt{LulzBot Mini}. 
 \item Once the proper printer is selected, select \texttt{Next}.
 \item Select which toolhead you have installed and select \texttt{Next}.
 \item Select \texttt{Finish}. 
@@ -48,7 +48,7 @@ After setting up Cura for the first time, you will be shown the main interface s
 \index{Material Selection}
 \index{Filament}
 \index{Filament Selection}
-We have the Mini set up for 19 different types of filament straight out of the box. It is important to select the proper filament, as different filaments require different settings. We have these categorized into ease of use depending on skill level. Select \texttt{All} in order to view all 19 types of filament.
+We have the Lulzbot Mini set up for 19 different types of filament straight out of the box. It is important to select the proper filament, as different filaments require different settings. We have these categorized into ease of use depending on skill level. Select \texttt{All} in order to view all 19 types of filament.
 \subsection{Selecting a Quick Print Profile}
 \index{Quick Print Profile}
 \index{Resolution}
@@ -75,7 +75,7 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \index{Support Material}
 %%%% Saved for standalone Cura Manual %%%%
 %The TAZ and Mini are able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
-The Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
+The LulzBot Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
 
 \subsection{Brim}
 \index{Brim}
@@ -261,7 +261,45 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 \caption{Control Screen}
 \label{fig:Control}
 \end{figure}
-
+\subsection{Recommended Temperatures}
+\index{Temperatures}
+Different filaments have different ideal temperatures for extrusion, bed adhesion, and part removal. Your LulzBot Mini will have these automatically set when using our recommended profiles.
+\begin{center}
+ \hspace*{-1.5cm}\begin{tabular}{||c c c c c||} 
+ \hline
+ Filament Type & Bed Preparation & Nozzle Temp & Bed Temp & Removal Temp \\ [0.5ex] 
+ \hline\hline
+ ABS & Clean PEI & 240-260 & 110 & 50 \\ 
+ \hline
+ PLA & Clean PEI & 195-215 & 60 & 45 \\
+ \hline
+ HIPS & Clean PEI & 240-260 & 110 & 50\\
+ \hline
+ Laywoo-D3 & Clean PEI & 175-195 & 60 & 45 \\
+ \hline
+ Laybrick & Clean PEI & 175-195 & 60 & 45 \\
+ \hline 
+ Magnetic Iron PLA & Clean PEI & 220-230 & 60 & 45 \\
+ \hline
+ Stainless Steel PLA & Clean PEI & 220-230 & 60 & 45 \\
+ \hline
+ Conductive PLA & Clean PEI & 215-230 & 60 & 50 \\
+ \hline
+ t-glase & Glue stick & 240-260 & 60 & 45 \\
+ \hline
+ Flexible Filaments & Glue stick & 215-230 & 50 & 35 \\  
+ \hline
+ Nylons & Glue stick & 220-270 & 110 & 50 \\
+ \hline
+ Polycarbonate & Glue stick & 260-300 & 110 & 50 \\ 
+ \hline
+ Polycarbonate + ABS & Glue stick & 260-280 & 110 & 50 \\
+ \hline 
+ N-Vent & Glue stick & 220-260 & 110 & 50 \\ [1ex]
+ \hline
+ 
+\end{tabular}
+\end{center}
 
 \section{Removing Your First Print}
 \index{Removing a Print}
