@@ -1,11 +1,13 @@
 This is makeindex, version 2.15 [TeX Live 2015/dev] (kpathsea + Thai support).
 Scanning style file ./Manual.ist...done (3 attributes redefined, 0 ignored).
 Scanning input file Manual.idx....
+!! Input index error (file = Manual.idx, line = 204):
+   -- Extra `!' at position 37 of first argument.
 !! Input index error (file = Manual.idx, line = 205):
    -- Extra `!' at position 37 of first argument.
-!! Input index error (file = Manual.idx, line = 206):
-   -- Extra `!' at position 37 of first argument.
 
+!! Input index error (file = Manual.idx, line = 236):
+   -- Extra `!' at position 37 of first argument.
 !! Input index error (file = Manual.idx, line = 237):
    -- Extra `!' at position 37 of first argument.
 !! Input index error (file = Manual.idx, line = 238):
@@ -18,30 +20,28 @@ Scanning input file Manual.idx....
    -- Extra `!' at position 37 of first argument.
 !! Input index error (file = Manual.idx, line = 242):
    -- Extra `!' at position 37 of first argument.
-!! Input index error (file = Manual.idx, line = 243):
-   -- Extra `!' at position 37 of first argument.
 
-!! Input index error (file = Manual.idx, line = 245):
+!! Input index error (file = Manual.idx, line = 244):
    -- Extra `!' at position 46 of first argument.
-!! Input index error (file = Manual.idx, line = 246):
+!! Input index error (file = Manual.idx, line = 245):
    -- Extra `!' at position 53 of first argument.
 
+!! Input index error (file = Manual.idx, line = 248):
+   -- Extra `!' at position 36 of first argument.
 !! Input index error (file = Manual.idx, line = 249):
    -- Extra `!' at position 36 of first argument.
 !! Input index error (file = Manual.idx, line = 250):
    -- Extra `!' at position 36 of first argument.
 !! Input index error (file = Manual.idx, line = 251):
    -- Extra `!' at position 36 of first argument.
-!! Input index error (file = Manual.idx, line = 252):
-   -- Extra `!' at position 36 of first argument.
 
-!! Input index error (file = Manual.idx, line = 272):
+!! Input index error (file = Manual.idx, line = 271):
    -- Extra `!' at position 38 of first argument.
 
-!! Input index error (file = Manual.idx, line = 274):
+!! Input index error (file = Manual.idx, line = 273):
    -- Extra `!' at position 37 of first argument.
-done (342 entries accepted, 17 rejected).
-Sorting entries......done (3339 comparisons).
+done (341 entries accepted, 17 rejected).
+Sorting entries......done (3320 comparisons).
 Generating output file Manual.ind....done (371 lines written, 0 warnings).
 Output written in Manual.ind.
 Transcript written in Manual.ilg.
