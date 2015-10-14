@@ -33,7 +33,7 @@
   \indexspace
 {\normalsize \bfseries\hfil\ C \ \hfil}\nopagebreak
 
-  \item CAD, 16
+  \item CAD, 15
   \item calibration, 54, 134
   \item Combine Type-A, 49
   \item Combine Type-B, 49
@@ -305,7 +305,7 @@
   \item scripting, 114
   \item scripts, 119
   \item Sequential Printing, 112
-  \item Shapesmith, 17
+  \item Shapesmith, 16
   \item Shell Thickness, 34
   \item simple mode, 71
   \item Skirt, 44
@@ -314,7 +314,7 @@
   \item Slicers, 14
   \item Slicing, 14
   \item smooth rods, 126
-  \item software, 14, 16, 17, 127, 134
+  \item software, 14, 15, 17, 127, 134
   \item Source Code, 53
   \item source code, 134
   \item speed, 80
@@ -322,7 +322,7 @@
   \item Standard, 22
   \item Start Distance, 44
   \item static, xi
-  \item STL, 16, 17, 22, 66, 134
+  \item STL, 15, 17, 22, 66, 134
     \subitem cleaning, 70
   \item Support, 46
   \item Support Material, 22, 45
