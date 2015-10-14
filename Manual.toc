@@ -54,23 +54,23 @@
 \contentsline {subsection}{Filament Diameter}{32}
 \contentsline {subsection}{Filament Flow \%}{32}
 \contentsline {section}{\numberline {1.11}Advanced Tab Options}{32}
-\contentsline {subsection}{Nozzle Size (mm)}{32}
-\contentsline {subsection}{Retraction Speed (mm/s)}{32}
-\contentsline {subsection}{Retraction Distance}{32}
+\contentsline {subsection}{Nozzle Size (mm)}{33}
+\contentsline {subsection}{Retraction Speed (mm/s)}{33}
+\contentsline {subsection}{Retraction Distance}{33}
 \contentsline {subsection}{Initial Layer Thickness}{33}
 \contentsline {subsection}{Initial Layer Line Width}{33}
-\contentsline {subsection}{Cut Off Object Bottom (mm)}{33}
+\contentsline {subsection}{Cut Off Object Bottom (mm)}{34}
 \contentsline {subsection}{Dual Extrusion Overlap}{34}
 \contentsline {subsection}{Travel Speed}{34}
-\contentsline {subsection}{Bottom Layer Speed}{34}
+\contentsline {subsection}{Bottom Layer Speed}{35}
 \contentsline {subsection}{Infill Speed}{35}
 \contentsline {subsection}{Outer Shell Speed}{35}
 \contentsline {subsection}{Inner Shell Speed}{35}
 \contentsline {subsection}{Minimal Layer Time}{35}
 \contentsline {subsection}{Enable Cooling Fan}{35}
-\contentsline {section}{\numberline {1.12}Plugins}{35}
+\contentsline {section}{\numberline {1.12}Plugins}{36}
 \contentsline {subsection}{Tweak at Z}{36}
-\contentsline {subsection}{Pause at Z Height}{36}
+\contentsline {subsection}{Pause at Z Height}{37}
 \contentsline {section}{\numberline {1.13}Start and End Gcode Settings}{37}
 \contentsline {subsection}{Mini Specific Considerations}{37}
 \contentsline {section}{\numberline {1.14}Expert Settings}{37}

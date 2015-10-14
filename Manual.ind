@@ -24,7 +24,7 @@
   \item Blender, 45
   \item blog, 118
   \item BotQueue, 46
-  \item Bottom Layer Speed, 34
+  \item Bottom Layer Speed, 35
   \item Bottom Thickness, 29
   \item Brim, 18, 31, 42
   \item burns, x
@@ -51,7 +51,7 @@
     \subitem slowing down, 90
   \item Cura, 15, 130
   \item Custom Gcode, 37
-  \item Cut Off Object, 33
+  \item Cut Off Object, 34
 
   \indexspace
 {\normalsize \bfseries\hfil\ D \ \hfil}\nopagebreak
@@ -183,7 +183,7 @@
 
   \item novelties, 130
   \item nozzle, 124, 126
-  \item Nozzle Size, 32
+  \item Nozzle Size, 33
   \item nozzle wipe, 124
 
   \indexspace
@@ -203,11 +203,11 @@
   \indexspace
 {\normalsize \bfseries\hfil\ P \ \hfil}\nopagebreak
 
-  \item Pause at Z Height, 36
+  \item Pause at Z Height, 37
   \item PEI, 126
   \item PEI surface, 122
   \item Plater, 63, 96
-  \item Plugins, 35
+  \item Plugins, 36
   \item post processing, 115
   \item power supply, x
   \item Print Settings, 67
@@ -296,8 +296,8 @@
   \item Resolution, 17
   \item Retraction, 29, 38
   \item retraction, 85
-  \item Retraction Distance, 32
-  \item Retraction Speed, 32
+  \item Retraction Distance, 33
+  \item Retraction Speed, 33
 
   \indexspace
 {\normalsize \bfseries\hfil\ S \ \hfil}\nopagebreak
