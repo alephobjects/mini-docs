@@ -1,4 +1,11 @@
 \begin{theindex}
+{\normalsize \bfseries\hfil\ Symbols \ \hfil}\nopagebreak
+
+  \item \texttt{Print Settings
+    \subitem Infill
+      \subsubitem Fill pattern}, 74
+
+  \indexspace
 {\normalsize \bfseries\hfil\ A \ \hfil}\nopagebreak
 
   \item acetone, 127
@@ -83,7 +90,7 @@
   \item Filament, 21
   \item Filament Diameter, 37
   \item Filament Selection, 21
-  \item Filament Settings, 76
+  \item Filament Settings, 77
     \subitem Cooling
       \subsubitem Bridges fan speed, 95
       \subsubitem Disable fan for first n layers, 95
@@ -217,7 +224,7 @@
     \subitem Infill, 74
       \subsubitem Fill angle, 88
       \subsubitem Fill density, 74, 84
-      \subsubitem Fill pattern, 74, 84
+      \subsubitem Fill pattern, 84
       \subsubitem Fill Top/bottom fill pattern, 84
       \subsubitem Infill before perimeters, 88
       \subsubitem Infill every n layers, 88
@@ -235,19 +242,19 @@
     \subitem Skirt and brim
       \subsubitem Skirt, 91
     \subitem Solid layers, 73
-    \subitem Speed, 75, 81
-      \subsubitem Acceleration control, 82
-      \subsubitem Bridges, 81
-      \subsubitem External perimeters, 81
-      \subsubitem First layer speed, 81
-      \subsubitem Gap fill, 81
-      \subsubitem Infill, 75, 81
-      \subsubitem Perimeters, 75, 81
-      \subsubitem Small perimeters, 81
-      \subsubitem Solid infill, 81
-      \subsubitem Support material, 81
-      \subsubitem Top solid , 81
-      \subsubitem Travel, 75, 81
+    \subitem Speed, 75, 82
+      \subsubitem Acceleration control, 83
+      \subsubitem Bridges, 82
+      \subsubitem External perimeters, 82
+      \subsubitem First layer speed, 82
+      \subsubitem Gap fill, 82
+      \subsubitem Infill, 75, 82
+      \subsubitem Perimeters, 75, 82
+      \subsubitem Small perimeters, 82
+      \subsubitem Solid infill, 82
+      \subsubitem Support material, 82
+      \subsubitem Top solid , 82
+      \subsubitem Travel, 75, 82
     \subitem Support material, 75
       \subsubitem Enforce support, 96
       \subsubitem Generate support material, 75, 96
@@ -260,7 +267,7 @@
   \item Print Speed, 35
   \item printed parts, 134
   \item Printer Host, 14
-  \item Printer Settings, 77
+  \item Printer Settings, 78
     \subitem Custom G-code
       \subsubitem End G-code, 79
       \subsubitem Start G-code, 79
@@ -273,7 +280,7 @@
     \subitem Size and coordinates, 78
       \subsubitem Bed size, 58, 78
       \subsubitem Print center, 78
-      \subsubitem Z offset, 78
+      \subsubitem Z offset, 79
   \item Printing, 71
   \item Printing Temperature, 35
   \item Printrun, 134
