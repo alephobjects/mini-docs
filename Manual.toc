@@ -45,6 +45,7 @@
 \contentsline {subsection}{\texttt {Layers}}{28}
 \contentsline {section}{\numberline {2.4}\texttt {Starting Your First Print}}{29}
 \contentsline {subsection}{\texttt {Control}}{29}
+\contentsline {subsection}{\texttt {Pausing Mid-Print}}{30}
 \contentsline {subsection}{\texttt {Recommended Temperatures}}{30}
 \contentsline {section}{\numberline {2.5}\texttt {Removing Your First Print}}{31}
 \contentsline {section}{\numberline {2.6}\texttt {Full Settings}}{31}
@@ -158,11 +159,11 @@
 \contentsline {paragraph}{\texttt {Fatter extrusion width.}}{65}
 \contentsline {paragraph}{\texttt {Bed material.}}{65}
 \contentsline {paragraph}{\texttt {No cooling.}}{65}
-\contentsline {subsection}{Working with Models}{66}
-\contentsline {subsubsection}{Model Formats}{66}
-\contentsline {subsubsection}{Finding Models}{66}
-\contentsline {subsubsection}{Working with Plater}{67}
-\contentsline {subsubsection}{Cleaning STLs}{70}
+\contentsline {subsection}{\texttt {Working with Models}}{66}
+\contentsline {subsubsection}{\texttt {Model Formats}}{66}
+\contentsline {subsubsection}{\texttt {Finding Models}}{66}
+\contentsline {subsubsection}{\texttt {Working with Plater}}{67}
+\contentsline {subsubsection}{\texttt {Cleaning STLs}}{70}
 \contentsline {subsection}{\texttt {Printing}}{71}
 \contentsline {section}{\numberline {3.4}\texttt {Simple Mode}}{71}
 \contentsline {subsection}{\texttt {Simple Mode}}{71}
@@ -201,7 +202,7 @@
 \contentsline {subsubsection}{\texttt {Printing Multi-material Objects}}{102}
 \contentsline {subsubsection}{\texttt {Generating multi-material AMF files}}{102}
 \contentsline {subsection}{\texttt {Extrusion Width}}{103}
-\contentsline {subsection}{Variable Layer Height}{104}
+\contentsline {subsection}{\texttt {Variable Layer Height}}{104}
 \contentsline {section}{\numberline {3.6}\texttt {Configuration Organization}}{109}
 \contentsline {subsection}{\texttt {Exporting and Importing Configuration}}{109}
 \contentsline {subsection}{\texttt {Profiles}}{109}
@@ -214,7 +215,7 @@
 \contentsline {subsubsection}{\texttt {Command Line Options}}{114}
 \contentsline {subsection}{\texttt {Post-Processing Scripts}}{119}
 \contentsline {section}{\numberline {3.9}\texttt {Troubleshooting}}{121}
-\contentsline {subsection}{Z Wobble}{121}
+\contentsline {subsection}{\texttt {Z Wobble}}{121}
 \contentsline {section}{\numberline {3.10}\texttt {Slic3r Support}}{122}
 \contentsline {subsection}{\texttt {Slic3r Support}}{122}
 \contentsline {subsubsection}{\texttt {Wiki and FAQ}}{122}
