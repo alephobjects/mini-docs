@@ -4,6 +4,7 @@
   \item \texttt{Print Settings
     \subitem Infill
       \subsubitem Fill pattern}, 74
+  \item 1.75mm filament, 131
 
   \indexspace
 {\normalsize \bfseries\hfil\ A \ \hfil}\nopagebreak
@@ -31,9 +32,11 @@
   \item Blender, 16
   \item blog, 122
   \item BotQueue, 17
+  \item bottle, 130
   \item Bottom Layer Speed, 40
   \item Bottom Thickness, 34
   \item Brim, 22, 36, 47
+  \item brim, 130
   \item burns, x
   \item bushings, 126
 
@@ -115,7 +118,7 @@
   \item forums, 122, 136
   \item FreeCAD, 16, 111
   \item Freenode, 122, 136
-  \item Full Settings, 31
+  \item Full Settings, 32
 
   \indexspace
 {\normalsize \bfseries\hfil\ G \ \hfil}\nopagebreak
@@ -133,14 +136,14 @@
 
   \item hardware, 134
   \item hazards, x
-  \item heater block, x, 130
+  \item heater block, x
   \item Hexagon, 134
   \item High detail, 22
   \item high resolution, 130
   \item High speed, 22
   \item hobbed bolt, 127
   \item Host, 17
-  \item hot end, 127, 130
+  \item hot end, 127
 
   \indexspace
 {\normalsize \bfseries\hfil\ I \ \hfil}\nopagebreak
@@ -153,8 +156,10 @@
   \item Installation, 20
   \item Interface Line Width, 48
   \item Interface Thickness, 48
+  \item IPA, 130
   \item IRC, 122, 136
   \item Isopropyl Alcohol, 126
+  \item Isopropyl alcohol, 130
 
   \indexspace
 {\normalsize \bfseries\hfil\ L \ \hfil}\nopagebreak
@@ -189,10 +194,12 @@
   \indexspace
 {\normalsize \bfseries\hfil\ N \ \hfil}\nopagebreak
 
+  \item Ninjaflex, 130
   \item novelties, 134
   \item nozzle, 128, 130
   \item Nozzle Size, 38
   \item nozzle wipe, 128
+  \item Nylon, 130
 
   \indexspace
 {\normalsize \bfseries\hfil\ O \ \hfil}\nopagebreak
@@ -346,7 +353,6 @@
   \item technical support, 136
   \item temperature, x, 92
   \item Temperatures, 30
-  \item threaded extension, 130
   \item Top Thickness, 34
   \item Travel Speed, 39
   \item Tweak at Z, 41
@@ -360,11 +366,11 @@
 {\normalsize \bfseries\hfil\ W \ \hfil}\nopagebreak
 
   \item warnings, x
+  \item warping, 130
   \item website, 122
   \item Windows, 15--17
   \item wiping pad, 128
   \item wires, x
-  \item wrench, 130
 
   \indexspace
 {\normalsize \bfseries\hfil\ X \ \hfil}\nopagebreak
