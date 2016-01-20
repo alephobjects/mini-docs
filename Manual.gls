@@ -6,7 +6,7 @@
 
   \indexspace
 
-\glossitem {\memgloterm{Acetone}}{\memglodesc{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS. Acetone is not included or required with the Mini 3D printer.}} {\memgloref{}}{\memglonum{
+\glossitem {\memgloterm{Acetone}}{\memglodesc{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS. Acetone is not included, required, or recommended for use with the Mini 3D printer.}} {\memgloref{}}{\memglonum{
 		\memjustarg{130}}}
 
   \indexspace
@@ -30,8 +30,6 @@
 		\memjustarg{130}}}
 \glossitem {\memgloterm{Heater resistor}}{\memglodesc{A special type of resistor that is used to apply heat in a small area.}} {\memgloref{}}{\memglonum{
 		\memjustarg{130}}}
-\glossitem {\memgloterm{Hot end}}{\memglodesc{The hot end is the whole part where the plastic melts, including the nozzle, heater block, thermistor, and heat sink. The Budaschnozzle is LulzBot's\textsuperscript {\relax \fontsize  {7}{8}\selectfont  {\texttrademark }} hot end.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
 
   \indexspace
 
@@ -45,12 +43,8 @@
 
   \indexspace
 
-\glossitem {\memgloterm{PEEK}}{\memglodesc{Polyether ether ketone: an organic polymer used to insulate the hot end due to its mechanical properties at elevated temperatures.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
 \glossitem {\memgloterm{PEI}}{\memglodesc{Polyetherimide.}} {\memgloref{}}{\memglonum{
 		\memjustarg{130}}}
-\glossitem {\memgloterm{PTFE}}{\memglodesc{Polytetrafluoroethylene is a synthetic fluoropolymer used in the Budaschnozzle for it's low coefficient of friction.}} {\memgloref{}}{\memglonum{
-		\memjustarg{131}}}
 
   \indexspace
 
@@ -60,7 +54,5 @@
   \indexspace
 
 \glossitem {\memgloterm{Thermistor}}{\memglodesc{A special type of resistor that changes resistance based on temperature. It is used to measure temperature on the nozzle and the heated bed.}} {\memgloref{}}{\memglonum{
-		\memjustarg{130}}}
-\glossitem {\memgloterm{Threaded extension}}{\memglodesc{Used to separate the heater block and nozzle from the PEEK insulator. The plastic filament passes through the threaded extension into the melting chamber.}} {\memgloref{}}{\memglonum{
 		\memjustarg{130}}}
 \end{theglossary}

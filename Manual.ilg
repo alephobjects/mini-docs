@@ -40,8 +40,8 @@ Scanning input file Manual.idx....
 
 !! Input index error (file = Manual.idx, line = 274):
    -- Extra `!' at position 37 of first argument.
-done (342 entries accepted, 17 rejected).
-Sorting entries......done (3273 comparisons).
-Generating output file Manual.ind....done (380 lines written, 0 warnings).
+done (347 entries accepted, 17 rejected).
+Sorting entries......done (3261 comparisons).
+Generating output file Manual.ind....done (386 lines written, 0 warnings).
 Output written in Manual.ind.
 Transcript written in Manual.ilg.

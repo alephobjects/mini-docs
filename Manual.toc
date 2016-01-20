@@ -48,7 +48,7 @@
 \contentsline {subsection}{\texttt {Pausing Mid-Print}}{30}
 \contentsline {subsection}{\texttt {Recommended Temperatures}}{30}
 \contentsline {section}{\numberline {2.5}\texttt {Removing Your First Print}}{31}
-\contentsline {section}{\numberline {2.6}\texttt {Full Settings}}{31}
+\contentsline {section}{\numberline {2.6}\texttt {Full Settings}}{32}
 \contentsline {subsection}{\texttt {Loading a Profile}}{33}
 \contentsline {section}{\numberline {2.7}\texttt {Basic Tab Options}}{33}
 \contentsline {subsubsection}{\texttt {Layer Height}}{33}
@@ -237,7 +237,8 @@
 \contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{129}
 \contentsline {section}{\numberline {5.1}\texttt {Intro}}{130}
 \contentsline {section}{\numberline {5.2}\texttt {Changing nozzles}}{130}
-\contentsline {section}{\numberline {5.3}\texttt {Using 1.75mm filament}}{131}
+\contentsline {section}{\numberline {5.3}\texttt {Bed Adhesion}}{130}
+\contentsline {section}{\numberline {5.4}\texttt {Using 1.75mm filament}}{131}
 \contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{133}
 \contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{135}
 \contentsline {section}{\numberline {7.1}\texttt {LulzBot}}{136}
