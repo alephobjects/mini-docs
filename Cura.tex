@@ -225,7 +225,8 @@ To view the tool path of your print head and to ensure no skipped layers or gaps
 
 \section{\texttt{Starting Your First Print}}
 \index{First Print}
-Once you have your model, profile, and filament loaded, it is time for your first print! 
+Once you have your model, profile, and filament loaded, it is time for your first print! Refer to the \texttt{Quick Start Guide} included with your 3D printer. A PDF version is available at \texttt{LulzBot.com/downloads}.
+ 
 
 \begin{comment} %%%% Turn the following on for standalone Cura manual %%%%
 \subsection{Mini}
@@ -271,10 +272,14 @@ Set your temperatures for the hot end and the bed. You will see two boxes, one l
 
 \end{comment} 
 
-\subsection{\texttt{Control}}
-\index{Control}
-Connect your 3D printer to a computer using a USB cable, and power it on and select the \texttt{Control} button. \texttt{You must have an STL file loaded in order for the control button to appear.}  This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model). \textcolor{red}{Watch your automatic bed leveling sequence every print.} If your nozzle bends down your corner washers, turn off the printers power and restart the print.
+\subsection{\texttt{Printing from USB Cable}}
+\index{printing from USB}
+\index{USB}
+\index{USB cable}
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. If the control button is not present, be sure you have a model file loaded into Cura. If a model is loaded but the Control button is still not present use a different USB port, reinstall Cura, or contact our Support Team. This will bring up your Printer Interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once operational, you can start your first print. Your Mini will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
+
 %\pageref{fig:Print Control}).
+
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{ControlBox17.1.jpg}
@@ -282,8 +287,15 @@ Connect your 3D printer to a computer using a USB cable, and power it on and sel
 \label{fig:Control}
 \end{figure}
 \subsection{\texttt{Pausing Mid-Print}}
-\index{Pause}
+\index{pausing in the printing process}
+\index{pause print}
 You will notice after you click the print button through Cura, it will change to a pause button. When activated, it will pause your print and automatically move your print head away from your object. This will allow color changes or material changes mid print.
+
+\subsection{\texttt{Automatic Bed Leveling}}
+\index{automatic bed leveling}
+\index{ABL}
+Before each print your Mini will go through a wiping and a probing procedure in order to determine the slope/tilt of your bed. If your nozzle is dirty or not cleaned properly, this will prevent the printer from being able to create an electrical contact with the corners. Your Mini will automatically retry the wiping and probing procedure if this happens, up to a maximum of three times. If three consecutive wipes and probes have failed, the printer will stop and a warning will sound. If this is happening consistently, you should replace the wiping pad and/or adjust your wiping and probing temps for that specific filament. See section \ref{sssec:num1} on page \pageref{sssec:num1} for details on changing these temps.
+
 \subsection{\texttt{Recommended Temperatures}}
 \index{Temperatures}
 Different filaments have different ideal temperatures for extrusion, bed adhesion, and part removal. Your LulzBot Mini will have these automatically set when using our recommended profiles. We have found that for certain materials a glue stick is required for successful bed adhesion and/or part release. Glue stick can also be added to help first layer adhesion on any material, and may be helpful for objects with a larger surface area. 
@@ -553,6 +565,20 @@ Custom Gcode allows for complex automatic printer movements and operations. By a
 
 \subsection{\texttt{Mini Specific Considerations}}
 Please be cautious when changing any of these start and end gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@LulzBot.com} before hand.
+
+\definecolor{green2}{rgb}{0.00,0.375,0.0}
+
+\subsection{\texttt{Changing Wiping and Probing Temperatures}} \label{sssec:num1}
+\index{wiping temperature}
+\index{probing temperature}
+We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. \texttt{If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal probing.} In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
+\begin{itemize}
+\item \texttt{M109 SXXX}                    \textcolor{green2}{; soften filament for z homing}
+\item \texttt{M104 SYYY}                    \textcolor{green2}{; wipe temp}
+\item \texttt{M109 SZZZ}                    \textcolor{green2}{; heat to probe temp}
+\end{itemize}
+
+By changing the variables \texttt{(XXX, YYY, ZZZ),} you can change what temperature your printer will soften, wipe, and probe. Our temperatures for softening, wiping, and probing will be a good starting point for other manufacturer's filament. When making adjustments, we recommend \texttt{+/- 5°C} changes at a time. \texttt{Be sure to watch the probing sequence when experimenting with new temperatures.}
 
 \section{\texttt{Expert Settings}}
 \index{Expert Settings}
