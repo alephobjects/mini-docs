@@ -384,9 +384,9 @@ Once the switch has been made to full settings, you will now have access to a wi
 \label{fig:View in Full Settings}
 \end{figure}
 
-\subsection{\texttt{Loading a Profile}}
-\index{Loading Profile}
-Profiles determine how Cura turns your STL file into Gcode that controls your printer. Different filaments require different settings for optimal performance. As new filaments are being developed every day, there may be a time you need to manually load a profile. You can download our recommend profiles at: \texttt{https://www.lulzbot.com/support/mini-cura-profiles}. Once downloaded, load the filament specific .ini file by going to \texttt{File > Open Profile}.
+%\subsection{\texttt{Loading a Profile}}
+%\index{Loading Profile}
+%Profiles determine how Cura turns your STL file into Gcode that controls your printer. Different filaments require different settings for optimal performance. As new filaments are being developed every day, there may be a time you need to manually load a profile. You can download our recommend profiles at: \texttt{https://www.lulzbot.com/support/mini-cura-profiles}. Once downloaded, load the filament specific .ini file by going to \texttt{File > Open Profile}.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -399,11 +399,11 @@ Profiles determine how Cura turns your STL file into Gcode that controls your pr
 
 \subsubsection{\texttt{Layer Height}}
 \index{Layer Height}
-The thickness of each printed layer is known as the \texttt{Layer Height}. The smaller the layer height, the smoother curves will appear. Larger layer heights are better for bridging and overhangs. Smaller layer heights will also increase print time, as it will take more layers to complete the object.
+The thickness of each printed layer is known as the ``Layer Height''. The smaller the layer height, the smoother curves will appear. Larger layer heights are better for bridging and overhangs. Smaller layer heights will also increase print time, as it will take more layers to complete the object.
 % (Layer height comparision photos)
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Layer_Height1.jpg}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{ManualLayerHeight.jpg}
 \caption{Differences in Layer Height}
 \label{fig:Differences in Layer Height}
 \end{figure}
@@ -411,7 +411,7 @@ The thickness of each printed layer is known as the \texttt{Layer Height}. The s
 
 \subsubsection{\texttt{Shell Thickness}}
 \index{Shell Thickness}
-This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your LulzBot Mini 3D printer is equipped with a 0.5 mm nozzle. %The TAZ ships with a .35mm nozzle standard, while the TAZ Mini has a .5mm nozzle standard.
+This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your LulzBot Mini 3D printer is equipped with a 0.5mm nozzle. A setting of 1.0mm or 1.5mm is a sufficient for most prints.
 
 \subsubsection{\texttt{Enable Retraction}}
 \index{Retraction}
@@ -421,15 +421,19 @@ Retraction tells your printer to pull filament out of the hot end upon travel mo
 \subsubsection{\texttt{Bottom/Top Thickness (mm)}}
 \index{Bottom Thickness}
 \index{Top Thickness}
-Also known as \texttt{Surface Layers}- this will determine how thick the top and bottom layers are. A larger number here will create a thicker top and bottom which can be helpful for strength, bridging, and quality purposes. We recommend keeping this number as a multiple of your layer height.
+Also known as ``Surface Layers'' this will determine how thick the top and bottom layers are. A larger number here will create a thicker top and bottom which can be helpful for strength, bridging, and quality purposes. We recommend keeping this number as a multiple of your layer height.
 
 \subsubsection{\texttt{Fill Density}}
 \index{Fill Density}
 This number is expressed as a percentage. 0\% will give a completely hollow print, while 100\% will give you a completely solid object. We have found that 20\% to 40\% fill density is functional for most prints.
 
+\subsubsection{\texttt{Perimeters Before Infill}}
+This option will toggle the order in which the infill and perimeters will be printed. We recommend leaving this on.
+
 \subsubsection{\texttt{Print Speed (mm/s)}}
 \index{Print Speed}
-Your overall printing speed can be adjusted here. If no other speeds are determined in the later sections your printer will automatically default to this speed. This speed will be different, depending on what type of filament you are using.
+Your overall printing speed can be adjusted here. This setting will be overridden in certain parts of the print based upon your Advanced Speed Settings. If no speeds are determined in the advanced settings tab, your printer will default to this setting. %See Advanced Section \ref{sssec:Travel Speed}, page \pageref{sssec:Travel Speed} 
+
 
 \subsubsection{\texttt{Printing Temperature}}
 \index{Printing Temperature}
