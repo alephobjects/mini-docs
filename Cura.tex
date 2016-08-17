@@ -88,20 +88,24 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \index{Support Material}
 %%%% Saved for standalone Cura Manual %%%%
 %The TAZ and Mini are able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
-The LulzBot Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
+The LulzBot Mini 3D printer is able to print models that have angles and overhangs, even without support material. This will depend on the overhang distance and angle of your particular model file. Turn this option on if sections of your model are being are extending in mid air. This will build up material underneath the portion extending in mid air, preventing gravity from making the object droop.
 
 \subsection{\texttt{Brim}}
 \index{Brim}
-Brim is used to increase surface area of the part your printing, thereby ensuring proper part adhesion. This will print a single layer high edge around the outside of the part, helping first layer adhesion and minimizing warping.
+Brim is used to increase surface area of the part you're printing, thereby ensuring proper part adhesion. This will print a single layer high edge around the base of the part, helping first layer adhesion and minimizing warping.
 
 \subsection{\texttt{Load Model File}}
 \index{Load Model}
+\index{load model}
+\index{3D models}
 \index{STL}
+\index{OBL}
+\index{AMF}
 Select the model you would like to print. Either use the \texttt{Load Model} button or select \texttt{File} > \texttt{Load Model}. Once the file has been loaded, you will see a 3D rendering of your object on the build platform. Select the model to see the various options. 
 
 \subsection{\texttt{Model Orientation}}
 \index{Orientation}
-Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner represents the lower left hand corner of the build plate on your printer. You can also Right Click and hold in the build screen, to view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
+Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black outlined corner represents the lower left hand corner of the build plate on your printer.} You can view your model from different angles by holding down the right mouse button and dragging %Not sure if this last sentence should be reworked or put in a separate section.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{optionsRSM1.jpg}
@@ -113,7 +117,9 @@ Move your model to change where it is printed on the build plate. Do this by lef
 %%%% Alternate explanation %%%%
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \definecolor{yellow1}{cmyk}{0,0,1,0.30}
-The \texttt{Rotate} button will give you the ability to orient your model in all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X axis}.
+\definecolor{green1}{rgb}{0.30,1,0.30}
+The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z-axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y-axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X-axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}. (Fig. \ref{fig:Rotating your Model}, page \pageref{fig:Rotating your Model})
+
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{rotateoptions.jpg}
@@ -122,7 +128,7 @@ The \texttt{Rotate} button will give you the ability to orient your model in all
 \end{figure}
 
 \subsubsection{\texttt{Lay Flat}}
-The \texttt{Lay Flat} button will ensure that the flat portion of your print is securely attached to the bed. It is highly recommended to use this option after rotating your model in the Z direction, as it will help prevent adhesion issues during the print.
+The \texttt{Lay Flat} button will ensure that the flat portion of your print is securely attached to the bed. It is highly recommended to use this option after rotating your model in the Z direction, as it will help prevent potential adhesion issues during the print.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -150,9 +156,10 @@ The \texttt{Scale} button displays the model dimensions, along with the ability 
 
 \section{\texttt{View Options}}
 \index{View Options}
-This mode allows you to view your model in a variety of different ways. This can be helpful for spotting issues before the print even starts. 
+Different modes allow you to view your model in a variety of different ways. This can be helpful for spotting issues before the print even starts. 
 
 \subsection{\texttt{Normal}}
+\index{normal view}
 This is the standard view and shows the solid outer surfaces of the model. (Fig. \ref{fig:Normal View}, page \pageref{fig:Normal View}): 
 
 \begin{figure}[H]
@@ -164,7 +171,7 @@ This is the standard view and shows the solid outer surfaces of the model. (Fig.
 
 \subsection{\texttt{Overhang}}
 \index{Overhang} 
-Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended.
+Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended. The overhang threshold can be defined in Expert Settings. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{overhang17.1.jpg}
@@ -184,7 +191,7 @@ Ghost view mode makes the model translucent to allow you to see what is behind i
 
 \subsection{\texttt{Xray}}
 \index{Xray}
-Xray is very similiar to Ghost mode. It will alow you to see into objects, ensuring that inner details are correct.
+X-ray allows you to look inside of the object. This is helpful for detecting any manifold errors or other possible issues with your model. Problem areas will be highlighted in red. (Fig. \ref{fig:Xray View}, page \pageref{fig:Xray View})
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{xray17.1.jpg}
@@ -194,7 +201,7 @@ Xray is very similiar to Ghost mode. It will alow you to see into objects, ensur
 
 \subsection{\texttt{Layers}}
 \index{Layers}
-To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers. The button just below the slide bar will toggle cumulative layers and individual layers.
+To view the tool path of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the tool path layers. Click the icon below it to view an individual layer at a time. If the \texttt{Print support structure} option is activated in Cura, support structure will be shown in blue.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers1.17.1.jpg}
