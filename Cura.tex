@@ -436,21 +436,25 @@ Your overall printing speed can be adjusted here. This setting will be overridde
 
 
 \subsubsection{\texttt{Printing Temperature}}
-\index{Printing Temperature}
-When using different filament materials you'll need to update the desired hot end and heated bed temperature. Any temperatures specified here will be used to automatically set both the hot end and heated bed. Your print will not begin until these temperatures are met. The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
+This is where you will set the hot end temperature for your specific material and manufacturer. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. \texttt{See Recommended Temperatures Table: page \pageref{tab:a}.} Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
+
 %%%% Since the Mini needs to have gcode temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ4 or earlier. %%%%
 %We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the specified temperature. We recommend setting your printing temperatures through the Pronterface UI, or through your LCD.
 
+\subsubsection{\texttt{Bed Temperature}}
+\index{bed temperature}
+This is where you will set the print surface temperature for your specific material. These will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. \texttt{See Recommended Temperatures Table: page \pageref{tab:a}.} Your print surface is capable of reaching a maximum temperature of \texttt{135°C}. 
+
 \subsection{\texttt{Support Type}}
 \index{Support Type}
-Some models will require support material in order to print properly. This will usually occur when an object has an angle in relation to the build plate between 0 to 45 degrees. It is highly recommended to orient your object so that it minimizes or eliminates the need for support.
+Some models will require support material in order to print properly. This will usually occur when an object has an angle in relation to the build plate between 0 to 45 degrees. It is highly recommended to orient or design your object so that it minimizes or eliminates the need for support.
 
 \subsubsection{\texttt{Touching Buildplate}}
-This causes the support material to build up between the heated bed and the object. The red example is Touching Buildplate.
+This causes the support material to build up between the heated bed and the object. The red example is Touching Buildplate. (Fig. \ref{fig:Different Types of Support}, page \pageref{fig:Different Types of Support}) 
 % (Photo of Circle inside a square, that is printed vertically. Have samples on photo table. Reference photo below?)
 
 \subsubsection{\texttt{Everywhere}}
-This prints support material between the heated bed and object as well as between the object and itself. The green example is Support Everywhere.
+This prints support material between the heated bed and object as well as between the object and itself. The green example is Support Everywhere. (Fig. \ref{fig:Different Types of Support}, page \pageref{fig:Different Types of Support})
 % (Photo of Circle inside a square, that is printed vertically, sample on photo table. Reference Photo Below?)
 % (Support Comparison Photo)
 \begin{figure}[H]
@@ -466,21 +470,21 @@ Some models have a small surface area contacting the plate. This can create adhe
 
 \subsubsection{\texttt{Brim}}
 \index{Brim}
-Brim will create a single layer of filament, contacting and surrounding your model. This will increase the surface area of the part contacting the build platform thereby preventing it from popping off the heated bed. Brim will also help in situations where you are seeing corner lift. Brim settings can be adjusted in the \texttt{Expert Settings} options.
+Brim will create a single layer of filament, contacting and surrounding your model. This will increase the surface area of the part contacting the build platform thereby preventing it from popping off the heated bed. Brim will also help in situations where you are seeing corner lift. Brim settings can be adjusted in the \texttt{Expert Settings} options. %See Expert Settings \ref{sssec:Brim Line Amount}, page \pageref{sssec:Brim Line Amount} 
 % (See Expert Settings/Page REFERENCE)
 
 \subsubsection{\texttt{Raft}}
 \index{Raft}
 %% Raft is rarely used these days %%
-Raft will generate a layer of material underneath your object. Raft was more often used before the addition of heated plates to increase surface area. Raft settings can be adjusted in the \texttt{Expert Settings} options.
+Raft will generate a layer (or more) of material underneath your object. Raft was more often used before the addition of heated plates to increase surface area and reduce warp. Raft settings can be adjusted in the \texttt{Expert Settings} options.
 
 \subsection{\texttt{Filament Diameter}}
 \index{Filament Diameter}
-The filament diameter setting is one of the more important settings. Make sure that you update this value periodically with your average filament diameter. While your filament may be referred to as 3mm, it is more likely going to be near 2.9mm +/- 0.1mm. You will want this to be an accurate average, as it will allow your printer to correctly calculate how much filament it is pulling into the hot end.
+The filament diameter setting is one of the more important settings. Make sure that you update this value periodically with your average filament diameter. While your filament may be referred to as 3mm, it is more likely going to be near 2.85mm +/- 0.1mm. You will want this to be an accurate average, as it will allow your printer to correctly calculate how much filament it is pulling into the hot end. The default value should be set to 2.85mm.
 
 \subsection{\texttt{Filament Flow \%}}
 \index{Flow Rate}
-This controls how much filament your printer is extruding in relation to speed. This setting is mainly used to adjust for filament density variations. Leave this value at 100\% as changing it can lead to surface quality issues.
+This controls how much filament your printer is extruding in relation to speed. This setting is mainly used to adjust for filament density variations. This may need to be changed when switching between different manufacturers or types of filament to adjust for die swell. It is recommended to make small adjustments between prints for fine tuning.
 
 \section{\texttt{Advanced Tab Options}}
 \index{Advanced Options}
