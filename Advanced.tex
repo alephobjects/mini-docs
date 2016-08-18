@@ -41,6 +41,7 @@ You may find that during printing, printed parts lift off the print surface on t
 
 
 
+
 %\section{ABS/Acetone Glue}
 %\label{sec:ABS/Acetone Glue}
 %\index{acetone}
@@ -54,6 +55,20 @@ Acetone is not included, required, or recommended for use with the Mini 3D print
 \glossary{PEI}{Polyetherimide.}
 The Mini 3D printer has a print surface of PEI. This printing surface can be used without any additional bed treatment. Keep the PEI sheet clean by wiping it with Isopropyl Alcohol and by lightly sanding the PEI surface with 2000-2500 grit sand paper.
 
+\definecolor{green2}{rgb}{0.00,0.375,0.0}
+
+\section{Z Offset}
+\label{sssec:Z Offset}
+\index{Z offset}
+\index{first layer height}
+Your LulzBot Mini 3D printer has the ability to change the first layer height (Z offset) directly through Cura. In the lower right hand corner of the Control Window in cura, enter the following commands.
+\begin{itemize}
+\item \texttt{M851}                    \textcolor{green2}{; This will report your current Z offset}
+\item \texttt{M851 ZXXX}                    \textcolor{green2}{; This will update your Z offset to XXX}
+\item \texttt{M500}                    \textcolor{green2}{; Save new offset}
+\end{itemize}
+
+To bring your Tool Head closer to the plate, subtract from your current offset. To increase the distance between the hot end and the plate add to your current offset. When updating your offset, be sure to make small changes between prints. +/- 0.1mm incriments at a time when making adjustments is recommended. 
 
 \section{\texttt{Using 1.75mm filament}}
 \index{1.75mm filament}
