@@ -61,14 +61,14 @@ The Mini 3D printer has a print surface of PEI. This printing surface can be use
 \label{sssec:Z Offset}
 \index{Z offset}
 \index{first layer height}
-Your LulzBot Mini 3D printer has the ability to change the first layer height (Z offset) directly through Cura. In the lower right hand corner of the Control Window in cura, enter the following commands.
+Your LulzBot Mini 3D printer has the ability to change the first layer height (Z offset) directly through Cura. In the lower right hand corner of the Control Window in cura, enter the following commands. (The green text explains the command, do not enter it.)
 \begin{itemize}
 \item \texttt{M851}                    \textcolor{green2}{; This will report your current Z offset}
 \item \texttt{M851 ZXXX}                    \textcolor{green2}{; This will update your Z offset to XXX}
 \item \texttt{M500}                    \textcolor{green2}{; Save new offset}
 \end{itemize}
 
-To decrease the Z-offset between your nozzle tip and the plate, subtract from your current offset when changing XXX. To increase the Z-offset between the nozzle tip and the plate add to your current offset when changing XXX. When updating your offset, be sure to make small changes between prints. +/- 0.1mm incriments at a time when making adjustments is recommended. 
+To decrease the Z-offset between your nozzle tip and the print surface (decreasing the gap,) subtract from your current offset when changing XXX. To increase the Z-offset between the nozzle tip and the print surface (increasing the gap,) add to your current offset when changing XXX. When updating your offset, be sure to make small changes between prints. \textcolor{red}{We recommend making changes using small, 0.1mm increments at a time.} 
 
 \section{\texttt{Using 1.75mm filament}}
 \index{1.75mm filament}
