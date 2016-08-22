@@ -617,14 +617,14 @@ Retraction pulls filament out of your nozzle when it is not extruding to prevent
 
 \subsection{\texttt{Minimum Travel}}
 \index{Minimum Travel}
-This sets the minimum travel distance of your printhead in order to retract. If your print head is not moving this far during travel moves, it will not retract.
+This sets the minimum travel distance of your print head in order to retract. If your print head is not moving at least this far during travel moves, it will not retract.
 
 \subsection{\texttt{Combing}}
 \index{Combing}
 This option prevents your print head from traveling over holes in the X/Y plane when printing. This will slightly increase print time, but will prevent strings from getting caught on the holes during travel moves. We recommend keeping this setting on.
 
 \subsection{\texttt{Minimal Extrusion Before Retracting}}
-This will control the distance at which retraction occurs if the printing movement exceeds the minimum extrusion amount. This will prevent a retraction move, if your extruder has not put out Xmm of filament since its last retraction.
+This will prevent a retraction move, if your extruder has input X mm of filament into the hot end. This is length of filament input into the hot end, not length extruded.
 
 \subsection{\texttt{Z Hop When Retracting}}
 \index{Z hop}
@@ -633,7 +633,7 @@ This will raise your print head Xmm while retracting. This setting helps prevent
 
 \section{\texttt{Skirt}}
 \index{Skirt}
-Skirt creates a line around the outside of your object. Most commonly used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on.
+Skirt creates a line around the outside of your object. This is used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on. Turning this setting off will allow for utilizing the full build volume.
 
 \subsection{\texttt{Line Count}}
 \index{Line Count}
@@ -641,7 +641,7 @@ This will define the number of loops the Skirt creates around the outside of you
 
 \subsection{\texttt{Start Distance}}
 \index{Start Distance}
-This will define the distance away from your model that the skirt will be created. If using as an envelope to prevent drafts, it is recommended to be closer to your object.
+This will define the distance away from your model that the skirt will be created. The distance from the model will consume a portion of the maximum build volume in the X/Y plane.
 
 \subsection{\texttt{Minimal Length}}
 \index{Minmal Length}
@@ -649,7 +649,7 @@ This will define the minimum extruded line length for the skirt. This will over 
 
 \section{\texttt{Cool}} \label{sssec:Cooling}
 \index{Cooling}
-This section will define how your extruder cooling fan will operate during the print. \textcolor{red}{Your fan will not start until it has reached 25\% or higher for speed settings.} If your print speeds are slowed down due to minimal layer time, the fan will run between minimum and maximum speed based upon how much the layer is slowed down.
+This section will define how your extruder cooling fan will operate during the print. If your print speeds are slowed down due to minimal layer time, the fan will run between minimum and maximum speed based upon how much the layer is slowed down.
 
 \subsection{\texttt{Fan on at Full Height}}
 \index{Fan Settings}
@@ -674,15 +674,17 @@ You can choose between a Grid or a Line pattern for your support material. The g
 
 \subsection{\texttt{Overhang Angle for Support}}
 \index{Overhang Angle}
-This will determine where support material is generated. In general you will be able to print a model with 45 to 90 degree angles in relation to the bed without support. We recommend leaving this setting at 45.
+This will determine where support material is generated. In general you will be able to print a model with 45 to 90 degree angles in relation to the bed without support. A conservative setting for this is 45 degrees.
 
 \subsection{\texttt{Fill Amount}}
 \index{Fill Amount}
-This will determine how dense your support material is printed, similar to Infill Percentage. The higher percentage the better support, but it will be harder to remove the support material and will use more material.
+\index{support infill}
+\index{support density}
+This will determine how dense your support material is printed, similar to Infill Percentage. The higher the percentage, the better support, but it will be harder to remove the support material, will use more material, and will lead to a longer total printing time.
 
 \subsection{\texttt{Distance X/Y}}
 \index{Support}
-This will determine how far away from your object in the X/Y plane that the support material is being placed.
+This will determine how far away from your object in the X/Y plane that the support material is being placed. A larger distance entered here can make the material easier to remove, but it will not support as well.
 
 \subsection{\texttt{Distance Z}}
 \index{Support}
@@ -698,7 +700,7 @@ This causes your Z axis to be constantly moving upward as printing your single o
 
 \subsection{\texttt{Only Follow Mesh Surface}}
 \index{Follow Mesh Surface}
-This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. The only difference between this and Spiralize, is that the Z axis moves regularly. That is, it prints a layer and then moves up to the next one.
+This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. This will also ignore the base layer, and the top layer. The difference between this and Spiralize, is that the Z-axis moves regularly. That is, it prints a layer and then moves up vertically to begin the next one.
 
 \section{\texttt{Brim}}
 \index{Brim}
