@@ -704,14 +704,14 @@ This will cause your print to follow the outside of your model, building it comp
 
 \section{\texttt{Brim}}
 \index{Brim}
-Brim circles the base of the print while making contact, helping adhere the print to the heated plate. This is only one layer thick, and easily removed post-print. This section defines how the brim is formed when brim is activated in basic settings.
+Brim circles the base of the print while making contact, helping adhere the print to the heated plate. This is only one layer thick, and easily removed post-print. The distance around the base of the object will consume some of the maximum build volume in the X/Y plane. This section defines how the brim is formed when brim is activated in basic settings.
 
 \subsection{\texttt{Brim Line Amount}}
 This will determine the distance the brim will cover around the outside of your object. The more brim used, the better your part will adhere to the plate. 
 
 \section{\texttt{Raft}}
 \index{Raft}
-Raft is a platform built underneath your object, designed to help adhesion and prevent warping. It will lay down support material, and then a platform on top of the supports. Your model will be built on top of this platform. The bottom surface of your printed part will not be as clean or as even when using this option. Raft is typically not recommended.
+Raft is a platform built underneath your object, designed to help adhesion and prevent warping. It will lay down support material, and then a platform on top of the supports. Your model will be built on top of this platform. The bottom surface of your printed part will not be as clean or as even when using this option. Raft is typically not required.
 
 \subsection{\texttt{Extra Margin}}
 \index{Extra Margin}
@@ -747,7 +747,7 @@ This will determine the number of layers that create the “platform” of your 
 
 \section{\texttt{Fix Horrible}}
 \index{Fix Horrible}
-These are some of the more advanced and experimental options. They are designed to help repair models with errors to make them suitable for 3D printing. They do not always work. Please be cautious when using these options as they can have unintended effects on your print quality.
+These are some of the more advanced and experimental options. They are designed to help repair models with errors to make them suitable for 3D printing. \texttt{They do not always work.} Please be cautious when using these options as they can have unintended effects on your print quality.
 
 \subsection{\texttt{Combine Everything (Type-A)}}
 \index{Combine Type-A}
@@ -759,7 +759,7 @@ This will ignore all internal holes of the model and only focus on the external 
 
 \subsection{\texttt{Keep Open Faces}}
 \index{Open Faces}
-This will ignore all manifold errors in the object. It can create issues generating the Gcode as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option. %Really. Don't.
+This will ignore all manifold errors in the object. It can create issues generating the GCODE as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. \texttt{In general, you should not use this option.}%Really. Don't.
 
 \subsection{\texttt{Extensive Stiching}}
 \index{Extensive Stiching}
