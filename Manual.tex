@@ -85,7 +85,7 @@
 \newif\ifsetup\setupfalse %false
 \newif\ifsoftware\softwaretrue %true
 \newif\ifcura\curatrue %true, to test inserting Cura prior to the other software packages. 
-\newif\ifslicer\slicertrue %true
+\newif\ifslicer\slicerfalse %false
 \newif\iffilament\filamentfalse %false
 \newif\iffirstprint\firstprintfalse %false
 \newif\ifglcd\glcdfalse %false - not present on the Mini
@@ -260,7 +260,7 @@
 \ifsetup
 \chapter{\emph{Setup Your Printer}}
 \thispagestyle{empty}
-\markboth{Setup Your Printer}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Setup Your Printer}{LulzBot Mini User Manual}
 {\include{Setup}}
 \fi
 %%% END SETUP %%%
@@ -269,7 +269,7 @@
 \iffilament
 \chapter{\emph{Loading Filament}}
 \thispagestyle{empty}
-\markboth{Loading Filament}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Loading Filament}{LulzBot Mini User Manual}
 {\include{Filament}}
 \fi
 %%% END FILAMENT %%%
@@ -278,7 +278,7 @@
 \ifsoftware
 \chapter{\emph{3D Printer Software}}
 \thispagestyle{empty}
-\markboth{3D Printer Software}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{3D Printer Software}{LulzBot Mini User Manual}
 {\include{Software}}
 \fi
 %%% END SOFTWARE %%%
@@ -287,22 +287,10 @@
 \ifcura
 \chapter{\emph{Cura}}
 \thispagestyle{empty}
-\markboth{Cura}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Cura}{LulzBot TAZ User Manual}
 {\include{Cura}}
 \fi
 %%% END CURA %%%
-
-\begin{comment}
-%%% Moving Slic3r to allow for more linear reading/setup. Slic3r will not be needed until after first test print %%%%
-%%% SLIC3R %%%
-\ifslicer
-\chapter{\emph{Slic3r}}
-\thispagestyle{empty}
-\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
-{\include{Slicer}}
-\fi
-%%% END SLIC3R %%%
-\end{comment}
 
 
 %%% FIRSTPRINT %%%
@@ -310,18 +298,18 @@
 \chapter{\emph{Your First 3D Print}}
 \label{firstprint}
 \thispagestyle{empty}
-\markboth{Your First 3D Print}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Your First 3D Print}{LulzBot Mini User Manual}
 {\include{Firstprint}}
 \fi
 %%% END FIRSTPRINT %%%
 
 %%% SLIC3R %%%
-%\ifslicer
-%\chapter{\emph{Slic3r}}
-%\thispagestyle{empty}
-%\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
-%{\include{Slicer}}
-%\fi
+\ifslicer
+\chapter{\emph{Slic3r}}
+\thispagestyle{empty}
+\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+{\include{Slicer}}
+\fi
 %%% END SLIC3R %%%
 
 %%% GLCD %%%
@@ -338,16 +326,16 @@
 \ifmaintenance
 \chapter{\emph{Maintaining Your 3D Printer}}
 \thispagestyle{empty}
-\markboth{Maintaining Your 3D Printer}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Maintaining Your 3D Printer}{LulzBot Mini User Manual}
 {\include{Maintenance}}
 \fi
 %%% END MAINTENANCE %%%
 
 %%% ADVANCED %%%
-\ifmaintenance
+\ifadvanced
 \chapter{\emph{Advanced Usage}}
 \thispagestyle{empty}
-\markboth{Advanced Usage}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Advanced Usage}{LulzBot Mini User Manual}
 {\include{Advanced}}
 \fi
 %%% END ADVANCED %%%
@@ -356,7 +344,7 @@
 \iffaq
 \chapter{\emph{FAQ}}
 \thispagestyle{empty}
-\markboth{FAQ}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{FAQ}{LulzBot Mini User Manual}
 {\include{FAQ}}
 \fi
 %%% END FAQ %%%
@@ -365,7 +353,7 @@
 \iftroubleshooting
 \chapter{\emph{Troubleshooting}}
 \thispagestyle{empty}
-\markboth{Troubleshooting}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Troubleshooting}{LulzBot Mini User Manual}
 {\include{Troubleshooting}}
 \fi
 %%% END TROUBLESHOOTING %%%
@@ -374,7 +362,7 @@
 \ifsource
 \chapter{\emph{Hardware and Software Source Code}}
 \thispagestyle{empty}
-\markboth{Hardware and Software Source Code}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Hardware and Software Source Code}{LulzBot Mini User Manual}
 {\include{Source}}
 \fi
 %%% END SOURCE %%%
@@ -383,7 +371,7 @@
 \ifsupport
 \chapter{\emph{3D Printer Support}}
 \thispagestyle{empty}
-\markboth{3D Printer Support}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{3D Printer Support}{LulzBot Mini User Manual}
 {\include{Support}}
 \fi
 %%% END SUPPORT %%%
@@ -392,7 +380,7 @@
 \ifcontact
 \chapter{\emph{Contact Information}}
 \thispagestyle{empty}
-\markboth{Contact Information}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Contact Information}{LulzBot Mini User Manual}
 {\include{Contact}}
 \fi
 %%% END CONTACT %%%
