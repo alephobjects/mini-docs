@@ -1,4 +1,4 @@
-This is the LaTeX source code for the LulzBot Mini 3D Printer.
+This is the LaTeX source code for the LulzBot® TAZ 3D Printer.
 
 Known used packages required to compile the PDF manual on a Debian based system:
 
@@ -19,7 +19,7 @@ texlive-latex-recommended-doc
 tipa
 xindy 
 
-Create a text document with the required packages:
+Crate a text document with the required packages:
 
 $: vi packages
 
@@ -43,8 +43,8 @@ If you'd like to translate the manual, please feel free to do so! Fork the proje
 
 Generating the manual:
 
-At the root directory of the manual, (../mini-docs/) in a terminal run:
-$: ./make-Manual-multiple.sh
+At the root directory of the manual, (../taz-docs/) in a terminal run:
+$: ./make-Manual.sh
 
 If you encounter any errors, look for the file name/line entry.
 

@@ -6,9 +6,9 @@
 
 Slic3r has two features to aid newcomers: the configuration wizard, and simple mode.
 
-Sometimes it is nice to have a helping hand when starting out with new software.  The configuration wizard asks a series of questions and creates a configuration for Slic3r to start with.
+Sometimes it is nice to have a helping hand when starting out with new software.  The configuration wizard asks a series of questions and creates a new configuration for Slic3r.
 
-\textbf{When using the pre-set Mini Slic3r profiles you do not need to complete the Configuration Wizard.} The Configuration Wizard can be later accessed from the top menu once you are ready to start creating your own Slic3r profiles.
+\textbf{When using the pre-set TAZ Slic3r profiles you do not need to complete the Configuration Wizard.} The Configuration Wizard can be later accessed from the top menu once you are ready to start creating your own Slic3r profiles.
 
 \begin{figure}[H]
 \centering
@@ -21,7 +21,7 @@ Sometimes it is nice to have a helping hand when starting out with new software.
 \subsubsection{\texttt{1. Firmware Type}}
 \label{sub:1_firmware_type}
 \index{Printer Settings!Firmware!G-code flavour}
-The gcode produced by Slic3r is tailored to particular types of firmware.  The first step prompts for the firmware that the printer uses.  For the Mini 3D printer select \texttt{RepRap (Marlin/Sprinter)}
+The gcode produced by Slic3r is tailored to particular types of firmware.  The first step prompts for the firmware that the printer uses.  For the TAZ printer select \texttt{RepRap (Marlin/Sprinter)}
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,width=\textwidth]{configuration_wizard/configuration_wizard_firmware_type.png}
@@ -33,13 +33,13 @@ The gcode produced by Slic3r is tailored to particular types of firmware.  The f
 \subsubsection{\texttt{2. Bed Size}}
 \label{sub:2_bed_size}
 \index{Printer Settings!Size and coordinates!Bed size}
-This setting defines the maximum distance the extruder may travel along the X and Y axis.  The dimensions of the Mini 3D print surface are X: 160 and Y: 160.
+This setting defines the maximum distance the extruder may travel along the X and Y axis.  The dimensions for the TAZ print surface are X: 298 and Y: 275.
 
-Be sure to measure from the lower left corner where the extruder nozzle rests when are the home position to the maximum distance the nozzle can travel in each direction.  %Take into account that the X carriage may touch the frame before the nozzle reaches it's full distance, this will depend on the 3D printer make and model.
+Be sure to measure from the lower left corner where the extruder nozzle rests when are the home position to the maximum distance the nozzle can travel in each direction.  Take into account that the X carriage may touch the frame before the nozzle reaches it's full distance, this will depend on the printer make and model.
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,width=\textwidth]{configuration_wizard/Bed_size.png}
+\includegraphics[keepaspectratio=true,width=\textwidth]{configuration_wizard/configuration_wizard_bed_size.png}
 \caption{Configuration Wizard: Bed Size}
 \label{fig:configuration_wizard_bed_size}
 \end{figure}
@@ -48,13 +48,13 @@ Be sure to measure from the lower left corner where the extruder nozzle rests wh
 \subsubsection{\texttt{3. Nozzle Diameter}}
 \label{sub:3_nozzle_diameter}
 \index{Printer Settings!Extruder!Nozzle diameter}
-The diameter of the hot-end nozzle is usually clearly displayed either in the description of the hot-end, or in the associated documentation, when the hot-end is purchased.  The default nozzle size on the Mini hot end is 0.5mm.
+The diameter of the hot-end nozzle is usually clearly displayed either in the description of the hot-end, or in the associated documentation, when the hot-end is purchased.  The nozzle sizes available for the TAZ hot end are 0.35mm and 0.50mm.
 
-If the nozzle was home-made, or came from a source without a diameter given, then carefully measure the aperture as accurately as possible.  One way of determining nozzle size is to very slowly (1mm/s) extrude some filament into free air and measure the thickness of the resulting extrusion\footnote{\	http://forums.reprap.org/read.php?1,113374,113953}.  This has the benefit of taking die swell into account. %, and consequently may be a useful thing to do even if the diameter is known.
+If the nozzle was home-made, or came from a source without a diameter given, then carefully measure the aperture as accurately as possible.  One way of determining nozzle size is to very slowly (1mm/s) extrude some filament into free air and measure the thickness of the resulting extrusion\footnote{\	http://forums.reprap.org/read.php?1,113374,113953}.  This has the benefit of taking die swell into account, and consequently may be a useful thing to do even if the diameter is known.
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,width=\textwidth]{configuration_wizard/Nozzle_diameter.png}
+\includegraphics[keepaspectratio=true,width=\textwidth]{configuration_wizard/configuration_wizard_nozzle_diameter.png}
 \caption{Configuration Wizard: Nozzle Diameter}
 \label{fig:configuration_wizard_nozzle_diameter}
 \end{figure}
@@ -65,12 +65,12 @@ If the nozzle was home-made, or came from a source without a diameter given, the
 \index{Filament Settings!Filament!Diameter}
 For Slic3r to produce accurate results it must know as accurately as possible how much material is pushed through the extruder.  Therefore it is vital to give it as precise a value as possible for the filament diameter.
 
-Although the filament used in FFF printers is sold as being either 3mm or 1.75mm this is only a general guide.  The diameter can vary between manufacturers and even between batches.  Therefore it is highly recommended to take multiple measurements from along a length of the filament and use the average.  For example, measurements of 2.89, 2.88, 2.90 and 2.91 would yield an average of 2.895, and so this would be used.
+Although the filament used in FDM printers is sold as being either 3mm or 1.75mm this is only a general guide.  The diameter can vary between manufacturers and even between batches.  Therefore it is highly recommended to take multiple measurements from along a length of the filament and use the average.  For example, measurements of 2.89, 2.88, 2.90 and 2.91 would yield an average of 2.895, and so this would be used.
 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,width=\textwidth]{configuration_wizard/configuration_wizard_filament_diameter.png}
-\caption{Configuration Wizard: Filament Diamter}
+\caption{Configuration Wizard: Filament Diameter}
 \label{fig:configuration_wizard_filament_diameter}
 \end{figure}
 

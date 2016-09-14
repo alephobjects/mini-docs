@@ -1,6 +1,3 @@
-11-01-2014 - CD
-	* Converting from taz-docs to mini
-
 03-20-2013 - Steven
 	*Created CHANGE-LOG file
 	*Generated initial PDF
@@ -30,3 +27,15 @@
 	
 	Setup.tex
 	*
+	
+...  Changes were made
+	* Cura recommended as default and added as Cura.tex
+	* Slic3r section updated
+	* Nozzle change recommendations updated
+	* Further refinements made
+
+
+08-24-2015 - CD
+	* Cura.tex updates
+	* Fixed giant jpg error on render page 31, 119 (not in printed copy) that only popped up on Debian-based renders. Ubuntu rendered fine, but no longer as xdvipdfmx throws error. (Cura.tex, SequentialPrinting.tex).
+	* Updated Advanced.tex to reflect nozzle change recommendations/limits.

@@ -2,7 +2,7 @@
 % Manual.tex
 % Mini Manual main document formatting
 %
-% LulzBot Mini User Manual
+% LulzBot® Mini User Manual
 %
 % Copyright (C) 2014 Aleph Objects, Inc.
 %
@@ -82,24 +82,28 @@
 \newif\iftitle\titletrue
 \newif\ifcopyright\copyrighttrue
 \newif\ifwarnings\warningstrue %true
-\newif\ifsetup\setupfalse %false
+\newif\ifsetup\setupfalse %false Replaced with Quick Start Guide
 \newif\ifsoftware\softwaretrue %true
-\newif\ifcura\curatrue %true, to test inserting Cura prior to the other software packages. 
+\newif\ifcura\curatrue %true
+\newif\ifprintrun\printrunfalse %false
 \newif\ifslicer\slicerfalse %false
-\newif\iffilament\filamentfalse %false
-\newif\iffirstprint\firstprintfalse %false
-\newif\ifglcd\glcdfalse %false - not present on the Mini
+\newif\iffilament\filamentfalse %false Replaced with Quick Start Guide
+\newif\iffirstprint\firstprintfalse %false Replaced with Quick Start Guide
+\newif\ifglcd\glcdfalse %false
 \newif\ifmaintenance\maintenancetrue %true
 \newif\ifadvanced\advancedtrue %true
-\newif\iffaq\faqfalse %false - Not yet written
-\newif\iftroubleshooting\troubleshootingfalse %false - Not yet written
+\newif\iffaq\faqfalse %false available online
+\newif\iftroubleshooting\troubleshootingfalse %false online
 \newif\ifsource\sourcetrue %true
 \newif\ifsupport\supporttrue %true
+\newif\ifwarranty\warrantytrue %true
 \newif\ifcontact\contacttrue %true
+\newif\ifnotes\notestrue %true
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
+%false
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue \curatrue \slicertrue \softwaretrue \glcdfalse \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue  \softwaretrue \curatrue \printruntrue \slicertrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \sourcetrue \supporttrue \warrantytrue \notestrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
@@ -117,9 +121,9 @@
 %\usepackage[utf8x]{inputenc}
 
 \usepackage{eledmac}
-%% Use eledmac for compiling on *nix
-%% Use ledmac for compiling on debian As of Jun 2014: Using package `ledmac' is deprecated. We suggest using `eledmac' instead.
-%\usepackage{ledmac}
+%% Use eledmac for compiling on Ubuntu AND Debian.
+%% Use ledmac for compiling on Debian FYI "As of Jun 2014: Using package `ledmac' is deprecated. We suggest using `eledmac' instead." 
+%\usepackage[noeledmac]{ledmac} %glossary bold testing
 
 %%% PAGE STYLE %%%
 \makepagestyle{jebstyle}
@@ -260,7 +264,7 @@
 \ifsetup
 \chapter{\emph{Setup Your Printer}}
 \thispagestyle{empty}
-\markboth{Setup Your Printer}{LulzBot Mini User Manual}
+\markboth{Setup Your Printer}{LulzBot TAZ User Manual}
 {\include{Setup}}
 \fi
 %%% END SETUP %%%
@@ -269,7 +273,7 @@
 \iffilament
 \chapter{\emph{Loading Filament}}
 \thispagestyle{empty}
-\markboth{Loading Filament}{LulzBot Mini User Manual}
+\markboth{Loading Filament}{LulzBot TAZ User Manual}
 {\include{Filament}}
 \fi
 %%% END FILAMENT %%%
@@ -278,28 +282,37 @@
 \ifsoftware
 \chapter{\emph{3D Printer Software}}
 \thispagestyle{empty}
-\markboth{3D Printer Software}{LulzBot Mini User Manual}
+\markboth{3D Printer Software}{LulzBot TAZ User Manual}
 {\include{Software}}
 \fi
 %%% END SOFTWARE %%%
 
+
 %%% CURA %%%
 \ifcura
-\chapter{\emph{Cura}}
+\chapter{\emph{Cura LulzBot Edition}}
 \thispagestyle{empty}
-\markboth{Cura}{LulzBot TAZ User Manual}
+\markboth{Cura LulzBot Edition}{LulzBot TAZ User Manual}
 {\include{Cura}}
 \fi
 %%% END CURA %%%
 
+%%% Pronterface %%%
+\ifprintrun
+\chapter{\emph{Printrun}}
+\thispagestyle{empty}
+\markboth{Printrun}{LulzBot TAZ User Manual}
+{\include{printrun}}
+\fi
+%%% END PRONTERFACE %%%
 
 %%% FIRSTPRINT %%%
 \iffirstprint
 \chapter{\emph{Your First 3D Print}}
 \label{firstprint}
 \thispagestyle{empty}
-\markboth{Your First 3D Print}{LulzBot Mini User Manual}
-{\include{Firstprint}}
+\markboth{Your First 3D Print}{LulzBot TAZ User Manual}
+{\include{Firstprint}
 \fi
 %%% END FIRSTPRINT %%%
 
@@ -307,7 +320,7 @@
 \ifslicer
 \chapter{\emph{Slic3r}}
 \thispagestyle{empty}
-\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Slic3r}{LulzBot TAZ User Manual}
 {\include{Slicer}}
 \fi
 %%% END SLIC3R %%%
@@ -317,7 +330,7 @@
 \chapter{\emph{Printing with the Graphic LCD}}
 \label{glcd}
 \thispagestyle{empty}
-\markboth{Printing with the Graphic LCD}{LulzBot\textsuperscript{\miniscule{\texttrademark}} Mini User Manual}
+\markboth{Printing with the Graphic LCD}{LulzBot TAZ User Manual}
 {\include{glcd}}
 \fi
 %%% END GLCD %%%
@@ -326,16 +339,16 @@
 \ifmaintenance
 \chapter{\emph{Maintaining Your 3D Printer}}
 \thispagestyle{empty}
-\markboth{Maintaining Your 3D Printer}{LulzBot Mini User Manual}
+\markboth{Maintaining Your 3D Printer}{LulzBot TAZ User Manual}
 {\include{Maintenance}}
 \fi
 %%% END MAINTENANCE %%%
 
 %%% ADVANCED %%%
-\ifadvanced
+\ifmaintenance
 \chapter{\emph{Advanced Usage}}
 \thispagestyle{empty}
-\markboth{Advanced Usage}{LulzBot Mini User Manual}
+\markboth{Advanced Usage}{LulzBot TAZ User Manual}
 {\include{Advanced}}
 \fi
 %%% END ADVANCED %%%
@@ -344,7 +357,7 @@
 \iffaq
 \chapter{\emph{FAQ}}
 \thispagestyle{empty}
-\markboth{FAQ}{LulzBot Mini User Manual}
+\markboth{FAQ}{LulzBot TAZ User Manual}
 {\include{FAQ}}
 \fi
 %%% END FAQ %%%
@@ -353,7 +366,7 @@
 \iftroubleshooting
 \chapter{\emph{Troubleshooting}}
 \thispagestyle{empty}
-\markboth{Troubleshooting}{LulzBot Mini User Manual}
+\markboth{Troubleshooting}{LulzBot TAZ User Manual}
 {\include{Troubleshooting}}
 \fi
 %%% END TROUBLESHOOTING %%%
@@ -362,7 +375,7 @@
 \ifsource
 \chapter{\emph{Hardware and Software Source Code}}
 \thispagestyle{empty}
-\markboth{Hardware and Software Source Code}{LulzBot Mini User Manual}
+\markboth{Hardware and Software Source Code}{LulzBot TAZ User Manual}
 {\include{Source}}
 \fi
 %%% END SOURCE %%%
@@ -371,8 +384,17 @@
 \ifsupport
 \chapter{\emph{3D Printer Support}}
 \thispagestyle{empty}
-\markboth{3D Printer Support}{LulzBot Mini User Manual}
+\markboth{3D Printer Support}{LulzBot TAZ User Manual}
 {\include{Support}}
+\fi
+%%% END SUPPORT %%%
+
+%%% WARRANTY %%%
+\ifwarranty
+\chapter{\emph{Warranty Information}}
+\thispagestyle{empty}
+\markboth{Warranty Information}{LulzBot TAZ User Manual}
+{\include{Warranty}}
 \fi
 %%% END SUPPORT %%%
 
@@ -380,7 +402,7 @@
 \ifcontact
 \chapter{\emph{Contact Information}}
 \thispagestyle{empty}
-\markboth{Contact Information}{LulzBot Mini User Manual}
+\markboth{Contact Information}{LulzBot TAZ User Manual}
 {\include{Contact}}
 \fi
 %%% END CONTACT %%%
@@ -395,13 +417,27 @@
 %%% END INDEX %%%
 
 %%% GLOSSARY %%%
-\renewcommand{\memgloterm}[1]{\textbf{#1}}
+\renewcommand{\memgloterm}[1]{\textsf{#1}} %\textbf broke between TAZ 3.1 and TAZ 4, perhaps due to ledmac being depricated? [noeledmac] testing was inconclusive.
 \renewcommand{\memglodesc}[1]{\textit{#1}}
 \renewcommand{\memglonum}[1]{}
 
 \clearpage
 \printglossary
 %%% END GLOSSARY %%%
+
+%%% NOTES %%%
+\ifnotes
+%%% skip a couple pages
+\pagebreak{}
+\thispagestyle{empty}
+\begingroup 
+\vfill\null 
+\endgroup
+\pagebreak{}
+\thispagestyle{empty}
+{\include{Notes}}
+\fi
+%%% END NOTES %%%
 
 %%% COLOPHON %%%
 \ifcolophon
@@ -416,7 +452,15 @@
 {\include{Colophon}}
 \fi
 %%% END COLOPHON %%%
+
+
 %%% END BACKMATTER %%%
+
+\thispagestyle{empty}
+\begingroup
+\newpage
+\mbox{}
+\endgroup
 
 %%% BLANK PAGES Lulu requires minimum 68 pages %%%
 \begin{comment}
@@ -424,19 +468,34 @@
 \begingroup
 \newpage
 \mbox{}
+\null
+\vfill
 \thispagestyle{empty}
+\texttt{This page is intentionally left blank}
 \newpage
 \mbox{}
+\null
+\vfill
 \thispagestyle{empty}
+\texttt{This page is intentionally left blank}
 \newpage
 \mbox{}
+\null
+\vfill
 \thispagestyle{empty}
+\texttt{This page is intentionally left blank}
 \newpage
 \mbox{}
+\null
+\vfill
 \thispagestyle{empty}
+\texttt{This page is intentionally left blank}
 \newpage
 \mbox{}
+\null
+\vfill
 \thispagestyle{empty}
+\texttt{This page is intentionally left blank}
 \newpage
 \endgroup
 \end{comment}
