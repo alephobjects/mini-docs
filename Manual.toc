@@ -146,12 +146,11 @@
 \contentsline {section}{\numberline {4.1}\texttt {Intro}}{58}
 \contentsline {section}{\numberline {4.2}\texttt {Changing nozzles}}{58}
 \contentsline {section}{\numberline {4.3}Firmware Flashing}{58}
-\contentsline {section}{\numberline {4.4}Firmware Flashing}{59}
-\contentsline {section}{\numberline {4.5}Z Offset}{59}
-\contentsline {section}{\numberline {4.6}\texttt {Bed Adhesion}}{59}
-\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{60}
+\contentsline {section}{\numberline {4.4}Z Offset}{59}
+\contentsline {section}{\numberline {4.5}\texttt {Bed Adhesion}}{59}
+\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{59}
 \contentsline {subsection}{\texttt {Glue stick/PVA Glue solution}}{60}
-\contentsline {section}{\numberline {4.7}\texttt {Using 1.75mm filament}}{60}
+\contentsline {section}{\numberline {4.6}\texttt {Using 1.75mm filament}}{60}
 \contentsline {chapter}{\chapternumberline {5}\emph {Hardware and Software Source Code}}{61}
 \contentsline {chapter}{\chapternumberline {6}\emph {3D Printer Support}}{63}
 \contentsline {section}{\numberline {6.1}\texttt {LulzBot}}{64}
