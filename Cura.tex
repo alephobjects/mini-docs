@@ -796,98 +796,98 @@ This will ignore all manifold errors in the object. It can create issues generat
 \index{extensive stitching}
 This causes Cura to automatically add triangle meshes in an attempt to fix manifold errors. This algorithm will greatly increase GCODE generation time and may end up adding in un-intended meshes. It is recommended that you repair your model through MeshLab, FreeCAD or your preferred CAD program before attempting this option.
 
-%\begin{comment}
-%\section{\texttt{Dual Extrusion}}
-%\index{dual extrusion}
-%The LulzBot TAZ has the ability to add dual extrusion functionality with the Dual Extruder Tool Head. We only recommend the Dual Extruder Tool Head for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users. We recommended that you have a couple of months of single extruder printing experience before making the switch. 
+\begin{comment}
+\section{\texttt{Dual Extrusion}}
+\index{dual extrusion}
+The LulzBot TAZ has the ability to add dual extrusion functionality with the Dual Extruder Tool Head. We only recommend the Dual Extruder Tool Head for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users. We recommended that you have a couple of months of single extruder printing experience before making the switch. 
 
-%\subsection{\texttt{Tool Head Installation Instructions}}
-%\textcolor{red}{Refer to appropriate Dual Extruder Tool Head Quick Start Guide for the specific steps required to install and operate your new tool head. Failure to follow the proper steps may result in damage to the tool head or 3D printer.} Installation and operating instructions are available at \texttt{OHAI.LulzBot.com/accessories}. The following steps are only meant to be an overview of the typical process.
+\subsection{\texttt{Tool Head Installation Instructions}}
+\textcolor{red}{Refer to appropriate Dual Extruder Tool Head Quick Start Guide for the specific steps required to install and operate your new tool head. Failure to follow the proper steps may result in damage to the tool head or 3D printer.} Installation and operating instructions are available at \texttt{OHAI.LulzBot.com/accessories}. The following steps are only meant to be an overview of the typical process.
 
-%\subsection{\texttt{Updating Firmware}}
-%\index{updating firmware}
-%In order to use the Dual Extruder you will need to update your firmware to activate the second hot end.
+\subsection{\texttt{Updating Firmware}}
+\index{updating firmware}
+In order to use the Dual Extruder you will need to update your firmware to activate the second hot end.
 
-%\begin{itemize}
-%\item Power on your 3D printer and connect it to your computer through USB.
-%\item Select \texttt{Machine > Machine Settings}.
-%\item In the top right-hand corner you will see a \texttt{Change Tool Head} button, select this. 
-%\item Next you will need to select the proper hot end type. Please compare photos with your existing tool head. Choose the correct hot end and select \texttt{Next}.
-%\item Select the photo that corresponds with your tool head and press \texttt{Next}.
-%\item Select the appropriate tool head for your TAZ and select \texttt{Next}.
-%\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has use your serial number to determine the nozzle size with the information found at \texttt{https://www.lulzbot.com/printer-identification}.
-%\item The final step will be \texttt{flashing the firmware}. Choose \texttt{Flash the firmware} to be sure to update the printers firmware to the proper settings. \textcolor{red}{This must be done to allow your printer to operate properly.}
-%\item Once the progress bar has completed select \texttt{OK > Next > Finish}.  
-%\item You can verify a proper firmware update by looking at the LCD screen. You should now see three separate temperature readings. 
-%\end{itemize} 
-%You can revert the firmware back to the stock configuration for your LulzBot 3D printer by selecting \texttt{Machine > Machine Settings > Change Tool Head}. Doing so will overwrite any of your current firmware settings.
-%\subsection{Preparing Cura}
-%In order to slice for a second tool head, you will need to let Cura know that you have added a second tool head. 
-%\begin{itemize} 
-%\item Select \texttt{Machine > Machine Settings > Extruder Count > 2}.
-%\item Select \texttt{Ok} to close out the screen.
-%\item Select \texttt{Machine > Machine Settings} to open the Machine settings again. 
-%\item A new section labeled \texttt{Extruder 2} is now present. Within it you will see an \texttt{X offset and Y offset}.
-%\item Set the \texttt{X offset to 0} and the \texttt{Y offset to -50}.
-%\item Select \texttt{Ok} to save your changes. The Machine settings window will close.
-%\end{itemize} 
-%\subsection{\texttt{Calibrating Extruders}}
-%\index{calibrating extruders}
-%Each individual extruder will have its own unique set of Extruder steps per unit, or Esteps. Your Dual Extruder was calibrated before leaving the production floor. The number for each extruder will be located on the back of the tool head. This will need to be updated within your printer's firmware.
-%\begin{itemize}
-%\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/downloads}
-%\item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering ``\texttt{T0}'' for the rear extruder into the command line terminal. Press \texttt{enter}.
-%\item Type ``\texttt{T1}'' for the front extruder into the command line terminal. Press \texttt{enter}.
-%\item Make two marks at 100mm and 120mm on the filament from the top surface of each extruder.
-%\item Once at the correct extrusion temperature type into the command line ``\texttt{G92}'' and press \texttt{enter}. Then ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
-%\item Switch to the other tool head by entering ``\texttt{T0}'' for the rear or ``\texttt{T1}'' for the front. 
-%\item Type into the command line ``\texttt{G92}'' and press \texttt{enter}.
-%\item Type ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
-%\item Measure the distance that the tool head over or under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
-%\item Update your Esteps for the rear extruder and E1steps for the front extruder through your LCD screen. \texttt{Configuration > Advanced Settings > E/E1 Steps > New Number}. Push in on the knob to exit out of the Esteps entry.
-%\item Store your new Esteps \texttt{Configuration > Store Memory}.
-%\end{itemize}
+\begin{itemize}
+\item Power on your 3D printer and connect it to your computer through USB.
+\item Select \texttt{Machine > Machine Settings}.
+\item In the top right-hand corner you will see a \texttt{Change Tool Head} button, select this. 
+\item Next you will need to select the proper hot end type. Please compare photos with your existing tool head. Choose the correct hot end and select \texttt{Next}.
+\item Select the photo that corresponds with your tool head and press \texttt{Next}.
+\item Select the appropriate tool head for your TAZ and select \texttt{Next}.
+\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has use your serial number to determine the nozzle size with the information found at \texttt{https://www.lulzbot.com/printer-identification}.
+\item The final step will be \texttt{flashing the firmware}. Choose \texttt{Flash the firmware} to be sure to update the printers firmware to the proper settings. \textcolor{red}{This must be done to allow your printer to operate properly.}
+\item Once the progress bar has completed select \texttt{OK > Next > Finish}.  
+\item You can verify a proper firmware update by looking at the LCD screen. You should now see three separate temperature readings. 
+\end{itemize} 
+You can revert the firmware back to the stock configuration for your LulzBot 3D printer by selecting \texttt{Machine > Machine Settings > Change Tool Head}. Doing so will overwrite any of your current firmware settings.
+\subsection{Preparing Cura}
+In order to slice for a second tool head, you will need to let Cura know that you have added a second tool head. 
+\begin{itemize} 
+\item Select \texttt{Machine > Machine Settings > Extruder Count > 2}.
+\item Select \texttt{Ok} to close out the screen.
+\item Select \texttt{Machine > Machine Settings} to open the Machine settings again. 
+\item A new section labeled \texttt{Extruder 2} is now present. Within it you will see an \texttt{X offset and Y offset}.
+\item Set the \texttt{X offset to 0} and the \texttt{Y offset to -50}.
+\item Select \texttt{Ok} to save your changes. The Machine settings window will close.
+\end{itemize} 
+\subsection{\texttt{Calibrating Extruders}}
+\index{calibrating extruders}
+Each individual extruder will have its own unique set of Extruder steps per unit, or Esteps. Your Dual Extruder was calibrated before leaving the production floor. The number for each extruder will be located on the back of the tool head. This will need to be updated within your printer's firmware.
+\begin{itemize}
+\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/downloads}
+\item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering ``\texttt{T0}'' for the rear extruder into the command line terminal. Press \texttt{enter}.
+\item Type ``\texttt{T1}'' for the front extruder into the command line terminal. Press \texttt{enter}.
+\item Make two marks at 100mm and 120mm on the filament from the top surface of each extruder.
+\item Once at the correct extrusion temperature type into the command line ``\texttt{G92}'' and press \texttt{enter}. Then ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
+\item Switch to the other tool head by entering ``\texttt{T0}'' for the rear or ``\texttt{T1}'' for the front. 
+\item Type into the command line ``\texttt{G92}'' and press \texttt{enter}.
+\item Type ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
+\item Measure the distance that the tool head over or under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
+\item Update your Esteps for the rear extruder and E1steps for the front extruder through your LCD screen. \texttt{Configuration > Advanced Settings > E/E1 Steps > New Number}. Push in on the knob to exit out of the Esteps entry.
+\item Store your new Esteps \texttt{Configuration > Store Memory}.
+\end{itemize}
 
-%\subsection{\texttt{Level the Front Tool Head}}
-%\index{level dual extruder}
+\subsection{\texttt{Level the Front Tool Head}}
+\index{level dual extruder}
 You will need to manually level the front hot end to the rear. This prevents the hot ends from hitting previously printed sections of your object during normal operation. 
 
-%\begin{itemize}
-%\item Home printer through the LCD screen. \texttt{Movement > Auto Home}
-%\item Move the Y axis back so \texttt{only} the rear hot end is over the bed plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
-%\item Move the Tool Head down until the rear hot end is just touching the build plate. \texttt{Movement > Move Axis > 0.1mm > Z Axis}
-%\item Raise your front hot end by adjusting the M4 leveling screw on the front of the Tool Head.
-%\item Move your Y axis forward so the front hot end is over the plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
-%\item Lower your front tool head using the M4 leveling screw. Your front head should just touch the bed plate as your rear hot end does.
-%\end{itemize}
+\begin{itemize}
+\item Home printer through the LCD screen. \texttt{Movement > Auto Home}
+\item Move the Y axis back so \texttt{only} the rear hot end is over the bed plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
+\item Move the Tool Head down until the rear hot end is just touching the build plate. \texttt{Movement > Move Axis > 0.1mm > Z Axis}
+\item Raise your front hot end by adjusting the M4 leveling screw on the front of the Tool Head.
+\item Move your Y axis forward so the front hot end is over the plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
+\item Lower your front tool head using the M4 leveling screw. Your front head should just touch the bed plate as your rear hot end does.
+\end{itemize}
 
-%\subsection{\texttt{Defining Second Extruder Offset}}
-%\index{second extruder offset}
-%To get crisper looking prints, you will want to really dial in your offsets. With the outer and inner square on your build platform, \texttt{left-click} on the outer square, then \texttt{right-click} on the inner square and select \texttt{Dual Extrusion Merge}. The red square will be printed with your front extruder, and the yellow square will be printed with the rear extruder.
-%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{CalSquares1.png}
-%After printing the squares, you will want to measure Top, Bottom, Left, and Right gap. Enter these numbers into our offset calculator found here: \texttt{https://www.lulzbot.com/dual-extruder-calibration-calculator} This will produce new offsets, that will need to be updated in the Machine Settings menu. Repeat as many times as desired to truly fine tune the offset. 
+\subsection{\texttt{Defining Second Extruder Offset}}
+\index{second extruder offset}
+To get crisper looking prints, you will want to really dial in your offsets. With the outer and inner square on your build platform, \texttt{left-click} on the outer square, then \texttt{right-click} on the inner square and select \texttt{Dual Extrusion Merge}. The red square will be printed with your front extruder, and the yellow square will be printed with the rear extruder.
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{CalSquares1.png}
+After printing the squares, you will want to measure Top, Bottom, Left, and Right gap. Enter these numbers into our offset calculator found here: \texttt{https://www.lulzbot.com/dual-extruder-calibration-calculator} This will produce new offsets, that will need to be updated in the Machine Settings menu. Repeat as many times as desired to truly fine tune the offset. 
 
-%\subsection{\texttt{First Dual Print}}
-%\index{first dual print}
-%When you are ready to produce your first dual extrusion print, you will need to combine the two separate STL files. One STL file will be for each print head. \texttt{Left Click} on whichever STL you would like printed with the \texttt{Rear Tool head}. Then \texttt{Right Click} on whichever STL file you would like printed with the \texttt{Front Tool head} and select dual extrusion merge. You will now see a single model in two colors on the build plate. The red section will be printed with the front extruder, while the green section will be printed with the rear extruder. 
+\subsection{\texttt{First Dual Print}}
+\index{first dual print}
+When you are ready to produce your first dual extrusion print, you will need to combine the two separate STL files. One STL file will be for each print head. \texttt{Left Click} on whichever STL you would like printed with the \texttt{Rear Tool head}. Then \texttt{Right Click} on whichever STL file you would like printed with the \texttt{Front Tool head} and select dual extrusion merge. You will now see a single model in two colors on the build plate. The red section will be printed with the front extruder, while the green section will be printed with the rear extruder. 
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{PreMerge.png}
-%\caption{Before Merge}
-%\label{fig:Before Merge}
-%\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{PreMerge.png}
+\caption{Before Merge}
+\label{fig:Before Merge}
+\end{figure}
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{PostMerge.png}
-%\caption{After Merge}
-%\label{fig:After Merge}
-%\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{PostMerge.png}
+\caption{After Merge}
+\label{fig:After Merge}
+\end{figure}
 
-%\subsection{\texttt{First Print}}
-%\index{First Dual Print}
-%After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to check the level of the front hot end to the rear.
+\subsection{\texttt{First Print}}
+\index{First Dual Print}
+After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to check the level of the front hot end to the rear.
 
-%\end{comment}
+\end{comment}
 
