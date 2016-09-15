@@ -30,11 +30,10 @@
 \contentsline {subsection}{\texttt {Installation and Setup}}{18}
 \contentsline {section}{\numberline {2.2}\texttt {Quick Print Settings}}{19}
 \contentsline {subsection}{\texttt {Material Selection}}{19}
-\contentsline {subsubsection}{\texttt {Different Filament Manufacturers}}{19}
-\contentsline {subsection}{\texttt {Selecting a Quick Print Profile}}{20}
+\contentsline {subsection}{\texttt {Selecting a Quick Print Profile}}{19}
 \contentsline {subsection}{\texttt {Material Selection}}{20}
 \contentsline {subsubsection}{\texttt {Different Filament Manufacturers}}{20}
-\contentsline {subsection}{\texttt {Printing Support Material}}{21}
+\contentsline {subsection}{\texttt {Printing Support Material}}{20}
 \contentsline {subsection}{\texttt {Brim}}{21}
 \contentsline {subsection}{\texttt {Load Model File}}{21}
 \contentsline {subsection}{\texttt {Model Orientation}}{21}
