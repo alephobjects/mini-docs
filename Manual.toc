@@ -53,7 +53,7 @@
 \contentsline {subsection}{\texttt {Automatic Bed Leveling}}{33}
 \contentsline {subsection}{\texttt {Recommended Temperatures}}{34}
 \contentsline {section}{\numberline {2.5}\texttt {Removing Your First Print}}{35}
-\contentsline {section}{\numberline {2.6}\texttt {Full Settings}}{35}
+\contentsline {section}{\numberline {2.6}\texttt {Full Settings}}{36}
 \contentsline {section}{\numberline {2.7}\texttt {Basic Tab Options}}{37}
 \contentsline {subsubsection}{\texttt {Layer Height}}{37}
 \contentsline {subsubsection}{\texttt {Shell Thickness}}{38}
