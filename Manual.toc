@@ -146,10 +146,10 @@
 \contentsline {chapter}{\chapternumberline {4}\emph {Advanced Usage}}{61}
 \contentsline {section}{\numberline {4.1}\texttt {Intro}}{62}
 \contentsline {section}{\numberline {4.2}\texttt {Changing nozzles}}{62}
-\contentsline {section}{\numberline {4.3}Firmware Flashing}{62}
+\contentsline {section}{\numberline {4.3}\texttt {Firmware Flashing}}{62}
 \contentsline {section}{\numberline {4.4}Z Offset}{63}
 \contentsline {section}{\numberline {4.5}\texttt {Bed Adhesion}}{63}
-\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{63}
+\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{64}
 \contentsline {subsection}{\texttt {Glue stick/PVA Glue solution}}{64}
 \contentsline {section}{\numberline {4.6}\texttt {Using 1.75mm filament}}{64}
 \contentsline {chapter}{\chapternumberline {5}\emph {Hardware and Software Source Code}}{65}
