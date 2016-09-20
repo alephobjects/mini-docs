@@ -34,7 +34,7 @@ After you become familiar with printing using the default settings, a few advanc
 \glossary{Hot end}{The hot end is the whole part where the plastic melts, including the nozzle, heater block, thermistor, and heat sink. The LulzBot Hexagon Hot End comes standard on the Mini.}
 \index{threaded extension}
 \glossary{Threaded extension}{Used to separate the heater block and nozzle from the PEEK insulator. The plastic filament passes through the threaded extension into the melting chamber.}
-\textcolor{red}{Hot End related issues will not be covered under warranty after nozzle changes}.
+\textcolor{red}{Hot end related issues will not be covered under warranty after nozzle changes}.
 
 Your hot end is equipped with a 0.50mm nozzle. This nozzle diameter will print faster than a 0.35mm nozzle. Purchase a tool head from \texttt{LulzBot.com} with an alternate nozzle diameter for quick, easy, and simple changes.
 
@@ -46,27 +46,27 @@ Due to the specific torque of 30 inch pounds required to tighten the nozzle when
 \label{ssec:num2}
 We include the latest version of 3D printer firmware with each update of Cura LulzBot Edition. In order to update your firmware:
 \begin{itemize}
-\item Download the latest version of Cura from \texttt{LulzBot.com/Cura}.
-\item Install Cura by double clicking on the installer. 
+\item Download the latest version of Cura LulzBot Edition from \texttt{LulzBot.com/Cura}.
+\item Install Cura by following the specific instructions for your operating system. 
 \item Start Cura by launching it from your list of installed applications.
-\item Add a new machine by going to \texttt{Machine > Add New Machine}.
+\item Add a new machine by selecting \texttt{Machine > Add New Machine}.
 \item Select \texttt{LulzBot Mini}.
 \item Select the appropriate tool head.
-\item Install the latest firmware by selecting \texttt{Machine > Install Default Firmware}
+\item Install the latest stable firmware by selecting \texttt{Machine > Install Default Firmware}.
 \end{itemize}
 
 \section{Z Offset}
 \label{ssec:Z Offset}
 \index{Z offset}
 \index{first layer height}
-Your LulzBot Mini 3D printer has the ability to change the first layer height (Z offset) directly through Cura. In the lower right hand corner of the Control Window in cura, enter the following commands. (The green text explains the command, do not enter it.)
+Your LulzBot Mini 3D printer has the ability to change the first layer height (Z offset) directly through Cura. In the lower right hand corner of the Control Window in Cura, enter the following commands. (The green text explains the command, do not enter it.)
 \begin{itemize}
 \item \texttt{M851}                    \textcolor{green2}{; This will report your current Z offset}
 \item \texttt{M851 ZXXX}                    \textcolor{green2}{; This will update your Z offset to XXX}
 \item \texttt{M500}                    \textcolor{green2}{; Save new offset}
 \end{itemize}
 
-To decrease the Z-offset between your nozzle tip and the print surface (decreasing the gap,) subtract from your current offset when changing XXX. To increase the Z-offset between the nozzle tip and the print surface (increasing the gap,) add to your current offset when changing XXX. When updating your offset, be sure to make small changes between prints. \textcolor{red}{We recommend making changes using small, 0.1mm increments at a time.} 
+To decrease the Z-offset between your nozzle tip and the print surface (decreasing the gap,) subtract from your current offset when changing XXX. To increase the Z-offset between the nozzle tip and the print surface (increasing the gap,) add to your current offset when changing XXX. When updating your offset, be sure to make small changes between prints. \textcolor{red}{We recommend making changes using small, 0.1 mm increments at a time.} 
 
 
 %\glossary{PEEK}{Polyether ether ketone: an organic polymer used to insulate the hot end due to its mechanical properties at elevated temperatures.}
@@ -96,7 +96,7 @@ To decrease the Z-offset between your nozzle tip and the print surface (decreasi
 \index{PEI}
 \index{IPA}
 \index{Isopropyl alcohol}
-You may find that during printing, printed parts lift off the print surface on the corners. If you are seeing this turning on \texttt{Brim} in Cura to help increase the surface area of the print, improving part adhesion. If the corners of the part still lift, clean the PEI surface with IPA/ Isopropyl Alcohol and sand the surface with fine grit (2000-3000) sandpaper. While almost all 3D printing filaments will adhere well to the PEI print surface, Nylon print adhesion can be improved with the application of a PVA glue solution/gluestick. Flexible filaments such as Ninjaflex\textsuperscript{\miniscule{\textregistered}} can adhere too well and can be released easier from the PEI print surface with an application of a PVA glue solution/glue stick to the heated bed prior to starting the printing process.
+You may find that during printing, printed objects lift off the print surface on the corners. Activate the \texttt{Brim} setting in Cura to help increase the surface area of the first layer of the print to improve part adhesion. If the corners of the printed object still lift, clean the PEI surface with IPA/ Isopropyl Alcohol and sand the surface with fine 2000-3000 grit sandpaper. While almost all 3D printing filaments will adhere well to the PEI print surface, some materials may need an application of a PVA glue solution/gluestick for improved print adhesion. These materials include nylon- and polycarbonate-based filament. Flexible materials such as Ninjaflex, SemiFlex, and some co-polyester-based filaments can adhere too well and can be released easier from the PEI print surface with an application of a PVA glue solution/glue stick to the heated bed prior to starting the printing process.
 
 
 \subsection{\texttt{ABS/Acetone Glue}}
