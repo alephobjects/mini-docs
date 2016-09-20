@@ -374,9 +374,9 @@ Different filaments have different ideal temperatures for extrusion, bed adhesio
 
 \section{\texttt{Removing Your First Print}}
 \index{Removing a Print}
-After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. \texttt{The Y-axis will move forward once it reaches the ideal print removal temperature.}
+After your first print has finished, wait for the part to cool down. Your parts will be easier to remove if you allow your heated print surface to cool to the optimal temperature. This will allow the plastic to contract, making it easier to remove. \texttt{The Y-axis will move forward once it reaches the ideal print removal temperature.}
 
-Once your heated bed has cooled, use the blue handled knife that was included with your toolkit to remove the item. Carefully insert the blade of the knife between your print and heated bed. Once underneath the part rotate the blade- lifting with the sharp edge into the part, to gently pop the piece off your plate.
+Once the heated print surface has cooled, use the blue handled knife that was included with your toolkit to remove the item. Carefully insert the blade of the knife between the print and print surface. Once underneath the part rotate the blade- lifting with the sharp edge under the part, to gently pop the print off.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{remove_part.png} %%%% Photo needed %%%%
@@ -386,7 +386,7 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 
 \section{\texttt{Full Settings}}
 \index{Full Settings}
-When you first switch to Full Settings, Cura will need to know what filament, manufacturer, and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE.} We recommend using our tested profiles that are available here: \texttt{LulzBot.com/Cura}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. This will automatically update all of your Cura settings for use with your specific filament.
+When you first switch to Full Settings, Cura will need to know what filament, manufacturer, and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE.} As new filament is released for sale in the LulzBot store tested profiles will be available here: \texttt{LulzBot.com/Cura}. Download the profile that matches your filament and quality needs and load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. This will automatically update all of the Cura settings for that specific filament.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{copyprofile.png}
@@ -432,20 +432,20 @@ This defines the number of vertical walls that comprise the outside of your mode
 
 \subsubsection{\texttt{Enable Retraction}}
 \index{Retraction}
-Retraction tells your printer to pull filament out of the hot end upon travel moves. Travel moves are when your print head moves from one area of the print, to another without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
+Retraction tells your printer to pull filament out of the hot end upon travel moves. Travel moves are when your print head moves from one area of the print to another without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
 %(Details given in advanced tab section. ((Reference?))
 
 \subsubsection{\texttt{Bottom/Top Thickness (mm)}}
 \index{Bottom Thickness}
 \index{Top Thickness}
-Also known as ``Surface Layers'' this will determine how thick the top and bottom layers are. A larger number here will create a thicker top and bottom which can be helpful for strength, bridging, and quality purposes. We recommend keeping this number as a multiple of your layer height.
+Also known as ``Surface Layers'' this will determine how thick the top and bottom layers are. A larger number here will create a thicker top and bottom surface which can be helpful for strength, bridging, and quality purposes. We recommend keeping this number as a multiple of your layer height.
 
 \subsubsection{\texttt{Fill Density}}
 \index{Fill Density}
 This number is expressed as a percentage. 0\% will give a completely hollow print, while 100\% will give you a completely solid object. We have found that 20\% to 40\% fill density is functional for most prints.
 
 \subsubsection{\texttt{Perimeters Before Infill}}
-This option will toggle the order in which the infill and perimeters will be printed. We recommend leaving this on.
+This option will change the order in which the infill and perimeters will be printed. We recommend leaving this on.
 
 \subsubsection{\texttt{Print Speed (mm/s)}}
 \index{Print Speed}
@@ -454,7 +454,7 @@ Your overall printing speed can be adjusted here. This setting will be overridde
 
 \subsubsection{\texttt{Printing Temperature}}
 \index{printing temperature}
-This is where you will set the hot end temperature for your specific material and manufacturer. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. \texttt{See Recommended Temperatures Table: page \pageref{tab:a}.} Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
+This is where you will set the hot end temperature for your specific material and manufacturer. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. \texttt{See Recommended Temperatures Table on page \pageref{tab:a}.} Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
 
 %The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed leveling routine.
 %%%% Since the Mini needs to have GCODE temps set in order to run through automatic bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
@@ -462,7 +462,7 @@ This is where you will set the hot end temperature for your specific material an
 
 \subsubsection{\texttt{Bed Temperature}}
 \index{bed temperature}
-This is where you will set the print surface temperature for your specific material. These will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. \texttt{See Recommended Temperatures Table: page \pageref{tab:a}.} Your print surface is capable of reaching a maximum temperature of \texttt{135°C}. 
+This setting controls the print surface temperature for your specific material. These will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning printed object adhesion and release from different filament manufacturers. \texttt{See the Recommended Temperatures Table on page \pageref{tab:a}.} The print surface is capable of reaching a maximum temperature of \texttt{135°C}. 
 
 \subsection{\texttt{Support Type}}
 \index{Support Type}
