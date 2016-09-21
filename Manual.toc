@@ -64,10 +64,10 @@
 \contentsline {subsubsection}{\texttt {Print Speed (mm/s)}}{39}
 \contentsline {subsubsection}{\texttt {Printing Temperature}}{39}
 \contentsline {subsubsection}{\texttt {Bed Temperature}}{39}
-\contentsline {subsection}{\texttt {Support Type}}{39}
+\contentsline {subsection}{\texttt {Support Type}}{40}
 \contentsline {subsubsection}{\texttt {Touching Buildplate}}{40}
 \contentsline {subsubsection}{\texttt {Everywhere}}{40}
-\contentsline {subsection}{\texttt {Platform Adhesion Type}}{40}
+\contentsline {subsection}{\texttt {Platform Adhesion Type}}{41}
 \contentsline {subsubsection}{\texttt {Brim}}{41}
 \contentsline {subsubsection}{\texttt {Raft}}{41}
 \contentsline {subsection}{\texttt {Filament Diameter}}{41}
