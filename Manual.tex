@@ -84,7 +84,7 @@
 \newif\iftitle\titletrue
 \newif\ifcopyright\copyrighttrue
 \newif\ifwarnings\warningstrue %true
-\newif\ifregulatory\regulatorytrue %true
+
 \newif\ifsetup\setupfalse %false Replaced with Quick Start Guide
 \newif\ifsoftware\softwaretrue %true
 \newif\ifcura\curatrue %true
@@ -101,12 +101,13 @@
 \newif\ifsupport\supporttrue %true
 \newif\ifwarranty\warrantytrue %true
 \newif\ifcontact\contacttrue %true
+\newif\ifregulatory\regulatorytrue %true
 \newif\ifnotes\notestrue %true
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
 %false
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue  \softwaretrue \curatrue \printruntrue \slicertrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \sourcetrue \supporttrue \warrantytrue \notestrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue  \softwaretrue \curatrue \printruntrue \slicertrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \sourcetrue \supporttrue \warrantytrue \regulatorytrue \notestrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
@@ -255,15 +256,6 @@
 {\include{Warnings}}
 \fi
 %%% END WARNINGS %%%
-
-%%% REGULATORY %%%
-\ifregulatory
-\chapter{\emph{Regulatory Statements}}
-\thispagestyle{empty}
-\markboth{Regulatory Statements}{LulzBot Mini User Manual}
-{\include{Regulatory}}
-\fi
-%%% END REGULATORY %%%
 
 
 %%% END FRONTMATTER %%%
@@ -419,6 +411,16 @@
 {\include{Contact}}
 \fi
 %%% END CONTACT %%%
+
+%%% REGULATORY %%%
+\ifregulatory
+\chapter{\emph{Regulatory Statements}}
+\thispagestyle{empty}
+\markboth{Regulatory Statements}{LulzBot Mini User Manual}
+{\include{Regulatory}}
+\fi
+%%% END REGULATORY %%%
+
 
 %%% END MAINMATTER %%%
 %%% BEGIN BACKMATTER %%%
