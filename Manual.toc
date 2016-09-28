@@ -59,10 +59,10 @@
 \contentsline {subsubsection}{\texttt {Print Speed (mm/s)}}{36}
 \contentsline {subsubsection}{\texttt {Printing Temperature}}{36}
 \contentsline {subsubsection}{\texttt {Bed Temperature}}{36}
-\contentsline {subsection}{\texttt {Support Type}}{37}
+\contentsline {subsection}{\texttt {Support Type}}{36}
 \contentsline {subsubsection}{\texttt {Touching Buildplate}}{37}
 \contentsline {subsubsection}{\texttt {Everywhere}}{37}
-\contentsline {subsection}{\texttt {Platform Adhesion Type}}{38}
+\contentsline {subsection}{\texttt {Platform Adhesion Type}}{37}
 \contentsline {subsubsection}{\texttt {Brim}}{38}
 \contentsline {subsubsection}{\texttt {Raft}}{38}
 \contentsline {subsection}{\texttt {Filament Diameter}}{38}
@@ -127,46 +127,52 @@
 \contentsline {subsection}{\texttt {Combine Everything (Type-B)}}{52}
 \contentsline {subsection}{\texttt {Keep Open Faces}}{52}
 \contentsline {subsection}{\texttt {Extensive Stitching}}{52}
-\contentsline {chapter}{\chapternumberline {3}\emph {Maintaining Your 3D Printer}}{53}
-\contentsline {section}{\numberline {3.1}\texttt {Overview}}{54}
-\contentsline {section}{\numberline {3.2}\texttt {Smooth Rods}}{54}
-\contentsline {section}{\numberline {3.3}\texttt {PEI Print Surface}}{54}
-\contentsline {section}{\numberline {3.4}\texttt {Hobbed Bolt}}{54}
-\contentsline {section}{\numberline {3.5}\texttt {Belts}}{55}
-\contentsline {section}{\numberline {3.6}\texttt {Hot End}}{55}
-\contentsline {section}{\numberline {3.7}\texttt {Nozzle Wiping Pad}}{55}
-\contentsline {section}{\numberline {3.8}\texttt {Bed Leveling Washers}}{55}
-\contentsline {section}{\numberline {3.9}\texttt {Cooling Fans}}{56}
-\contentsline {section}{\numberline {3.10}\texttt {Control Box}}{56}
-\contentsline {chapter}{\chapternumberline {4}\emph {Advanced Usage}}{57}
-\contentsline {section}{\numberline {4.1}\texttt {Intro}}{58}
-\contentsline {section}{\numberline {4.2}\texttt {Changing nozzles}}{58}
-\contentsline {section}{\numberline {4.3}\texttt {Firmware Flashing}}{58}
-\contentsline {section}{\numberline {4.4}Z Offset}{59}
-\contentsline {section}{\numberline {4.5}\texttt {Bed Adhesion}}{59}
-\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{60}
-\contentsline {subsection}{\texttt {Glue stick/PVA Glue solution}}{60}
-\contentsline {section}{\numberline {4.6}\texttt {Using 1.75mm filament}}{60}
-\contentsline {chapter}{\chapternumberline {5}\emph {Hardware and Software Source Code}}{61}
-\contentsline {chapter}{\chapternumberline {6}\emph {3D Printer Support}}{63}
-\contentsline {section}{\numberline {6.1}\texttt {LulzBot}}{64}
-\contentsline {section}{\numberline {6.2}\texttt {Support}}{64}
-\contentsline {section}{\numberline {6.3}\texttt {Regional Phone Numbers}}{64}
-\contentsline {section}{\numberline {6.4}\texttt {Community}}{64}
-\contentsline {chapter}{\chapternumberline {7}\emph {Warranty Information}}{65}
-\contentsline {section}{\numberline {7.1}\texttt {Warranty}}{66}
-\contentsline {subsection}{\texttt {Extended Warranty}}{66}
-\contentsline {section}{\numberline {7.2}\texttt {Modification Warning}}{66}
-\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{67}
-\contentsline {section}{\numberline {8.1}\texttt {Support}}{68}
-\contentsline {section}{\numberline {8.2}\texttt {Sales}}{68}
-\contentsline {section}{\numberline {8.3}\texttt {Regional Phone Numbers}}{68}
-\contentsline {section}{\numberline {8.4}\texttt {Websites}}{68}
-\contentsline {chapter}{\chapternumberline {9}\emph {Regulatory Statements}}{69}
-\contentsline {section}{\numberline {9.1}\texttt {Regulatory Compliance Statement Class B}}{70}
-\contentsline {subsection}{\texttt {Federal Communications Commission Statement}}{70}
-\contentsline {subsection}{\texttt {Industry Canada Statement}}{70}
-\contentsline {subsection}{\texttt {Australian Communications and Media Authority Statement}}{71}
-\contentsline {chapter}{Index}{73}
-\contentsline {chapter}{Glossary}{77}
-\contentsline {section}{\texttt {Notes}}{81}
+\contentsline {section}{\numberline {2.20}\texttt {3D Model Attribution}}{52}
+\contentsline {subsection}{\texttt {Octopus\textunderscore v04.stl}}{52}
+\contentsline {subsection}{\texttt {Rocktopus.stl}}{53}
+\contentsline {subsection}{\texttt {Support.stl}}{53}
+\contentsline {subsection}{\texttt {Overhang\textunderscore test.stl}}{53}
+\contentsline {subsection}{\texttt {X\textunderscore end\textunderscore idler\textunderscore Mini\textunderscore v2.6.stl}}{53}
+\contentsline {chapter}{\chapternumberline {3}\emph {Maintaining Your 3D Printer}}{55}
+\contentsline {section}{\numberline {3.1}\texttt {Overview}}{56}
+\contentsline {section}{\numberline {3.2}\texttt {Smooth Rods}}{56}
+\contentsline {section}{\numberline {3.3}\texttt {PEI Print Surface}}{56}
+\contentsline {section}{\numberline {3.4}\texttt {Hobbed Bolt}}{56}
+\contentsline {section}{\numberline {3.5}\texttt {Belts}}{57}
+\contentsline {section}{\numberline {3.6}\texttt {Hot End}}{57}
+\contentsline {section}{\numberline {3.7}\texttt {Nozzle Wiping Pad}}{57}
+\contentsline {section}{\numberline {3.8}\texttt {Bed Leveling Washers}}{57}
+\contentsline {section}{\numberline {3.9}\texttt {Cooling Fans}}{58}
+\contentsline {section}{\numberline {3.10}\texttt {Control Box}}{58}
+\contentsline {chapter}{\chapternumberline {4}\emph {Advanced Usage}}{59}
+\contentsline {section}{\numberline {4.1}\texttt {Intro}}{60}
+\contentsline {section}{\numberline {4.2}\texttt {Changing nozzles}}{60}
+\contentsline {section}{\numberline {4.3}\texttt {Firmware Flashing}}{60}
+\contentsline {section}{\numberline {4.4}Z Offset}{61}
+\contentsline {section}{\numberline {4.5}\texttt {Bed Adhesion}}{61}
+\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{62}
+\contentsline {subsection}{\texttt {Glue stick/PVA Glue solution}}{62}
+\contentsline {section}{\numberline {4.6}\texttt {Using 1.75mm filament}}{62}
+\contentsline {chapter}{\chapternumberline {5}\emph {Hardware and Software Source Code}}{63}
+\contentsline {chapter}{\chapternumberline {6}\emph {3D Printer Support}}{65}
+\contentsline {section}{\numberline {6.1}\texttt {LulzBot}}{66}
+\contentsline {section}{\numberline {6.2}\texttt {Support}}{66}
+\contentsline {section}{\numberline {6.3}\texttt {Regional Phone Numbers}}{66}
+\contentsline {section}{\numberline {6.4}\texttt {Community}}{66}
+\contentsline {chapter}{\chapternumberline {7}\emph {Warranty Information}}{67}
+\contentsline {section}{\numberline {7.1}\texttt {Warranty}}{68}
+\contentsline {subsection}{\texttt {Extended Warranty}}{68}
+\contentsline {section}{\numberline {7.2}\texttt {Modification Warning}}{68}
+\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{69}
+\contentsline {section}{\numberline {8.1}\texttt {Support}}{70}
+\contentsline {section}{\numberline {8.2}\texttt {Sales}}{70}
+\contentsline {section}{\numberline {8.3}\texttt {Regional Phone Numbers}}{70}
+\contentsline {section}{\numberline {8.4}\texttt {Websites}}{70}
+\contentsline {chapter}{\chapternumberline {9}\emph {Regulatory Statements}}{71}
+\contentsline {section}{\numberline {9.1}\texttt {Regulatory Compliance Statement Class B}}{72}
+\contentsline {subsection}{\texttt {Federal Communications Commission Statement}}{72}
+\contentsline {subsection}{\texttt {Industry Canada Statement}}{72}
+\contentsline {subsection}{\texttt {Australian Communications and Media Authority Statement}}{73}
+\contentsline {chapter}{Index}{75}
+\contentsline {chapter}{Glossary}{79}
+\contentsline {section}{\texttt {Notes}}{83}

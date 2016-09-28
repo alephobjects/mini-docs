@@ -1,7 +1,7 @@
 %
 % Cura.tex
 %
-% LulzBot Cura User Manual
+% Cura LulzBot Edition User Manual
 %
 % Copyright (C) 2016 Aleph Objects, Inc.
 %
@@ -14,19 +14,19 @@
 \index{Cura LulzBot Edition}
 \label{Cura}
 \glossary{\texttt{Cura}}{Cura LulzBot Edition is a cross-platform software package that combines a slicing engine with a printer host interface.}
-\glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine. It's used to process the 3 dimensional model into the GCODE (tool path) needed to physically generate the print.}
+\glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine used to process a 3 dimensional model into the GCODE (tool path) needed to physically generate the print.}
 \glossary{FFF}{Fused Filament Fabrication-- the process of laying down successive layers of extruded filament to create a 3 dimensional object. As each layer of molten plastic is extruded into place, it fuses with the previous layer.}
 
 \subsection{\texttt{Installation and Setup}}
 \index{installation}
-Cura LulzBot Edition is available for download on our website at \texttt{LulzBot.com/Cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. Cura is designed for Fused Filament Fabrication (FFF) 3D printers. Fused Filament Fabrication is the term for the process of laying down successive layers of extruded filament to create a 3 dimensional object. As each layer of molten plastic is extruded into place, it fuses with the previous layer.
-When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer, hot end type, tool head type, and finally your nozzle diameter.
+Cura LulzBot Edition is available for download on our website at \texttt{LulzBot.com/Cura}. Uninstall any previous versions of Cura you may have been using when upgrading. Cura is designed for Fused Filament Fabrication (FFF) 3D printers. Fused Filament Fabrication is the term for the process of laying down successive layers of extruded filament to create a 3 dimensional object. As each layer of molten plastic is extruded into place, it fuses with the previous layer.
+When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer, hot end type, and tool head type.
 
-\textcolor{red}{It is important to select the correct printer, hot end, tool head, and nozzle diameter as Cura uses custom profiles and machine settings based upon which printer, hot end, tool head, and nozzle you have.}
+\textcolor{red}{It is important to select the correct printer, hot end, tool head, and if asked, the nozzle diameter as Cura uses custom profiles and machine settings based upon the selections made.}
 
 \begin{itemize}
-\item Download the appropriate installer for your computer operating system. Instructions on installation for each operating system are available at \texttt{LulzBot.com/Cura}.
-\item Install Cura by double clicking on the installer.
+\item Download the appropriate installer for your computer operating system. Installation instructions for each operating system are available at \texttt{LulzBot.com/Cura}.
+\item Install Cura by following the instructions available at \texttt{LulzBot.com/Cura}.
 %\item Click through the install wizard until it completes.
 \item Start Cura by launching it from your list of installed applications. If this is the first time that Cura has been used the ``Configuration Wizard'' window will open.
 %\item Once your language has been selected, select \texttt{Next}.
@@ -60,7 +60,7 @@ After setting up Cura for the first time, you will be shown the main interface s
 We have the different filament types separated by \texttt{Material ease of use.} From the \texttt{Material ease of use} drop down, select \texttt{"All"} to view all our pre-loaded filament slicing profiles. The Mini ships with a filament sample for the first print. Refer to the included Quick Start Guide for the proper ``First Run'' settings.
 
 \subsubsection{\texttt{Different Filament Manufacturers}}
-Different manufacturers have different formulations for their specific brand. These different formulations may have different ideal settings. We usually use 6kg - 10kg of filament when developing these profile settings. \textcolor{red}{We highly recommend using the filament brands listed in Cura LulzBot Edition. Beautiful 3D printed objects start with reliable and consistent filament.} Our profiles will be good starting points for other manufacturers but they may not be ideal.
+Different manufacturers have different formulations for their specific brand. These different formulations may have different ideal settings. We typically consume 6kg - 10kg of filament when developing these profile settings. \textcolor{red}{We highly recommend using the filament brands listed in Cura LulzBot Edition. Beautiful 3D printed objects start with reliable and consistent filament.} Our profiles will be good starting points for other manufacturers but they may not be ideal and may need updating on your part.
 
 \subsection{\texttt{Selecting a Quick Print Profile}}
 \index{quick print profile}
@@ -440,7 +440,7 @@ This defines the number of vertical walls that comprise the outside of your mode
 
 \subsubsection{\texttt{Enable Retraction}}
 \index{Retraction}
-Retraction tells your printer to pull filament out of the hot end upon travel moves. Travel moves are when your print head moves from one area of the print to another without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
+Retraction pulls filament out of the hot end upon travel moves-- when the print head moves from one area of the print to another without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
 %(Details given in advanced tab section. ((Reference?))
 
 \subsubsection{\texttt{Bottom/Top Thickness (mm)}}
@@ -613,7 +613,7 @@ Pause your print at a specified height. You can also specify where to move the p
 \index{Custom Gcode}
 \index{Start Gcode}
 \index{End Gcode}
-Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/support/downloads}
+Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{LulzBot.com/download}
 
 %mini
 \subsection{\texttt{Mini Specific Considerations}}
@@ -759,7 +759,7 @@ This will determine the spacing between “support” lines for the raft. A smal
 
 \subsection{\texttt{Base Thickness}}
 \index{Base Thickness}
-This defines how thick your raft will be.
+This defines the raft thickness.
 
 \subsection{\texttt{Base Line Width}}
 \index{Base Line Width}
@@ -771,7 +771,7 @@ This will determine how thick the surface layers of the raft are. The surface la
 
 \subsection{\texttt{Interface Line Width}}
 \index{Interface Line Width}
-This will determine how wide the top layers of the platform will be. In general, you can keep this set to your nozzle size, as surface quality of the removable raft is not important.
+This determines the width of the top layers of the support platform. In general, you can keep this set to your nozzle size, as surface quality of the removable raft is not important.
 
 \subsection{\texttt{Airgap}}
 \index{Airgap}
@@ -896,3 +896,17 @@ After your object has been merged as intended, you will be ready to start the pr
 
 \end{comment}
 
+\section{\texttt{3D Model Attribution}}
+\subsection{\texttt{Octopus\textunderscore v04.stl}}
+Octopus\textunderscore v04.stl by yeoldebrian was used under the CC BY-SA license
+\texttt{thingiverse.com/thing:7900}
+\subsection{\texttt{Rocktopus.stl}}
+Rocktopus by Kent Johnson is licensed under CC BY-SA 4.0 and derived from work by dietz1 and yeoldebrian.
+\texttt{LulzBot.com/rocktopus}
+\subsection{\texttt{Support.stl}}
+Support Model by Aleph Objects, Inc is licensed under CC BY-SA 4.0 license.
+\subsection{\texttt{Overhang\textunderscore test.stl}}
+Make: 2015 3D Printer Shoot Out Test Models by MAKE was used under the CC BY-SA license.
+\texttt{thingiverse.com/thing:533472}
+\subsection{\texttt{X\textunderscore end\textunderscore idler\textunderscore Mini\textunderscore v2.6.stl}}
+X\textunderscore end\textunderscore idler\textunderscore Mini\textunderscore v2.6.stl by Aleph Objects, Inc is licensed under CC BY-SA 4.0 license.
