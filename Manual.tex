@@ -84,7 +84,7 @@
 \newif\iftitle\titletrue
 \newif\ifcopyright\copyrighttrue
 \newif\ifwarnings\warningstrue %true
-
+\newif\ifregulatory\regulatorytrue %true
 \newif\ifsetup\setupfalse %false Replaced with Quick Start Guide
 \newif\ifsoftware\softwaretrue %true
 \newif\ifcura\curatrue %true
@@ -101,7 +101,6 @@
 \newif\ifsupport\supporttrue %true
 \newif\ifwarranty\warrantytrue %true
 \newif\ifcontact\contacttrue %true
-\newif\ifregulatory\regulatorytrue %true
 \newif\ifnotes\notestrue %true
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
@@ -257,6 +256,14 @@
 \fi
 %%% END WARNINGS %%%
 
+%%% REGULATORY %%%
+\ifregulatory
+\chapter{\emph{Regulatory Statements}}
+\thispagestyle{empty}
+\markboth{Regulatory Statements}{LulzBot Mini User Manual}
+{\include{Regulatory}}
+\fi
+%%% END REGULATORY %%%
 
 %%% END FRONTMATTER %%%
 %%% BEGIN MAINMATTER %%%
@@ -411,15 +418,6 @@
 {\include{Contact}}
 \fi
 %%% END CONTACT %%%
-
-%%% REGULATORY %%%
-\ifregulatory
-\chapter{\emph{Regulatory Statements}}
-\thispagestyle{empty}
-\markboth{Regulatory Statements}{LulzBot Mini User Manual}
-{\include{Regulatory}}
-\fi
-%%% END REGULATORY %%%
 
 
 %%% END MAINMATTER %%%
