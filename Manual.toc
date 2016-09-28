@@ -76,14 +76,14 @@
 \contentsline {subsection}{\texttt {Cut Off Object Bottom (mm)}}{40}
 \contentsline {subsection}{\texttt {Dual Extrusion Overlap}}{41}
 \contentsline {subsection}{\texttt {Travel Speed}}{41}
-\contentsline {subsection}{\texttt {Bottom Layer Speed}}{42}
+\contentsline {subsection}{\texttt {Bottom Layer Speed}}{41}
 \contentsline {subsection}{\texttt {Infill Speed}}{42}
 \contentsline {subsection}{\texttt {Outer Shell Speed}}{42}
 \contentsline {subsection}{\texttt {Inner Shell Speed}}{42}
 \contentsline {subsection}{\texttt {Minimal Layer Time}}{42}
-\contentsline {subsection}{\texttt {Enable Cooling Fan}}{43}
+\contentsline {subsection}{\texttt {Enable Cooling Fan}}{42}
 \contentsline {section}{\numberline {2.9}\texttt {Plugins}}{43}
-\contentsline {subsection}{\texttt {Tweak at Z}}{44}
+\contentsline {subsection}{\texttt {Tweak at Z}}{43}
 \contentsline {subsection}{\texttt {Pause at Z Height}}{44}
 \contentsline {section}{\numberline {2.10}\texttt {Start and End Gcode Settings}}{44}
 \contentsline {subsection}{\texttt {Mini Specific Considerations}}{44}
@@ -92,46 +92,46 @@
 \contentsline {section}{\numberline {2.12}\texttt {Retraction}}{46}
 \contentsline {subsection}{\texttt {Minimum Travel}}{46}
 \contentsline {subsection}{\texttt {Combing}}{46}
-\contentsline {subsection}{\texttt {Minimal Extrusion Before Retracting}}{47}
-\contentsline {subsection}{\texttt {Z Hop When Retracting}}{47}
-\contentsline {section}{\numberline {2.13}\texttt {Skirt}}{47}
+\contentsline {subsection}{\texttt {Minimal Extrusion Before Retracting}}{46}
+\contentsline {subsection}{\texttt {Z Hop When Retracting}}{46}
+\contentsline {section}{\numberline {2.13}\texttt {Skirt}}{46}
 \contentsline {subsection}{\texttt {Line Count}}{47}
 \contentsline {subsection}{\texttt {Start Distance}}{47}
 \contentsline {subsection}{\texttt {Minimal Length}}{47}
-\contentsline {section}{\numberline {2.14}\texttt {Cool}}{48}
-\contentsline {subsection}{\texttt {Fan on at Full Height}}{48}
-\contentsline {subsection}{\texttt {Fan Speed Min}}{48}
+\contentsline {section}{\numberline {2.14}\texttt {Cool}}{47}
+\contentsline {subsection}{\texttt {Fan on at Full Height}}{47}
+\contentsline {subsection}{\texttt {Fan Speed Min}}{47}
 \contentsline {subsection}{\texttt {Fan Speed Max}}{48}
 \contentsline {section}{\numberline {2.15}\texttt {Support}}{48}
 \contentsline {subsection}{\texttt {Structure Type}}{48}
-\contentsline {subsection}{\texttt {Overhang Angle for Support}}{49}
-\contentsline {subsection}{\texttt {Fill Amount}}{49}
-\contentsline {subsection}{\texttt {Distance X/Y}}{49}
+\contentsline {subsection}{\texttt {Overhang Angle for Support}}{48}
+\contentsline {subsection}{\texttt {Fill Amount}}{48}
+\contentsline {subsection}{\texttt {Distance X/Y}}{48}
 \contentsline {subsection}{\texttt {Distance Z}}{49}
 \contentsline {section}{\numberline {2.16}\texttt {Black Magic}}{49}
 \contentsline {subsection}{\texttt {Spiralize the Outer Contour}}{49}
-\contentsline {subsection}{\texttt {Only Follow Mesh Surface}}{50}
-\contentsline {section}{\numberline {2.17}\texttt {Brim}}{50}
+\contentsline {subsection}{\texttt {Only Follow Mesh Surface}}{49}
+\contentsline {section}{\numberline {2.17}\texttt {Brim}}{49}
 \contentsline {subsection}{\texttt {Brim Line Amount}}{50}
 \contentsline {section}{\numberline {2.18}\texttt {Raft}}{50}
 \contentsline {subsection}{\texttt {Extra Margin}}{50}
-\contentsline {subsection}{\texttt {Line Spacing}}{51}
-\contentsline {subsection}{\texttt {Base Thickness}}{51}
-\contentsline {subsection}{\texttt {Base Line Width}}{51}
-\contentsline {subsection}{\texttt {Interface Thickness}}{51}
+\contentsline {subsection}{\texttt {Line Spacing}}{50}
+\contentsline {subsection}{\texttt {Base Thickness}}{50}
+\contentsline {subsection}{\texttt {Base Line Width}}{50}
+\contentsline {subsection}{\texttt {Interface Thickness}}{50}
 \contentsline {subsection}{\texttt {Interface Line Width}}{51}
 \contentsline {subsection}{\texttt {Airgap}}{51}
 \contentsline {subsection}{\texttt {Surface Layers}}{51}
-\contentsline {section}{\numberline {2.19}\texttt {Fix Horrible}}{52}
-\contentsline {subsection}{\texttt {Combine Everything (Type-A)}}{52}
-\contentsline {subsection}{\texttt {Combine Everything (Type-B)}}{52}
+\contentsline {section}{\numberline {2.19}\texttt {Fix Horrible}}{51}
+\contentsline {subsection}{\texttt {Combine Everything (Type-A)}}{51}
+\contentsline {subsection}{\texttt {Combine Everything (Type-B)}}{51}
 \contentsline {subsection}{\texttt {Keep Open Faces}}{52}
 \contentsline {subsection}{\texttt {Extensive Stitching}}{52}
 \contentsline {section}{\numberline {2.20}\texttt {3D Model Attribution}}{52}
 \contentsline {subsection}{\texttt {Octopus\textunderscore v04.stl}}{52}
-\contentsline {subsection}{\texttt {Rocktopus.stl}}{53}
-\contentsline {subsection}{\texttt {Support.stl}}{53}
-\contentsline {subsection}{\texttt {Overhang\textunderscore test.stl}}{53}
+\contentsline {subsection}{\texttt {Rocktopus.stl}}{52}
+\contentsline {subsection}{\texttt {Support.stl}}{52}
+\contentsline {subsection}{\texttt {Overhang\textunderscore test.stl}}{52}
 \contentsline {subsection}{\texttt {X\textunderscore end\textunderscore idler\textunderscore Mini\textunderscore v2.6.stl}}{53}
 \contentsline {chapter}{\chapternumberline {3}\emph {Maintaining Your 3D Printer}}{55}
 \contentsline {section}{\numberline {3.1}\texttt {Overview}}{56}
